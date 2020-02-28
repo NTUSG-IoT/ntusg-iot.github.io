@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://ntuiot.xyz/cn/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://ntuiot.xyz/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="http://ntuiot.xyz/cn/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/cn/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://ntuiot.xyz/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="http://ntuiot.xyz/cn/"
+                />
+  </url>
+  
+</urlset>
