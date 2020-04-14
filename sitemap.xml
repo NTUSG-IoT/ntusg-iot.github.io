@@ -1,16 +1,175 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>http://ntuiot.xyz/en/sitemap.xml</loc>
-		
-	   	<lastmod>2020-01-28T00:36:39+09:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>http://ntuiot.xyz/cn/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/faculty/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/student/phd1_zhenyu_yan/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/student/phd2_chaojie_gu/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/student/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/student/phd3_linshan_jiang/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/staff/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/alumni/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/student/phd4_qun_song/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/student/phd5_wenjie_luo/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/student/phd6_rongrong_wang/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/student/phd7_siyuan_zhou/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/research/powerline/</loc>
+    <lastmod>2020-04-14T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/research/</loc>
+    <lastmod>2020-04-14T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/</loc>
+    <lastmod>2020-01-26T04:15:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/faculty/f1_rui_tani/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/staff/staff2_dongfang_guo/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/staff/staff1_duc/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/staff/staff3_jiale_chen/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/member/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/publication/</loc>
+    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/blog/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/blog/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/tags/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/tags/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/tags/privacy/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/blog/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/tags/shortcodes/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/blog/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/tags/text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ntuiot.xyz/blog/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

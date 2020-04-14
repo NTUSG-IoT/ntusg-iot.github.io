@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Faculty on NTU IoT Group Website</title>
+    <link>http://ntuiot.xyz/member/faculty/</link>
+    <description>Recent content in Faculty on NTU IoT Group Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="http://ntuiot.xyz/member/faculty/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Asst. Prof. Rui Tan</title>
+        <link>http://ntuiot.xyz/member/faculty/f1_rui_tani/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>http://ntuiot.xyz/member/faculty/f1_rui_tani/</guid>
+        <description>The content here is appeared when you click the menu. So called overview page.
+ Notice: Zzo Notice shortcode  
+ Name Position (for full-time student, show &amp;ldquo;PhD candidate&amp;rdquo;; for part-time student, show &amp;ldquo;PhD student, &amp;rdquo; Contact (any contact that he/she is willing to reveal to the public) Bio (no format requirement, let everyone freely draft his/her own bio; suggest to include research interests here) Personal website (if any) Research projects: list the projects that the member is involved, link the projects to the featured topic page (see below) Publication (good to provide the link to the paper pdf, and any related materials)  </description>
+      </item>
+      
+    
+  </channel>
+</rss>
