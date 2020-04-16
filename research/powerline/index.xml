@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Powerline Electromagnetic Radiation for IoT Functions on NTU IoT Group Website</title>
+    <title>Powerline EMR on NTU IoT Sensing Group</title>
     <link>https://ntuiot.xyz/research/powerline/</link>
-    <description>Recent content in Powerline Electromagnetic Radiation for IoT Functions on NTU IoT Group Website</description>
+    <description>Recent content in Powerline EMR on NTU IoT Sensing Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
@@ -15,21 +15,21 @@
     
       
       <item>
-        <title>Time</title>
+        <title>Sub Topic: Time</title>
         <link>https://ntuiot.xyz/research/powerline/time/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
         <guid>https://ntuiot.xyz/research/powerline/time/</guid>
-        <description>Sub topic: Time  Wearables Clock Synchronization Using Skin Electric Potentials. Application-Layer Clock Synchronization for Wearables Using Skin Electric Potentials Induced by Powerline Radiation. Exploiting Electrical Grid for Accurate and Secure Clock Synchronization. Natural Timestamping Using Powerline Electromagnetic Radiation. Exploiting Power Grid for Accurate and Secure Clock Synchronization in Industrial IoT.  Sub topic: Location  Towards Touch-to-Access Device Authentication Using Induced Body Electric Potentials. Simultaneous Localization and Mapping with Power Network Electromagnetic Field.</description>
+        <description>Powerline Electromagnetic Radiation for IoT Functions Sub topic: Time  Wearables Clock Synchronization Using Skin Electric Potentials. Application-Layer Clock Synchronization for Wearables Using Skin Electric Potentials Induced by Powerline Radiation. Exploiting Electrical Grid for Accurate and Secure Clock Synchronization. Natural Timestamping Using Powerline Electromagnetic Radiation. Exploiting Power Grid for Accurate and Secure Clock Synchronization in Industrial IoT.  </description>
       </item>
       
       <item>
-        <title>Location</title>
+        <title>Sub Topic: Location</title>
         <link>https://ntuiot.xyz/research/powerline/location/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
         <guid>https://ntuiot.xyz/research/powerline/location/</guid>
-        <description>Sub topic: Time  Wearables Clock Synchronization Using Skin Electric Potentials. Application-Layer Clock Synchronization for Wearables Using Skin Electric Potentials Induced by Powerline Radiation. Exploiting Electrical Grid for Accurate and Secure Clock Synchronization. Natural Timestamping Using Powerline Electromagnetic Radiation. Exploiting Power Grid for Accurate and Secure Clock Synchronization in Industrial IoT.  Sub topic: Location  Towards Touch-to-Access Device Authentication Using Induced Body Electric Potentials. Simultaneous Localization and Mapping with Power Network Electromagnetic Field.</description>
+        <description>Powerline Electromagnetic Radiation for IoT Functions Sub topic: Location  Towards Touch-to-Access Device Authentication Using Induced Body Electric Potentials. Simultaneous Localization and Mapping with Power Network Electromagnetic Field.  </description>
       </item>
       
     

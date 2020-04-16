@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research on NTU IoT Group Website</title>
+    <title>Research on NTU IoT Sensing Group</title>
     <link>https://ntuiot.xyz/research/</link>
-    <description>Recent content in Research on NTU IoT Group Website</description>
+    <description>Recent content in Research on NTU IoT Sensing Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
@@ -15,16 +15,16 @@
     
       
       <item>
-        <title>Powerline Electromagnetic Radiation for IoT Functions</title>
+        <title>Powerline EMR</title>
         <link>https://ntuiot.xyz/research/powerline/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
         <guid>https://ntuiot.xyz/research/powerline/</guid>
-        <description>Sub topic: Time  Wearables Clock Synchronization Using Skin Electric Potentials. Application-Layer Clock Synchronization for Wearables Using Skin Electric Potentials Induced by Powerline Radiation. Exploiting Electrical Grid for Accurate and Secure Clock Synchronization. Natural Timestamping Using Powerline Electromagnetic Radiation. Exploiting Power Grid for Accurate and Secure Clock Synchronization in Industrial IoT.  Sub topic: Location  Towards Touch-to-Access Device Authentication Using Induced Body Electric Potentials. Simultaneous Localization and Mapping with Power Network Electromagnetic Field.</description>
+        <description></description>
       </item>
       
       <item>
-        <title>Resilient LoRa Networks</title>
+        <title>LoRa</title>
         <link>https://ntuiot.xyz/research/lora/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
@@ -33,7 +33,7 @@
       </item>
       
       <item>
-        <title>Privacy-Preserving Machine Learning in IoT</title>
+        <title>Privacy-Preserving ML in IoT</title>
         <link>https://ntuiot.xyz/research/privacy/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
@@ -42,7 +42,7 @@
       </item>
       
       <item>
-        <title>Resilient IoT Edge against Adversarial Examples</title>
+        <title>IoT Adversarial Examples</title>
         <link>https://ntuiot.xyz/research/adversary/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
@@ -51,7 +51,7 @@
       </item>
       
       <item>
-        <title>AI-Empowered Acoustic Sensing</title>
+        <title>Acoustic Sensing</title>
         <link>https://ntuiot.xyz/research/acoustic/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
@@ -60,7 +60,7 @@
       </item>
       
       <item>
-        <title>Thermal, Energy, and Computation Management for Data Centers</title>
+        <title>Data Centers</title>
         <link>https://ntuiot.xyz/research/datacenter/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
