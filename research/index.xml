@@ -15,57 +15,63 @@
     
       
       <item>
-        <title>Powerline EMR</title>
+        <title>Powerline radiation sensing</title>
         <link>https://ntuiot.xyz/research/powerline/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
         <guid>https://ntuiot.xyz/research/powerline/</guid>
-        <description></description>
+        <description> Main contributors from the group: Zhenyu (topic coordinator), Qun, Rongrong, Xu, Chaojie
+ </description>
       </item>
       
       <item>
-        <title>LoRa</title>
+        <title>LoRa radio sensing</title>
         <link>https://ntuiot.xyz/research/lora/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
         <guid>https://ntuiot.xyz/research/lora/</guid>
-        <description>Resilient LoRa Networks  Attack-Aware Data Timestamping in Low-Power Synchronization-Free LoRaWAN. One-hop Out-of-band Control Planes for Multi-hop Wireless Sensor Networks. LoRa-Based Localization: Opportunities and Challenges. One-Hop Out-of-Band Control Planes for Low-Power Multi-Hop Wireless Networks.  </description>
+        <description> Main contributors from the group: Chaojie (topic coordinator), Linshan, Dongfang
+ Resilient LoRa Networks  Attack-Aware Data Timestamping in Low-Power Synchronization-Free LoRaWAN. One-hop Out-of-band Control Planes for Multi-hop Wireless Sensor Networks. LoRa-Based Localization: Opportunities and Challenges. One-Hop Out-of-Band Control Planes for Low-Power Multi-Hop Wireless Networks.  </description>
       </item>
       
       <item>
-        <title>Privacy-Preserving ML in IoT</title>
+        <title>Acoustic and imagery sensing</title>
+        <link>https://ntuiot.xyz/research/acoustic_image/</link>
+        <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/research/acoustic_image/</guid>
+        <description> Main contributors from the group: Wenjie (topic coordinator), Qun, Zhenyu, Chaojie, Duc, Siyuan, Jiale
+ AI-Empowered Acoustic Sensing  Deep Room Recognition Using Inaudible Echos.  </description>
+      </item>
+      
+      <item>
+        <title>Building sensing</title>
+        <link>https://ntuiot.xyz/research/building/</link>
+        <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/research/building/</guid>
+        <description>Main contributors from the group: Duc (topic coordinator), Rongrong, Yingbo Liu (alumnus)
+ We are interested in designing networked sensing systems to monitor the energy consumption and indoor conditions in various types of building environments (households, offices, data centers). Our research work provides enabling technologies for implementing very energy-efficient data centers in Singapore’s year-round hot and humid tropical condition.</description>
+      </item>
+      
+      <item>
+        <title>Secure sensing in AIoT</title>
+        <link>https://ntuiot.xyz/research/secure/</link>
+        <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/research/secure/</guid>
+        <description> Main contributors from the group: Qun (topic coordinator), Zhenyu
+  Moving Target Defense for Embedded Deep Visual Sensing against Adversarial Examples.  </description>
+      </item>
+      
+      <item>
+        <title>Privacy-preserving sensing in AIoT</title>
         <link>https://ntuiot.xyz/research/privacy/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
         <guid>https://ntuiot.xyz/research/privacy/</guid>
-        <description>Privacy-Preserving Machine Learning in IoT  Challenges of Privacy-Preserving Machine Learning in IoT. Lightweight and Unobtrusive Data Obfuscation at IoT Edge for Remote Inference. On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects. Differentially Private Collaborative Learning for the IoT Edge.  </description>
-      </item>
-      
-      <item>
-        <title>IoT Adversarial Examples</title>
-        <link>https://ntuiot.xyz/research/adversary/</link>
-        <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
-        
-        <guid>https://ntuiot.xyz/research/adversary/</guid>
-        <description>Resilient IoT Edge against Adversarial Examples  Moving Target Defense for Embedded Deep Visual Sensing against Adversarial Examples.  </description>
-      </item>
-      
-      <item>
-        <title>Acoustic Sensing</title>
-        <link>https://ntuiot.xyz/research/acoustic/</link>
-        <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
-        
-        <guid>https://ntuiot.xyz/research/acoustic/</guid>
-        <description>AI-Empowered Acoustic Sensing  Deep Room Recognition Using Inaudible Echos.  </description>
-      </item>
-      
-      <item>
-        <title>Data Centers</title>
-        <link>https://ntuiot.xyz/research/datacenter/</link>
-        <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
-        
-        <guid>https://ntuiot.xyz/research/datacenter/</guid>
-        <description>Thermal, Energy, and Computation Management for Data Centers  Control of Air Free-Cooled Data Centers in Tropics via Deep Reinforcement Learning. A Testbed and Data Yields for Studying Data Center Energy Efficiency and Reliability.  </description>
+        <description> Main contributors from the group: Linshan (topic coordinator), Chaojie, Mengyao (alumnus), Dixing (alumnus)
+ Privacy-Preserving Machine Learning in IoT  Challenges of Privacy-Preserving Machine Learning in IoT. Lightweight and Unobtrusive Data Obfuscation at IoT Edge for Remote Inference. On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects. Differentially Private Collaborative Learning for the IoT Edge.  </description>
       </item>
       
     
