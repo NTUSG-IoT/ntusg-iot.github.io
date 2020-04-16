@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Student on NTU IoT Group Website</title>
-    <link>http://ntuiot.xyz/member/student/</link>
-    <description>Recent content in Student on NTU IoT Group Website</description>
+    <title>PhD Candidates on NTU IoT Group Website</title>
+    <link>https://ntuiot.xyz/member/student/</link>
+    <description>Recent content in PhD Candidates on NTU IoT Group Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
     
-        <atom:link href="http://ntuiot.xyz/member/student/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ntuiot.xyz/member/student/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Zhenyu Yan</title>
-        <link>http://ntuiot.xyz/member/student/phd1_zhenyu_yan/</link>
+        <link>https://ntuiot.xyz/member/student/phd1_zhenyu_yan/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>http://ntuiot.xyz/member/student/phd1_zhenyu_yan/</guid>
-        <description>The content here is appeared when you click the menu. So called overview page.</description>
+        <guid>https://ntuiot.xyz/member/student/phd1_zhenyu_yan/</guid>
+        <description>Zhenyu Yan  Position: PhD Candidate Contact: zyan006@e.ntu.edu.sg Bio: Zhenyu Yan is a final year Ph.D. student in NTU IoT Group. He received bachelor&amp;rsquo;s degrees in both Electronic Engineering and Finance from University of Electronic Science and Technology of China (UESTC). His research focuses on finding solutions for novel applications, security and privacy issues in IoT systems. Personal website: https://www.yanzhenyu.com Publication: https://www.yanzhenyu.com  </description>
       </item>
       
       <item>
         <title>Chaojie Gu</title>
-        <link>http://ntuiot.xyz/member/student/phd2_chaojie_gu/</link>
+        <link>https://ntuiot.xyz/member/student/phd2_chaojie_gu/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>http://ntuiot.xyz/member/student/phd2_chaojie_gu/</guid>
-        <description>The content here is appeared when you click the menu. So called overview page.</description>
+        <guid>https://ntuiot.xyz/member/student/phd2_chaojie_gu/</guid>
+        <description>Chaojie Gu  Position: PhD Candidate, Project Officer Contact: gucj@ntu.edu.sg Bio: Chaojie Gu is a Ph.D. candidate at SCSE of NTU. He received his B.Eng. degree from Harbin Institute of Technology, China, in 2016. His research interests include IoT and Low-Power Wide Area Networks. Personal website: https://chaojiegu.github.io/ Publication: https://chaojiegu.github.io/publication/ Research projects:  </description>
       </item>
       
       <item>
         <title>Linshan Jiang</title>
-        <link>http://ntuiot.xyz/member/student/phd3_linshan_jiang/</link>
+        <link>https://ntuiot.xyz/member/student/phd3_linshan_jiang/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>http://ntuiot.xyz/member/student/phd3_linshan_jiang/</guid>
-        <description>The content here is appeared when you click the menu. So called overview page.</description>
+        <guid>https://ntuiot.xyz/member/student/phd3_linshan_jiang/</guid>
+        <description>Linshan Jiang  Position: PhD Candidate Contact: linshanjiangcn@gmail.com Bio: Linshan Jiang is a Ph.D. candidate at SCSE of NTU. He received his bachelor degree in Communication Engineering from Southern University of Science and Technology, China, in 2016. His research interests include secure and privacy in AIoT system, non-functional requirements of IoT. Publication: https://scholar.google.com.sg/citations?user=S01E5-cAAAAJ&amp;amp;hl=en  </description>
       </item>
       
       <item>
         <title>Qun Song</title>
-        <link>http://ntuiot.xyz/member/student/phd4_qun_song/</link>
+        <link>https://ntuiot.xyz/member/student/phd4_qun_song/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>http://ntuiot.xyz/member/student/phd4_qun_song/</guid>
-        <description>The content here is appeared when you click the menu. So called overview page.</description>
+        <guid>https://ntuiot.xyz/member/student/phd4_qun_song/</guid>
+        <description>Qun Song  Position: PhD Candidate Contact: song0167@ntu.edu.sg Bio: I am a second-year PhD candidate and my PhD program title is &amp;ldquo;Secure Machine Learning for Cyber-Physical Systems&amp;rdquo;. Specifically, my ongoing research focuses on constructing secure and efficient machine learning systems for edge devices and autonomous machines as well as power grid control systems. I am also interested in bringing machine learning to the edge. Personal website: https://sg.</description>
       </item>
       
       <item>
         <title>Wenjie Luo</title>
-        <link>http://ntuiot.xyz/member/student/phd5_wenjie_luo/</link>
+        <link>https://ntuiot.xyz/member/student/phd5_wenjie_luo/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>http://ntuiot.xyz/member/student/phd5_wenjie_luo/</guid>
-        <description>The content here is appeared when you click the menu. So called overview page.</description>
+        <guid>https://ntuiot.xyz/member/student/phd5_wenjie_luo/</guid>
+        <description>Wenjie Luo  Position: PhD Candidate Contact: Bio: Personal website: Publication: Research projects:  </description>
       </item>
       
       <item>
         <title>Rongrong Wang</title>
-        <link>http://ntuiot.xyz/member/student/phd6_rongrong_wang/</link>
+        <link>https://ntuiot.xyz/member/student/phd6_rongrong_wang/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>http://ntuiot.xyz/member/student/phd6_rongrong_wang/</guid>
-        <description>The content here is appeared when you click the menu. So called overview page.</description>
+        <guid>https://ntuiot.xyz/member/student/phd6_rongrong_wang/</guid>
+        <description>Rongrong Wang  Position: PhD Candidate, Research Associate Contact: Bio: Personal website: Publication: Research projects:  </description>
       </item>
       
       <item>
         <title>Siyuan Zhou</title>
-        <link>http://ntuiot.xyz/member/student/phd7_siyuan_zhou/</link>
+        <link>https://ntuiot.xyz/member/student/phd7_siyuan_zhou/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>http://ntuiot.xyz/member/student/phd7_siyuan_zhou/</guid>
-        <description>The content here is appeared when you click the menu. So called overview page.</description>
+        <guid>https://ntuiot.xyz/member/student/phd7_siyuan_zhou/</guid>
+        <description>Siyuan Zhou  Position: PhD Candidate, Research Associate Contact: siyuan.zhou@ntu.edu.sg Bio: I am currently a Ph.D student in school of computer science and engineering, Nanyang Technological University, Singapore. My currently research focuses on embedded deep visual sensing in industrial IoT. Research projects:  </description>
       </item>
       
     

@@ -2,25 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on NTU IoT Group Website</title>
-    <link>http://ntuiot.xyz/research/</link>
+    <link>https://ntuiot.xyz/research/</link>
     <description>Recent content in Research on NTU IoT Group Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 14 Apr 2020 14:09:21 +0900</lastBuildDate>
     
-        <atom:link href="http://ntuiot.xyz/research/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ntuiot.xyz/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Powerline Electromagnetic Radiation for IoT Functions</title>
-        <link>http://ntuiot.xyz/research/powerline/</link>
+        <link>https://ntuiot.xyz/research/powerline/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
-        <guid>http://ntuiot.xyz/research/powerline/</guid>
-        <description>TBD</description>
+        <guid>https://ntuiot.xyz/research/powerline/</guid>
+        <description>Sub topic: Time  Wearables Clock Synchronization Using Skin Electric Potentials. Application-Layer Clock Synchronization for Wearables Using Skin Electric Potentials Induced by Powerline Radiation. Exploiting Electrical Grid for Accurate and Secure Clock Synchronization. Natural Timestamping Using Powerline Electromagnetic Radiation. Exploiting Power Grid for Accurate and Secure Clock Synchronization in Industrial IoT.  Sub topic: Location  Towards Touch-to-Access Device Authentication Using Induced Body Electric Potentials. Simultaneous Localization and Mapping with Power Network Electromagnetic Field.</description>
+      </item>
+      
+      <item>
+        <title>Resilient LoRa Networks</title>
+        <link>https://ntuiot.xyz/research/lora/</link>
+        <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/research/lora/</guid>
+        <description>Resilient LoRa Networks  Attack-Aware Data Timestamping in Low-Power Synchronization-Free LoRaWAN. One-hop Out-of-band Control Planes for Multi-hop Wireless Sensor Networks. LoRa-Based Localization: Opportunities and Challenges. One-Hop Out-of-Band Control Planes for Low-Power Multi-Hop Wireless Networks.  </description>
+      </item>
+      
+      <item>
+        <title>Privacy-Preserving Machine Learning in IoT</title>
+        <link>https://ntuiot.xyz/research/privacy/</link>
+        <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/research/privacy/</guid>
+        <description>Privacy-Preserving Machine Learning in IoT  Challenges of Privacy-Preserving Machine Learning in IoT. Lightweight and Unobtrusive Data Obfuscation at IoT Edge for Remote Inference. On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects. Differentially Private Collaborative Learning for the IoT Edge.  </description>
+      </item>
+      
+      <item>
+        <title>Resilient IoT Edge against Adversarial Examples</title>
+        <link>https://ntuiot.xyz/research/adversary/</link>
+        <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/research/adversary/</guid>
+        <description>Resilient IoT Edge against Adversarial Examples  Moving Target Defense for Embedded Deep Visual Sensing against Adversarial Examples.  </description>
+      </item>
+      
+      <item>
+        <title>AI-Empowered Acoustic Sensing</title>
+        <link>https://ntuiot.xyz/research/acoustic/</link>
+        <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/research/acoustic/</guid>
+        <description>AI-Empowered Acoustic Sensing  Deep Room Recognition Using Inaudible Echos.  </description>
+      </item>
+      
+      <item>
+        <title>Thermal, Energy, and Computation Management for Data Centers</title>
+        <link>https://ntuiot.xyz/research/datacenter/</link>
+        <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/research/datacenter/</guid>
+        <description>Thermal, Energy, and Computation Management for Data Centers  Control of Air Free-Cooled Data Centers in Tropics via Deep Reinforcement Learning. A Testbed and Data Yields for Studying Data Center Energy Efficiency and Reliability.  </description>
       </item>
       
     

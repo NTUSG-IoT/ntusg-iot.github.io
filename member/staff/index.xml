@@ -2,43 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research Staff on NTU IoT Group Website</title>
-    <link>http://ntuiot.xyz/member/staff/</link>
+    <link>https://ntuiot.xyz/member/staff/</link>
     <description>Recent content in Research Staff on NTU IoT Group Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
     
-        <atom:link href="http://ntuiot.xyz/member/staff/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ntuiot.xyz/member/staff/index.xml" rel="self" type="application/rss+xml" />
     
     
     
-      
-      <item>
-        <title>Dongfang Guo</title>
-        <link>http://ntuiot.xyz/member/staff/staff2_dongfang_guo/</link>
-        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
-        
-        <guid>http://ntuiot.xyz/member/staff/staff2_dongfang_guo/</guid>
-        <description>The content here is appeared when you click the menu. So called overview page.</description>
-      </item>
       
       <item>
         <title>Duc</title>
-        <link>http://ntuiot.xyz/member/staff/staff1_duc/</link>
+        <link>https://ntuiot.xyz/member/staff/staff1_duc_van_le/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>http://ntuiot.xyz/member/staff/staff1_duc/</guid>
-        <description>The content here is appeared when you click the menu. So called overview page.</description>
+        <guid>https://ntuiot.xyz/member/staff/staff1_duc_van_le/</guid>
+        <description>Duc Van Le       Position: Research Fellow Contact: vdle@ntu.edu.sg Bio: Duc Van Le is research fellow at the HP-NTU Digital Manufacturing Corporate Lab, Nanyang Technological University (NTU), Singapore. He obtained his B.Eng. degree in electronics and telecommunications engineering from the Le Quy Don Technical University, Vietnam, and PhD degree in computer engineering from the University of Ulsan, South Korea, in 2011 and 2016, respectively. Before joining NTU, he worked as a research fellow at Department of Computer Science, National University of Singapore (NUS) from 2016 to 2018.</description>
+      </item>
+      
+      <item>
+        <title>Dongfang Guo</title>
+        <link>https://ntuiot.xyz/member/staff/staff2_dongfang_guo/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/member/staff/staff2_dongfang_guo/</guid>
+        <description>Dongfang Guo       Position: Research Associate Contact: dongfang.guo@ntu.edu.sg Bio: I am currently a Research Associate in Prof. Tan&amp;rsquo;s research group. I received my B.Eng. degree from University of Electronic Science and Technology of China, and my M.Sc. degree from Nanyang Technological University, Singapore. My research interests lie in the field of Internet of Things and Wireless Sensor Networks. I am now digging into LoRa and exploring its application in indoor object localization.</description>
       </item>
       
       <item>
         <title>Jiale Chen</title>
-        <link>http://ntuiot.xyz/member/staff/staff3_jiale_chen/</link>
+        <link>https://ntuiot.xyz/member/staff/staff3_jiale_chen/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>http://ntuiot.xyz/member/staff/staff3_jiale_chen/</guid>
-        <description>The content here is appeared when you click the menu. So called overview page.</description>
+        <guid>https://ntuiot.xyz/member/staff/staff3_jiale_chen/</guid>
+        <description>Jiale Chen       Position: Research Associate Contact:  +65 88708195 (Mobile phone) jiale.chen@ntu.edu.sg   Bio: I am now a research associate in HP/NTU Lab. I received my Master degree from Hong Kong University of Science and Technology in 2019. I got my bachelor degree from Southern China University of Technology in 2018.    </description>
+      </item>
+      
+      <item>
+        <title>Xu Liu</title>
+        <link>https://ntuiot.xyz/member/staff/staff4_xu_liu/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/member/staff/staff4_xu_liu/</guid>
+        <description>Xu Liu       Position: Research Assitant Contact: x_liu@ntu.edu.sg Bio: Liu Xu obtained his Bachelor Degree from Nanyang Technological University in 2017. Prior to joined Prof Tan&amp;rsquo;s group he worked as a research assistant in Data Science &amp;amp; Artificial Intelligence Research Center. His current project is location sensing using EMR.    </description>
       </item>
       
     
