@@ -233,16 +233,6 @@
   </url>
   
   <url>
-    <loc>https://ntuiot.xyz/blog/ubicomp18/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ntuiot.xyz/tags/ubicomp/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ntuiot.xyz/tags/cps-iot-week/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -295,6 +285,16 @@
   <url>
     <loc>https://ntuiot.xyz/blog/data18/</loc>
     <lastmod>2018-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/blog/ubicomp18/</loc>
+    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/ubicomp/</loc>
+    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
