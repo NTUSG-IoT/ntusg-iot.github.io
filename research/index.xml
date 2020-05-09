@@ -15,13 +15,14 @@
     
       
       <item>
-        <title>Powerline radiation sensing</title>
+        <title>Powerline Electromagnetic Radiation for IoT Functions</title>
         <link>https://ntuiot.xyz/research/powerline/</link>
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
         <guid>https://ntuiot.xyz/research/powerline/</guid>
-        <description>Main contributors from the group: Zhenyu Yan(topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Chaojie Gu
- Powerline Electromagnetic Radiation for IoT Functions Sub topic: Location  Towards Touch-to-Access Device Authentication Using Induced Body Electric Potentials. Simultaneous Localization and Mapping with Power Network Electromagnetic Field.  Sub topic: Time  Wearables Clock Synchronization Using Skin Electric Potentials. Application-Layer Clock Synchronization for Wearables Using Skin Electric Potentials Induced by Powerline Radiation.</description>
+        <description>Main contributors from the group: Zhenyu Yan (topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Linshan Jiang
+ 
+Electric power distribution networks penetrate into all civil infrastructures. The service powerlines emit both electric fields and magnetic fields. The electric fields are induced by the voltages of the powerlines, and the magnetic fields are induced by the currents going through the powerlines. Because the power networks provide alternating currents at a nominal frequency (e.</description>
       </item>
       
       <item>
