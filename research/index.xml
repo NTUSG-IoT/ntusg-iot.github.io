@@ -31,8 +31,9 @@ Electric power distribution networks penetrate into all civil infrastructures. T
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
         <guid>https://ntuiot.xyz/research/lora/</guid>
-        <description> Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo
- Resilient LoRa Networks  Attack-Aware Data Timestamping in Low-Power Synchronization-Free LoRaWAN. One-hop Out-of-band Control Planes for Multi-hop Wireless Sensor Networks. LoRa-Based Localization: Opportunities and Challenges. One-Hop Out-of-Band Control Planes for Low-Power Multi-Hop Wireless Networks.  </description>
+        <description>Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo
+ 
+Low-power wide-area networks (LPWANs) form an important class of wireless networks for many geographically distributed Internet-of-Things (IoT) objects. LPWANs form a new pole in the spectrum of power consumption versus communication ranges, as shown in the figure below. LPWANs’ long-range communication capabilities will increase the degree of connectivity of IoT and enable deep penetration of networked intelligence into urban territories (e.</description>
       </item>
       
       <item>
