@@ -980,7 +980,7 @@
 <meta property="og:url" content="https://ntuiot.xyz/research/acoustic_image/">
 <meta property="og:type" content="website">
 
-<meta name="generator" content="Hugo 0.69.0" />
+<meta name="generator" content="Hugo 0.72.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://ntuiot.xyz/research/acoustic_image/">
@@ -1759,12 +1759,28 @@
 
   <article class="single__contents" data-dir="ltr">
     <blockquote>
-<p>Main contributors from the group: Wenjie Luo (topic coordinator), Qun Song, Zhenyu Yan, Chaojie Gu, Duc Van Le, Siyuan Zhou, Jiale Chen</p>
+<p>Main contributors from the group: Wenjie Luo (topic coordinator), Qun Song, Chaojie, Zhenyu Yan, Duc Van Le, Siyuan Zhou, Jiale Chen, Qiping (Joy) Yang</p>
 </blockquote>
-<h4 id="ai-empowered-acoustic-sensing">AI-Empowered Acoustic Sensing</h4>
-<ul>
-<li>Deep Room Recognition Using Inaudible Echos.</li>
-</ul>
+<p><a href="https://trajectorymagazine.com/generating-synthetic-data-for-remote-sensing/" target="_blank"><p class="md__image">
+  <img src="/images/research/sensing/cover.png" alt="Image credit: Trajectory Magazine"  title="Image credit: Trajectory Magazine."  />
+</p></a></p>
+<p>The acoustic and imagery sensing modalities provide abundant information about the sensed target. As a result, the volume of an acoustic/imagery signal sample is often high and the data processing to extract useful information requires intensive computing. Such characteristics introduce various system challenges in data acquisition, computing, storage, and network transmission on networked sensing platforms with constrained processing capabilities, network bandwidth, and bounded energy supply.</p>
+<p>Dr. Rui Tan’s early research designed efficient systems for 1) networked seismic sensing that introduces similar challenges [1, 2, 3] and 2) robotic fish’s visual sensing for monitoring aquatic debris [4] and harmful aquatic processes (e.g., oil spill and harmful algal blooms) [5]. The group is currently developing an acoustic echolocation system based on deep learning and networked imagery sensing for inspection tasks in manufacturing systems. This page briefly describes a completed preliminary work of using inaudible echos for room recognition.</p>
+<h4 id="room-recognition-using-inaudible-echos">Room recognition using inaudible echos</h4>
+<p>Location awareness is increasingly needed by mobile applications. As of November 2017, 62% of the top 100 free Android Apps on Google Play require location services. While GPS can provide outdoor locations with satisfactory accuracy, determining indoor locations has been a hard problem. Our work designs a practical room-level localization approach for off-the-shelf smartphones using their built-in audio systems only. Room-level localization is desirable in a range of ubiquitous computing applications. For instance, in a hospital, knowing which room that a patient is in is important to responsive medical aid when the patient develops an emergent condition (e.g., falling in a faint). In a museum, knowing which exhibition chamber that a tourist is in can largely assist the automation of her multimedia guide that is often provided as a mobile App nowadays. In a smart building, the room-level localization of the residents can assist the automation of illumination and air conditioning to improve energy efficiency and occupant comfort.</p>
+<p>[insert Fig 3 of ubicomp paper here]</p>
+<p>In our approach, a smartphone uses its loudspeaker to transmit a 2-millisecond narrowband acoustic signal at a frequency (e.g., 20kHz) beyond human’s hearing limit and uses its microphone to capture the reverberation from the indoor environment (typically, a room) for 100 milliseconds. Based on the spectrogram of the 100-millisecond reverbnation, our approach can recognize the indoor environment via a machine learning algorithm. The short audio recording time (i.e., 100 milliseconds) helps preserve the user’s privacy. However, the environment’s response to such a short-term and band-limited acoustic excitation may contain limited information about the environment. To address this, we employ deep learning to train a convolutional neural network for the room recognition.</p>
+<p>We conducted extensive experiments to evaluate our approach. Results show 99.7%, 97.7%, 99%, and 89% accuracy in differentiating 22 and 50 residential/office rooms, 19 spots in a quiet museum, and 15 spots in a crowded museum, respectively. The below figures show several example room types and university tutorial rooms having similar appearance that are employed in our evaluation experiments, as well as the 19 and 15 spots in the two different museums that we experimented with. The results were published on ACM Ubicomp’18 [6].</p>
+<p>[insert figure 12, 21, 24, 25 from the ubicomp paper]</p>
+<h4 id="imagery-sensing-for-manufacturing-system">Imagery sensing for manufacturing system</h4>
+<h3 id="bibliography">Bibliography</h3>
+<h4 id="our-research">Our research</h4>
+<p>[1] Quality-driven Volcanic Earthquake Detection using Wireless Sensor Networks.<br />
+[2] Volcanic Earthquake Timing using Wireless Sensor Networks.<br />
+[3] ORBIT: A Smartphone-Based Platform for Data-Intensive Embedded Sensing Applications.<br />
+[4] Aquatic Debris Monitoring Using Smartphone-Based Robotic Sensors.<br />
+[5] Samba: A Smartphone-Based Robot System for Energy-Efficient Aquatic Environment Monitoring.<br />
+[6] Deep Room Recognition Using Inaudible Echos.</p>
 
   </article>
 </div>
