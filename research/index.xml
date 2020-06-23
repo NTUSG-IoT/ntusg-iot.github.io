@@ -74,8 +74,9 @@ We study the problems of sensing the environment conditions in a building and co
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
         <guid>https://ntuiot.xyz/research/privacy/</guid>
-        <description> Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)
- Privacy-Preserving Machine Learning in IoT  Challenges of Privacy-Preserving Machine Learning in IoT. Lightweight and Unobtrusive Data Obfuscation at IoT Edge for Remote Inference. On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects. Differentially Private Collaborative Learning for the IoT Edge.  </description>
+        <description>Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)
+ Privacy-Preserving Machine Learning in IoT 
+As explained in our post, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems.</description>
       </item>
       
     

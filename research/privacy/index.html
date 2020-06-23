@@ -1761,13 +1761,66 @@
     <blockquote>
 <p>Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)</p>
 </blockquote>
-<h4 id="privacy-preserving-machine-learning-in-iot">Privacy-Preserving Machine Learning in IoT</h4>
-<ul>
-<li>Challenges of Privacy-Preserving Machine Learning in IoT.</li>
-<li>Lightweight and Unobtrusive Data Obfuscation at IoT Edge for Remote Inference.</li>
-<li>On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects.</li>
-<li>Differentially Private Collaborative Learning for the IoT Edge.</li>
-</ul>
+<h3 id="privacy-preserving-machine-learning-in-iot">Privacy-Preserving Machine Learning in IoT</h3>
+<p><a href="https://www.cumanagement.com/articles/2019/05/protecting-privacy-contract-management-software" target="_blank"><p class="md__image">
+  <img src="/images/research/privacy_preserving/cover.jpg" alt="Image credit: Smart Energy International."  title="Image credit: CU Management."  />
+</p></a></p>
+<p>As explained in our <a href="/research/secure/" target="_blank">post</a>, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems. In a number of scenarios, the IoT edge and the cloud back end need to work together to implement AI-empowered sensing, during which privacy-sensitive data generated at the edge may be exchanged between the edge and the cloud. The group has ongoing research on designing and evaluating privacy-preserving learning and inference approaches in AIoT systems. Our challenge paper [1] provides a taxonomy of the existing privacy-preserving learning and inference approaches.</p>
+<h3 id="privacy-preserving-collaborative-learning">Privacy-preserving collaborative learning</h3>
+<table>
+<thead>
+<tr>
+<th align="center"><p class="md__image">
+  <img src="/images/research/privacy_preserving/collaborative_learning.png" alt=""  />
+</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em><strong>A collaborative learning system</strong></em></td>
+</tr>
+</tbody>
+</table>
+<p>Collaborative learning builds a machine learning model (e.g., a supervised classifier) based on the training data contributed by many participants. It is a desirable and empowering paradigm for AIoT systems. By leveraging on the much increased volume of training data and coverage of data patterns, collaborative learning will approach the intelligence of a crowd and improve the learning performance beyond that achieved by any single participant alone. Moreover, a resource-rich learning coordinator(e.g., a cloud computing service) allows the execution of<br />
+advanced, compute-intensive machine learning algorithms to capture deeper structures in the aggregated data, whereas the participants (e.g., IoT objects) are often resource-constrained and incompetent for intensive computation. By contributing training data, the individual participants will enjoy the improved machine intelligence in return. However, the data contributed by the participants may contain privacy-sensitive information that should be protected from the curious cloud.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><p class="md__image">
+  <img src="/images/research/privacy_preserving/sample_1.png" alt=""  />
+</p></td>
+</tr>
+<tr>
+<td align="center"><p class="md__image">
+  <img src="/images/research/privacy_preserving/sample_2.png" alt=""  />
+</p></td>
+</tr>
+<tr>
+<td align="center"><p class="md__image">
+  <img src="/images/research/privacy_preserving/sample_3.png" alt=""  />
+</p></td>
+</tr>
+<tr>
+<td align="center"><em><strong>Top: original data samples. Middle: obfuscated data samples using Gaussian random projection. Bottom: Additively perturbed data samples for differential privacy (epsilon=10).</strong></em></td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://federated.withgoogle.com/" target="_blank">Federated learning</a> is a distributed machine learning scheme in which data remains at the individual participants and each participant will execute learning computation. However, the learning computation can be too heavyweight for resource-constrained devices such as embedded IoT sensors. <strong>Different from the federated learning</strong>, our work lets a participant device apply Gaussian random projection to obfuscate the data and then transmit to the cloud for training a deep neural network. The random projection introduces light computation overhead only and can be performed by mote-class IoT sensors. Every participant uses its own Gaussian matrix to prevent that the collusion between any participant and the curious cloud spoils the privacy protections for other participants. However, because of the participants’ independent projections, a pattern in the original data domain is split into N patterns in the obfuscated data domain (where N is the number of participants in the collaborative learning system). Our work systematically investigates the impact of the N on learning efficiency and also experimentally compares a number of baseline approaches on a hardware testbed, which include distributed machine learning, additive perturbation for differential privacy, and homomorphic encryption-based approach. The results are published on ACM/IEEE IoTDI’19 [2].</p>
+<h3 id="privacy-preserving-remote-inference">Privacy-preserving remote inference</h3>
+<p><p class="md__image">
+  <img src="/images/research/privacy_preserving/remote_inference.png" alt=""  />
+</p></p>
+<p>Resource-constrained edge devices may not be able to execute very deep neural networks. In addition, deep neural networks may be intellectual properties that should remain in the cloud. To address these issues, the remote inference (i.e., the edge device transmits the inference data to the cloud for inference computation and gets the result) can be applied. But the inference data may contain privacy-sensitive information. Our work develops a <strong>lightweight</strong> and <strong>unobtrusive</strong> approach to obfuscate the inference data at the edge devices. It is lightweight in that the edge device only needs to execute a small-scale neural network; it is unobtrusive in that the edge device does not need to indicate whether obfuscation is applied. We apply our approach to three case studies of free spoken digit recognition, handwritten digit recognition, and American sign language recognition. Results show that our approach effectively protects the confidentiality of the raw forms of the inference data while effectively preserving the cloud’s inference accuracy. The results are published in IEEE IoT Journal [3].</p>
+<h3 id="bibliography">Bibliography</h3>
+<h4 id="our-research">Our research</h4>
+<p>[1] Challenges of Privacy-Preserving Machine Learning in IoT. Mengyao Zheng, Dixing Xu, Linshan Jiang, Chaojie Gu, Rui Tan, Peng Cheng. <em>The 1st International Workshop on Challenges in Artificial Intelligence and Machine Learning for Internet of Things (AIChallengeIoT)</em> with SenSys'19, November 10, 2019, New York, NY, USA.<br />
+[2] On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects. Linshan Jiang, Rui Tan, Xin Lou, Guosheng Lin. <em>The 4th ACM/IEEE International Conference on Internet of Things Design and Implementation (IoTDI)</em>, April 16-18, 2019, Montreal, Canada. CPS-IoT Week 2019.<br />
+[3] Lightweight and Unobtrusive Data Obfuscation at IoT Edge for Remote Inference. Dixing Xu, Mengyao Zheng; Linshan Jiang, Chaojie Gu, Rui Tan, Peng Cheng. <em>IEEE Internet of Things Journal</em>. Special Issue on Artificial Intelligence Powered Edge Computing for Internet of Things. 2020.</p>
 
   </article>
 </div>
