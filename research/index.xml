@@ -54,8 +54,7 @@ The acoustic and imagery sensing modalities provide abundant information about t
         
         <guid>https://ntuiot.xyz/research/building/</guid>
         <description>Main contributors from the group: Duc Van Le (topic coordinator), Rongrong Wang, Yingbo Liu (alumnus)
- | Main contributors from the group: Duc Van Le (topic coordinator), Rongrong Wang, Yingbo Liu (alumnus)
-We study the problems of sensing the environment conditions in a building and controlling various actuators to reduce the building’s energy consumption and maintain certain environmental condition levels when the load (e.g., IT equipment, human occupants) of the building varies over time.</description>
+ We study the problems of sensing the environment conditions in a building and controlling various actuators to reduce the building’s energy consumption and maintain certain environmental condition levels when the load (e.g., IT equipment, human occupants) of the building varies over time. Dr. Rui Tan has early research works on residential power disaggregation by deploying wireless sensors in a nearly ad hoc way [1, 2], temperature field prediction [3] and cooling control [4] in computer rooms.</description>
       </item>
       
       <item>
@@ -64,8 +63,9 @@ We study the problems of sensing the environment conditions in a building and co
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
         <guid>https://ntuiot.xyz/research/secure/</guid>
-        <description> Main contributors from the group: Qun Song (topic coordinator), Zhenyu Yan
-  Moving Target Defense for Embedded Deep Visual Sensing against Adversarial Examples.  </description>
+        <description>Main contributors from the group: Qun Song (topic coordinator), Zhenyu Yan
+  Image modified from this, credit goes to the source. Also refer to this paper for background
+ By 2025, it is estimated that there will be more than 41.6 billion networked IoT devices. These IoT devices generate 79.4 zettabyes data yearly, which is almost twice of today’s whole Internet (44 zettabytes). Transmitting such massive IoT data to the clouds for centralized processing will face communication bandwidth bottleneck.</description>
       </item>
       
       <item>
