@@ -1824,6 +1824,21 @@
   
 </figure>
 <p>However, this gateway-side timestamping is vulnerable to a frame delay attack that can be launched in three steps as shown in the above figure: (1) frame collision and eavesdropping, (2) data transfer, and (3) delay injection and frame replay. We conducted experiments in a campus network, and showed that, by setting up two attack devices (collider and eavesdropper) as shown in the below figure, all LoRaWAN end devices in the yellow polygon with an estimated area of 50,000 square meters will be affected by the attack.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><p class="md__image">
+  <img src="/images/research/lora/real_attack.png" alt=""  />
+</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em><strong>Vulnerable area of a campus LoRaWAN. (Satellite image credit: Google Map)</strong></em></td>
+</tr>
+</tbody>
+</table>
+<p>To preserve the bandwidth efficiency of the gateway-side timestamping and develop awareness of the delay attack to avoid being misled unknowingly by the attack, we integrate a low-power listen-only software-defined radio (RTL-SDR) with the commercial-off-the-shelf LoRaWAN gateway to form our LoRaTS gateway, as shown in the left part of the figure below. We develop a software stack, as shown in the right part of the figure below, consisting of various radio signal processing algorithms to detect the carrier frequency biases introduced by the replay steps of the frame delay attack. Overall, LoRaTS is a solution that strikes a satisfactory trade-off between network efficiency and the security level required by typical LoRaWAN applications in implementing data timestamping. This research was published on IEEE ICDCS’20 (<a href="https://github.com/tanrui/www/blob/master/pub/timestamping-ICDCS20.pdf" target="_blank">PDF</a>).</p>
 <figure >
   
     
@@ -1831,7 +1846,6 @@
     
   
 </figure>
-<p>To preserve the bandwidth efficiency of the gateway-side timestamping and develop awareness of the delay attack to avoid being misled unknowingly by the attack, we integrate a low-power listen-only software-defined radio (RTL-SDR) with the commercial-off-the-shelf LoRaWAN gateway to form our LoRaTS gateway. We develop software stack consisting of various radio signal processing algorithms to detect the carrier frequency biases introduced by the replay steps of the frame delay attack. The above two figures show our LoRaTS gateway and the software stack. Overall, LoRaTS is a solution that strikes a satisfactory trade-off between network efficiency and the security level required by typical LoRaWAN applications in implementing data timestamping. This research was published on IEEE ICDCS’20 (<a href="https://github.com/tanrui/www/blob/master/pub/timestamping-ICDCS20.pdf" target="_blank">PDF</a>).</p>
 <h3 id="bibliography">Bibliography</h3>
 <h4 id="our-research">Our research</h4>
 <p>[1] One-Hop Out-of-Band Control Planes for Low-Power Multi-Hop Wireless Networks. Chaojie Gu, Rui Tan, Xin Lou, Dusit Niyato. <em>The 37th Annual IEEE International Conference on Computer Communications (INFOCOM)</em>, April 15 - 19, 2018, Honolulu, HI.<br />
@@ -1900,7 +1914,7 @@
       <div class="lmr">
         
           <p class="caption">
-            ©2020, NTU IoT Sensing Group. All Rights Reserved
+            ©2020, NTU IoT Sensing Group. All Rights Reserved. Webmasters: Zhenyu Yan, Chaojie Gu.
           </p>
           
         
