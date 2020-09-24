@@ -6,7 +6,7 @@
     <description>Recent content in Research on NTU IoT Sensing Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved. Webmasters: Zhenyu Yan, Chaojie Gu.</copyright>
+    <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
     <lastBuildDate>Tue, 14 Apr 2020 14:09:21 +0900</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/research/index.xml" rel="self" type="application/rss+xml" />
@@ -20,7 +20,7 @@
         <pubDate>Tue, 14 Apr 2020 14:09:21 +0900</pubDate>
         
         <guid>https://ntuiot.xyz/research/powerline/</guid>
-        <description>Main contributors from the group: Zhenyu Yan (topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Linshan Jiang
+        <description>Main contributors from the group: Zhenyu Yan(topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Linshan Jiang
  
 Electric power distribution networks penetrate into all civil infrastructures. The service powerlines emit both electric fields and magnetic fields. The electric fields are induced by the voltages of the powerlines, and the magnetic fields are induced by the currents going through the powerlines. Because the power networks provide alternating currents at a nominal frequency (e.</description>
       </item>

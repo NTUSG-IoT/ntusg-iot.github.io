@@ -6,7 +6,7 @@
     <description>Recent content in Research Staff on NTU IoT Sensing Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved. Webmasters: Zhenyu Yan, Chaojie Gu.</copyright>
+    <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
     <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/member/staff/index.xml" rel="self" type="application/rss+xml" />
@@ -25,11 +25,11 @@
       
       <item>
         <title>Zhenyu Yan</title>
-        <link>https://ntuiot.xyz/member/staff/staff12_zhenyu_yan/</link>
+        <link>https://ntuiot.xyz/member/staff/staff5_zhenyu_yan/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>https://ntuiot.xyz/member/staff/staff12_zhenyu_yan/</guid>
-        <description>Zhenyu Yan  Position: Research Fellow Contact: zhenyu.yan@ntu.edu.sg Bio: Zhenyu Yan is a research fellow in NTU IoT Sensing Group. Previously, he received his Ph.D. degree from Nanyang Technological University, School of Computer Science and Engineering, and bachelor&amp;rsquo;s degrees in both Electronic Engineering and Finance from University of Electronic Science and Technology of China (UESTC). His research focuses on finding solutions for novel applications, security and privacy issues in IoT systems.</description>
+        <guid>https://ntuiot.xyz/member/staff/staff5_zhenyu_yan/</guid>
+        <description>Zhenyu Yan  Position: Research Fellow Contact: zhenyu.yan@ntu.edu.sg Bio: Zhenyu Yan works as a research fellow in NTU IoT Sensing Group. Previously, he obtained his Ph.D from Nanyang Technological University and his bachelor&amp;rsquo;s degrees in both Electronic Engineering and Economics from University of Electronic Science and Technology of China (UESTC). His research mainly lies in human-centric Internet-of-Things, including applications with novel modalities, security and privacy of IoT systems.</description>
       </item>
       
       <item>
@@ -51,21 +51,12 @@
       </item>
       
       <item>
-        <title>Xu Liu</title>
-        <link>https://ntuiot.xyz/member/staff/staff4_xu_liu/</link>
+        <title>Joy Qiping Yang</title>
+        <link>https://ntuiot.xyz/member/staff/staff4_qiping_yang/</link>
         <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>https://ntuiot.xyz/member/staff/staff4_xu_liu/</guid>
-        <description>Xu Liu       Position: Research Assitant Contact: x_liu@ntu.edu.sg Bio: Liu Xu obtained his Bachelor Degree from Nanyang Technological University in 2017. Prior to joined Prof Tan&amp;rsquo;s group he worked as a research assistant in Data Science &amp;amp; Artificial Intelligence Research Center. His current project is location sensing using EMR. Research projects:  Powerline radiation sensing    </description>
-      </item>
-      
-      <item>
-        <title>Joy Qiping Yang</title>
-        <link>https://ntuiot.xyz/member/staff/staff5_qiping_yang/</link>
-        <pubDate>Mon, 22 Jun 2020 14:09:21 +0900</pubDate>
-        
-        <guid>https://ntuiot.xyz/member/staff/staff5_qiping_yang/</guid>
-        <description>Joy Qiping Yang       Position: Project Officer Contact:  joy.yang@ntu.edu.sg   Bio: Joy Yang Qiping is a project officer in HP/NTU Lab. He received degree in data and computer science from the Sun Yat-sen University in 2019. Research project:  Acoustic and imagery sensing    </description>
+        <guid>https://ntuiot.xyz/member/staff/staff4_qiping_yang/</guid>
+        <description>Joy Qiping Yang       Position: Project Officer Contact:  joy.yang@ntu.edu.sg   Bio: Joy Yang Qiping is a project officer in HP/NTU Lab. He received degree in data and computer science from the Sun Yat-sen University in 2019. Research projects:  Acoustic and imagery sensing    </description>
       </item>
       
     

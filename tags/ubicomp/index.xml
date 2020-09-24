@@ -6,8 +6,8 @@
     <description>Recent content in UBICOMP on NTU IoT Sensing Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved. Webmasters: Zhenyu Yan, Chaojie Gu.</copyright>
-    <lastBuildDate>Tue, 09 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/tags/ubicomp/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,9 @@
     
       
       <item>
-        <title>Qun&#39;s Presentation at UBICOMP&#39;18</title>
+        <title>Qun&#39;s Presentation at UBICOMP&#39;19</title>
         <link>https://ntuiot.xyz/blog/ubicomp18/</link>
-        <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/blog/ubicomp18/</guid>
         <description>Qun&amp;rsquo;s paper presentation at UbiComp, Singapore, Oct, 2018</description>

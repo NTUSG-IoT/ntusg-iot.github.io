@@ -980,7 +980,7 @@
 <meta property="og:url" content="https://ntuiot.xyz/research/acoustic_image/">
 <meta property="og:type" content="website">
 
-<meta name="generator" content="Hugo 0.74.2" />
+<meta name="generator" content="Hugo 0.72.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://ntuiot.xyz/research/acoustic_image/">
@@ -1768,68 +1768,54 @@
 <p>Dr. Rui Tan’s early research designed efficient systems for 1) networked seismic sensing that introduces similar challenges [1, 2, 3] and 2) robotic fish’s visual sensing for monitoring aquatic debris [4] and harmful aquatic processes (e.g., oil spill and harmful algal blooms) [5]. The group is currently developing an acoustic echolocation system based on deep learning and networked imagery sensing for inspection tasks in manufacturing systems. This page briefly describes a completed preliminary work of using inaudible echos for room recognition.</p>
 <h3 id="room-recognition-using-inaudible-echos">Room recognition using inaudible echos</h3>
 <p>Location awareness is increasingly needed by mobile applications. As of November 2017, 62% of the top 100 free Android Apps on Google Play require location services. While GPS can provide outdoor locations with satisfactory accuracy, determining indoor locations has been a hard problem. Our work designs a practical room-level localization approach for off-the-shelf smartphones using their built-in audio systems only. Room-level localization is desirable in a range of ubiquitous computing applications. For instance, in a hospital, knowing which room that a patient is in is important to responsive medical aid when the patient develops an emergent condition (e.g., falling in a faint). In a museum, knowing which exhibition chamber that a tourist is in can largely assist the automation of her multimedia guide that is often provided as a mobile App nowadays. In a smart building, the room-level localization of the residents can assist the automation of illumination and air conditioning to improve energy efficiency and occupant comfort.</p>
-<figure >
-  
-    
-    <img data-src="../../images/research/sensing/fig_3.png" alt="Active acoustic sensing" data-caption="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="500px" height=""/>
-    
-  
-</figure>
+<p><p class="md__image">
+  <img src="/images/research/sensing/fig_3.png" alt="Active acoustic sensing"  />
+</p></p>
 <p>In our approach, a smartphone uses its loudspeaker to transmit a 2-millisecond narrowband acoustic signal at a frequency (e.g., 20kHz) beyond human’s hearing limit and uses its microphone to capture the reverberation from the indoor environment (typically, a room) for 100 milliseconds. Based on the spectrogram of the 100-millisecond reverbnation, our approach can recognize the indoor environment via a machine learning algorithm. The short audio recording time (i.e., 100 milliseconds) helps preserve the user’s privacy. However, the environment’s response to such a short-term and band-limited acoustic excitation may contain limited information about the environment. To address this, we employ deep learning to train a convolutional neural network for the room recognition.</p>
 <p>We conducted extensive experiments to evaluate our approach. Results show 99.7%, 97.7%, 99%, and 89% accuracy in differentiating 22 and 50 residential/office rooms, 19 spots in a quiet museum, and 15 spots in a crowded museum, respectively. The below figures show several example room types and university tutorial rooms having similar appearance that are employed in our evaluation experiments, as well as the 19 and 15 spots in the two different museums that we experimented with. The results were published on ACM Ubicomp’18 <a href="https://www.ntu.edu.sg/home/tanrui/pub/RoomRecognize.pdf" target="_blank">(PDF)</a>.</p>
-<p><figure >
-  
-    
-    <img data-src="../../images/research/sensing/fig_12.png" alt="Examples of several room types" data-caption="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="700px" height=""/>
-    
-  
-</figure><br />
-<figure >
-  
-    
-    <img data-src="../../images/research/sensing/fig_21.png" alt="Examples of similar rooms" data-caption="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="700px" height=""/>
-    
-  
-</figure></p>
+<p><p class="md__image">
+  <img src="/images/research/sensing/fig_12.png" alt="Examples of several room types"  />
+</p></p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th></th>
+<th></th>
+<th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">      </td>
-<td align="center"><figure >
+<td>    </td>
+<td><figure >
   
     
-    <img data-src="../../images/research/sensing/fig_24.png" alt="Museum-A floor plan and data collection spots (red points)." data-caption="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="420px" height=""/>
+    <img data-src="/images/research/sensing/fig_24.png" alt="image alt" data-caption="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="480px" height=""/>
     
   
 </figure></td>
-<td align="center">   </td>
-<td align="center"><figure >
+<td> </td>
+<td><figure >
   
     
-    <img data-src="../../images/research/sensing/fig_25.png" alt=" Museum-B floor plan and data collection spots (red points)." data-caption="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="260px" height=""/>
+    <img data-src="/images/research/sensing/fig_25.png" alt="image alt" data-caption="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="200px" height=""/>
     
   
 </figure></td>
 </tr>
 </tbody>
 </table>
+<!-- ![Museum-A floor plan and data collection spots (red points).](/images/research/sensing/fig_24.png)
+
+   
+
+![Museum-B floor plan and data collection spots (red points).](/images/research/sensing/fig_25.png) -->
 <h3 id="imagery-sensing-for-manufacturing-system">Imagery sensing for manufacturing system</h3>
 <p>The group is developing a deep neural network-based imagery sensing system and evaluating it in a manufacturing production line. More information will be given later.</p>
-<figure >
-  
-    
-    <img data-src="../../images/research/sensing/under_construction.gif" alt="Examples of similar rooms" data-caption="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="400px" height=""/>
-    
-  
-</figure>
+<p><p class="md__image">
+  <img src="/images/research/sensing/under_construction.gif" alt="Examples of similar rooms"  />
+</p></p>
 <h3 id="bibliography">Bibliography</h3>
 <h4 id="our-research">Our research</h4>
 <p>[1] Quality-driven Volcanic Earthquake Detection using Wireless Sensor Networks. Rui Tan, Guoliang Xing, Jinzhu Chen, Wen-Zhan Song, Renjie Huang. <em>The 31st IEEE Real-Time Systems Symposium (RTSS)</em>, pp. 271-280, Nov 30 - Dec 3, 2010, San Diego, CA, USA.<br />
@@ -1900,7 +1886,7 @@
       <div class="lmr">
         
           <p class="caption">
-            ©2020, NTU IoT Sensing Group. All Rights Reserved. Webmasters: Zhenyu Yan, Chaojie Gu.
+            ©2020, NTU IoT Sensing Group. All Rights Reserved
           </p>
           
         

@@ -6,7 +6,7 @@
     <description>Recent content in presentation on NTU IoT Sensing Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved. Webmasters: Zhenyu Yan, Chaojie Gu.</copyright>
+    <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
     <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
@@ -33,6 +33,15 @@
       </item>
       
       <item>
+        <title>Qun&#39;s Presentation at UBICOMP&#39;19</title>
+        <link>https://ntuiot.xyz/blog/ubicomp18/</link>
+        <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/blog/ubicomp18/</guid>
+        <description>Qun&amp;rsquo;s paper presentation at UbiComp, Singapore, Oct, 2018</description>
+      </item>
+      
+      <item>
         <title>Paper presentation at AIChallengeIoT&#39;19</title>
         <link>https://ntuiot.xyz/blog/aichallengeiot/</link>
         <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
@@ -48,33 +57,6 @@
         
         <guid>https://ntuiot.xyz/blog/data18/</guid>
         <description>The DATA: Data Acquisition to Analysis Workshop, SenSys&#39;18, Shenzhen, Nov, 2018.</description>
-      </item>
-      
-      <item>
-        <title>Qun&#39;s Presentation at UBICOMP&#39;18</title>
-        <link>https://ntuiot.xyz/blog/ubicomp18/</link>
-        <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/ubicomp18/</guid>
-        <description>Qun&amp;rsquo;s paper presentation at UbiComp, Singapore, Oct, 2018</description>
-      </item>
-      
-      <item>
-        <title>Zhenyu&#39;s Paper Presentation at SenSys&#39;17</title>
-        <link>https://ntuiot.xyz/blog/sensys17/</link>
-        <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/sensys17/</guid>
-        <description>Zhenyu&amp;rsquo;s paper presentation at SenSys&#39;17, Delft, The Netherlands, Nov 2017.</description>
-      </item>
-      
-      <item>
-        <title>Best Paper Award at IPSN&#39;17</title>
-        <link>https://ntuiot.xyz/blog/ipsn17/</link>
-        <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/ipsn17/</guid>
-        <description>Best Paper Award at IPSN&#39;17, Pittsburgh, PA, Apr 2017.</description>
       </item>
       
     
