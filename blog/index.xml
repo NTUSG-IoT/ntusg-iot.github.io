@@ -7,12 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>Zhenyu attended the Convocation 2020</title>
+        <link>https://ntuiot.xyz/blog/zhenyu_convocation/</link>
+        <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/blog/zhenyu_convocation/</guid>
+        <description>Zhenyu attended the NTU Convocation for the Class of 2020 and had his Ph.D. degree officially conferred. Rui also witnessed the ceremony.</description>
+      </item>
       
       <item>
         <title>Chaojie completed his PhD defense</title>
