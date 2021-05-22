@@ -7,12 +7,48 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>award</title>
+        <link>https://ntuiot.xyz/tags/award/</link>
+        <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/award/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>conference</title>
+        <link>https://ntuiot.xyz/tags/conference/</link>
+        <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/conference/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>IPSN</title>
+        <link>https://ntuiot.xyz/tags/ipsn/</link>
+        <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/ipsn/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>presentation</title>
+        <link>https://ntuiot.xyz/tags/presentation/</link>
+        <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/presentation/</guid>
+        <description></description>
+      </item>
       
       <item>
         <title>convocation</title>
@@ -33,15 +69,6 @@
       </item>
       
       <item>
-        <title>IPSN</title>
-        <link>https://ntuiot.xyz/tags/ipsn/</link>
-        <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/tags/ipsn/</guid>
-        <description></description>
-      </item>
-      
-      <item>
         <title>scenery</title>
         <link>https://ntuiot.xyz/tags/scenery/</link>
         <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
@@ -56,24 +83,6 @@
         <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/tags/tpc/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>conference</title>
-        <link>https://ntuiot.xyz/tags/conference/</link>
-        <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/tags/conference/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>presentation</title>
-        <link>https://ntuiot.xyz/tags/presentation/</link>
-        <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/tags/presentation/</guid>
         <description></description>
       </item>
       

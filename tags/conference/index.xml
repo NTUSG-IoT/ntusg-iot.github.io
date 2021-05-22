@@ -7,12 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>Wenjie presented PhyAug at IPSN&#39;21 and won Best Artifact Award Runner-Up</title>
+        <link>https://ntuiot.xyz/blog/ipsn21/</link>
+        <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/blog/ipsn21/</guid>
+        <description>Wenjie has presented our paper &amp;ldquo;PhyAug: Physics-Directed Data Augmentation for Deep Sensing Model Transfer in Cyber-Physical Systems&amp;rdquo; on the ACM/IEEE IPSN 2021, part of CPS Week 2021. The paper has also be selected as the Best Artifact Award Runner-up. Congratulations!</description>
+      </item>
+      
+      <item>
+        <title>IEEE PES Day 2021 Talk</title>
+        <link>https://ntuiot.xyz/blog/pes/</link>
+        <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/blog/pes/</guid>
+        <description>Rui gave a talk titled &amp;ldquo;Experiences and Learned Lessons from anAir Free-Cooled Tropical Data Center Testbed(Dec 2017 – Dec 2019)&amp;rdquo; on IEEE PES Day 2021.</description>
+      </item>
       
       <item>
         <title>Embedded AI Submit 2019 at Shenzhen</title>

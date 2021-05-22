@@ -113,17 +113,47 @@
   </url>
   
   <url>
-    <loc>https://ntuiot.xyz/blog/</loc>
-    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+    <loc>https://ntuiot.xyz/tags/award/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ntuiot.xyz/tags/convocation/</loc>
-    <lastmod>2021-03-11T00:00:00+00:00</lastmod>
+    <loc>https://ntuiot.xyz/blog/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/conference/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/ipsn/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/presentation/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ntuiot.xyz/tags/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/blog/ipsn21/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/blog/pes/</loc>
+    <lastmod>2021-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/convocation/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -173,11 +203,6 @@
   </url>
   
   <url>
-    <loc>https://ntuiot.xyz/tags/ipsn/</loc>
-    <lastmod>2020-01-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ntuiot.xyz/blog/ipsntpc19/</loc>
     <lastmod>2020-01-08T00:00:00+00:00</lastmod>
   </url>
@@ -193,22 +218,12 @@
   </url>
   
   <url>
-    <loc>https://ntuiot.xyz/tags/conference/</loc>
-    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ntuiot.xyz/blog/embeddedai19/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ntuiot.xyz/blog/centralparl/</loc>
-    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ntuiot.xyz/tags/presentation/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
   </url>
   
