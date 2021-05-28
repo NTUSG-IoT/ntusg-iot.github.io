@@ -1929,10 +1929,16 @@
 
 ![Museum-B floor plan and data collection spots (red points).](/images/research/sensing/fig_25.png) -->
 <h3 id="imagery-sensing-for-manufacturing-system">Imagery sensing for manufacturing system</h3>
-<p>The group is developing a deep neural network-based imagery sensing system and evaluating it in a manufacturing production line. More information will be given later.</p>
+<p>Computer vision has become an essential component of the automated inspection processes in smart manufacturing systems. We design and implement an Edge-Fog Camera (EFCam) system that can adapt its configuration with deep reinforcement learning. EFCam leverages the off-the-shelf battery-powered wireless camera called ESP32-CAM at the edge and fog node (e.g., Raspberry Pi) to achieve cordless and energy-efficient operations in industrial systems. The wireless cameras can offer various benefits such as easy deployment, mobility support, and unobtrusiveness to the ongoing industrial processes. Additionally, wall-powered wireless fog node with sufficient computing resources is used to support the camera in facilitating deep learning (DL)-based image processing with short jitters and delays.</p>
 <p><p class="md__image">
-  <img src="/images/research/sensing/under_construction.gif" alt="Examples of similar rooms"  />
+  <img src="/images/research/sensing/fig_efcam.png" alt="EFCam system overview"  />
 </p></p>
+<p>In our EFCam system, the wireless camera performs image pre-processing, and then transmits the data to a resourceful edge-fog node for advanced DL-based visual processing. The EFCam also applies the deep reinforcement learning (DRL) to adapt the camera configuration to maintain the desired visual sensing performance with the minimum energy consumption under dynamic variations of industrial application requirement and wireless channel conditions at the factory. The detailed design of EFCam can be found in our paper published on IEEE SECON’21 <a href="https://github.com/tanrui/www/blob/master/pub/EFCam-SECON21.pdf" target="_blank">(PDF)</a>.</p>
+<p>We have applied EFCam to improve the quality control of the ink cartridge manufacturing lines at the factories of Hewlett-Packard (HP) Inc. Our target application is HP’s ink extraction testing (IET), the ﬁnal quality control procedure used to detect any defective batch in which the ink cartridges’ performance deviates from the speciﬁcation. The IET machine controls a stepper motor pump to extract ink from the cartridge and uses a liquid pressure sensor continuously measures the pressure in the tube. The measured pressure profile is assessed to determine the performance of the tested cartridge. However, formation of air bubbles with a sufﬁciently large volume can affect the liquid pressure measurement and cause many false alarms.</p>
+<p><p class="md__image">
+  <img src="/images/research/sensing/fig_iet.png" alt="Y-joint monitoring"  />
+</p></p>
+<p>To reduce the recall rate in detecting the defective cartridges, we apply EFCam to monitor the air bubbles at the Y-joint of tube. The camera applies a two-step image processing pipeline. The first step runs the convolutional neural network to detect the presence of the air bubbles. The second step measures the volume of the detected air bubbles using a computer vision (CV)-based image processing framework. The details of this application can be found in our paper published in IEEE SECON’21 <a href="https://github.com/tanrui/www/blob/master/pub/IET-SECON21.pdf" target="_blank">(PDF)</a>.</p>
 <h3 id="rescuing-speech-recognition-from-microphone-heterogeneity">Rescuing speech recognition from microphone heterogeneity</h3>
 <p><p class="md__image">
   <img src="/images/recent_research/phyaug.png" alt=""  />
