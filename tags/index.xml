@@ -7,12 +7,48 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jul 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>conference</title>
+        <link>https://ntuiot.xyz/tags/conference/</link>
+        <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/conference/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>e-Energy</title>
+        <link>https://ntuiot.xyz/tags/e-energy/</link>
+        <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/e-energy/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>presentation</title>
+        <link>https://ntuiot.xyz/tags/presentation/</link>
+        <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/presentation/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>SECON</title>
+        <link>https://ntuiot.xyz/tags/secon/</link>
+        <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/secon/</guid>
+        <description></description>
+      </item>
       
       <item>
         <title>award</title>
@@ -24,29 +60,11 @@
       </item>
       
       <item>
-        <title>conference</title>
-        <link>https://ntuiot.xyz/tags/conference/</link>
-        <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/tags/conference/</guid>
-        <description></description>
-      </item>
-      
-      <item>
         <title>IPSN</title>
         <link>https://ntuiot.xyz/tags/ipsn/</link>
         <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/tags/ipsn/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>presentation</title>
-        <link>https://ntuiot.xyz/tags/presentation/</link>
-        <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/tags/presentation/</guid>
         <description></description>
       </item>
       
@@ -92,6 +110,15 @@
         <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/tags/sensys/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>workshop</title>
+        <link>https://ntuiot.xyz/tags/workshop/</link>
+        <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/workshop/</guid>
         <description></description>
       </item>
       
@@ -146,15 +173,6 @@
         <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/tags/keynote/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>workshop</title>
-        <link>https://ntuiot.xyz/tags/workshop/</link>
-        <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/tags/workshop/</guid>
         <description></description>
       </item>
       
