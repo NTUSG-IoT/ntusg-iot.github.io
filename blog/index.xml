@@ -7,12 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 21 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>Group graduate Zhenyu won the Rising Star Award of ACM SIGBED China</title>
+        <link>https://ntuiot.xyz/blog/zhenyu_cuhk_rising_star/</link>
+        <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/blog/zhenyu_cuhk_rising_star/</guid>
+        <description>Dr. Zhenyu Yan won the Rising Star Award of ACM SIGBED China, 2021.</description>
+      </item>
       
       <item>
         <title>Dr. Zhenyu Yan and Dr. Chaojie joined the faculty of CUHK and ZJU</title>
@@ -29,7 +38,7 @@
         <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/blog/eenergy21_secon21/</guid>
-        <description>Qun, Siyuan, and Joy presented their papers at e-Energy&amp;rsquo;21 and SECON&amp;rsquo;21.</description>
+        <description>Qun, Siyuan, and Joy presented their papers at e-Energy&#39;21 and SECON&#39;21.</description>
       </item>
       
       <item>
@@ -119,7 +128,7 @@
         <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/blog/aichallengeiot/</guid>
-        <description>Paper presentation &amp;ldquo;Challenges of Privacy-Preserving Machine Learning in IoT&amp;rdquo;, the First International Workshop on Challenges in Artificial Intelligence and Machine Learning for Internet of Things (AIChallengeIoT&amp;rsquo;19), New York, Nov 2019.</description>
+        <description>Paper presentation &amp;ldquo;Challenges of Privacy-Preserving Machine Learning in IoT&amp;rdquo;, the First International Workshop on Challenges in Artificial Intelligence and Machine Learning for Internet of Things (AIChallengeIoT&#39;19), New York, Nov 2019.</description>
       </item>
       
       <item>
@@ -196,7 +205,7 @@
         <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/blog/ewsn19/</guid>
-        <description>Keynote &amp;ldquo;Cyber-Physical Approach to Resilient City-Scale IoT Systems&amp;rdquo;, The 1st workshop on Low Power Wide Area Networks for Internet of Things, EWSN&amp;rsquo;19, Tsinghua University, Feb 2019</description>
+        <description>Keynote &amp;ldquo;Cyber-Physical Approach to Resilient City-Scale IoT Systems&amp;rdquo;, The 1st workshop on Low Power Wide Area Networks for Internet of Things, EWSN&#39;19, Tsinghua University, Feb 2019</description>
       </item>
       
       <item>
@@ -214,7 +223,7 @@
         <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/blog/data18/</guid>
-        <description>The DATA: Data Acquisition to Analysis Workshop, SenSys&amp;rsquo;18, Shenzhen, Nov, 2018.</description>
+        <description>The DATA: Data Acquisition to Analysis Workshop, SenSys&#39;18, Shenzhen, Nov, 2018.</description>
       </item>
       
       <item>
@@ -232,7 +241,7 @@
         <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/blog/isorc18/</guid>
-        <description>Landmark of Singapore, token on the banquet of ISORC&amp;rsquo;18</description>
+        <description>Landmark of Singapore, token on the banquet of ISORC&#39;18</description>
       </item>
       
       <item>
