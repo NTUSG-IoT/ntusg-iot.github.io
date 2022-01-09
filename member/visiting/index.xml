@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visiting students on NTU IoT Sensing Group</title>
+    <link>https://ntuiot.xyz/member/visiting/</link>
+    <description>Recent content in Visiting students on NTU IoT Sensing Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="https://ntuiot.xyz/member/visiting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Zhili He</title>
+        <link>https://ntuiot.xyz/member/visiting/vs1_zhili_he/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/member/visiting/vs1_zhili_he/</guid>
+        <description>Zhili He  Position: Visiting Student Contact: 2019190606011@std.uestc.edu.cn Bio: Zhili He is a sophomore undergradute student from University of Electronic Science and Technology of China and his research interests are mainly about the area of Internet of Things.  </description>
+      </item>
+      
+    
+  </channel>
+</rss>
