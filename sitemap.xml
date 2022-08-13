@@ -73,11 +73,6 @@
   </url>
   
   <url>
-    <loc>https://ntuiot.xyz/member/phd/phd4_qun_song/</loc>
-    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ntuiot.xyz/research/secure/</loc>
     <lastmod>2020-04-14T14:09:21+09:00</lastmod>
   </url>
@@ -129,21 +124,26 @@
   
   <url>
     <loc>https://ntuiot.xyz/blog/</loc>
-    <lastmod>2021-12-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ntuiot.xyz/blog/linshanoral/</loc>
-    <lastmod>2021-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ntuiot.xyz/tags/oral-defence/</loc>
-    <lastmod>2021-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/blog/songqunoral/</loc>
+    <lastmod>2022-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ntuiot.xyz/tags/</loc>
+    <lastmod>2022-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/blog/linshanoral/</loc>
     <lastmod>2021-12-06T00:00:00+00:00</lastmod>
   </url>
   
