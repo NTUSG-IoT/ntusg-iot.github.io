@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Visiting students on NTU IoT Sensing Group</title>
+    <title>Visiting Students on NTU IoT Sensing Group</title>
     <link>https://ntuiot.xyz/member/visiting/</link>
-    <description>Recent content in Visiting students on NTU IoT Sensing Group</description>
+    <description>Recent content in Visiting Students on NTU IoT Sensing Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
@@ -13,6 +13,15 @@
     
     
     
+      
+      <item>
+        <title>Huimin Chen</title>
+        <link>https://ntuiot.xyz/member/visiting/visiting1_huimin_chen/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        
+        <guid>https://ntuiot.xyz/member/visiting/visiting1_huimin_chen/</guid>
+        <description>Huimin Chen  Position: Visting Student Contact: N2207910A@e.ntu.edu.sg Bio: I am currently a Ph.D. student at the college of control science and engineering, Zhejiang University. I received my B.Eng. degree from Nanjing University of Aeronautics and Astronautics in 2018. Now I am a visiting student at NTU under Prof. Tan Rui, and my research interest lies in acoustic sensing. Research projects:  Acoustic and imagery sensing    </description>
+      </item>
       
     
   </channel>
