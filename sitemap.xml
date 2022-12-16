@@ -63,11 +63,6 @@
   </url>
   
   <url>
-    <loc>https://ntuiot.xyz/member/staff/staff7_hongtuo_nie/</loc>
-    <lastmod>2021-09-23T14:09:21+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ntuiot.xyz/research/building/</loc>
     <lastmod>2020-04-14T14:09:21+09:00</lastmod>
   </url>
@@ -83,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://ntuiot.xyz/member/staff/staff8_linshan_jiang/</loc>
+    <loc>https://ntuiot.xyz/member/alumni/al8_linshan_jiang/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
@@ -128,8 +123,43 @@
   </url>
   
   <url>
+    <loc>https://ntuiot.xyz/tags/award/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ntuiot.xyz/blog/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/conference/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/blog/sensys22/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/presentation/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/blog/sensys22_primask/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/sensys/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/</loc>
+    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -144,11 +174,6 @@
   
   <url>
     <loc>https://ntuiot.xyz/blog/songqun_join_tu_delft/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ntuiot.xyz/tags/</loc>
     <lastmod>2022-08-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -178,17 +203,7 @@
   </url>
   
   <url>
-    <loc>https://ntuiot.xyz/tags/conference/</loc>
-    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ntuiot.xyz/tags/e-energy/</loc>
-    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ntuiot.xyz/tags/presentation/</loc>
     <lastmod>2021-07-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -200,11 +215,6 @@
   <url>
     <loc>https://ntuiot.xyz/tags/secon/</loc>
     <lastmod>2021-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ntuiot.xyz/tags/award/</loc>
-    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -294,11 +304,6 @@
   
   <url>
     <loc>https://ntuiot.xyz/blog/sensys19/</loc>
-    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ntuiot.xyz/tags/sensys/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
   </url>
   
