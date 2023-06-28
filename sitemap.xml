@@ -123,27 +123,42 @@
   </url>
   
   <url>
+    <loc>https://ntuiot.xyz/blog/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/conference/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/cpsweek/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/blog/cpsweek2023/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/presentation/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ntuiot.xyz/tags/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ntuiot.xyz/tags/award/</loc>
     <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ntuiot.xyz/blog/</loc>
-    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ntuiot.xyz/tags/conference/</loc>
-    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ntuiot.xyz/blog/sensys22/</loc>
-    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ntuiot.xyz/tags/presentation/</loc>
     <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -154,11 +169,6 @@
   
   <url>
     <loc>https://ntuiot.xyz/tags/sensys/</loc>
-    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ntuiot.xyz/tags/</loc>
     <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url>
   

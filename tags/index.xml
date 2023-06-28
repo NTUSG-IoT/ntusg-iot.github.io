@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,29 +15,38 @@
     
       
       <item>
-        <title>award</title>
-        <link>https://ntuiot.xyz/tags/award/</link>
-        <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/tags/award/</guid>
-        <description></description>
-      </item>
-      
-      <item>
         <title>conference</title>
         <link>https://ntuiot.xyz/tags/conference/</link>
-        <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/tags/conference/</guid>
         <description></description>
       </item>
       
       <item>
+        <title>CPSWeek</title>
+        <link>https://ntuiot.xyz/tags/cpsweek/</link>
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/cpsweek/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>presentation</title>
         <link>https://ntuiot.xyz/tags/presentation/</link>
-        <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/tags/presentation/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>award</title>
+        <link>https://ntuiot.xyz/tags/award/</link>
+        <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/award/</guid>
         <description></description>
       </item>
       

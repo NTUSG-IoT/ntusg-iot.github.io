@@ -7,12 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>Jiale, Wenjie, Yimin presented at CPS-IoT Week 2023</title>
+        <link>https://ntuiot.xyz/blog/cpsweek2023/</link>
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/blog/cpsweek2023/</guid>
+        <description>Group members Jiale Chen, Wenjie Luo, and Yimin Dai presented their works at CPS-IoT Week 2023.</description>
+      </item>
       
       <item>
         <title>Group members/alumni presented papers on SenSys&#39;22</title>
