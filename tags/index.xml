@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ntuiot.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,20 +15,56 @@
     
       
       <item>
+        <title>oral defence</title>
+        <link>https://ntuiot.xyz/tags/oral-defence/</link>
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/oral-defence/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>conference</title>
         <link>https://ntuiot.xyz/tags/conference/</link>
-        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/tags/conference/</guid>
         <description></description>
       </item>
       
       <item>
+        <title>e-Energy</title>
+        <link>https://ntuiot.xyz/tags/e-energy/</link>
+        <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/e-energy/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>award</title>
+        <link>https://ntuiot.xyz/tags/award/</link>
+        <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/award/</guid>
+        <description></description>
+      </item>
+      
+      <item>
         <title>CPSWeek</title>
         <link>https://ntuiot.xyz/tags/cpsweek/</link>
-        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/tags/cpsweek/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>CPS-IoT Week</title>
+        <link>https://ntuiot.xyz/tags/cps-iot-week/</link>
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://ntuiot.xyz/tags/cps-iot-week/</guid>
         <description></description>
       </item>
       
@@ -38,15 +74,6 @@
         <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/tags/presentation/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>award</title>
-        <link>https://ntuiot.xyz/tags/award/</link>
-        <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/tags/award/</guid>
         <description></description>
       </item>
       
@@ -74,24 +101,6 @@
         <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/tags/graduation/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>oral defence</title>
-        <link>https://ntuiot.xyz/tags/oral-defence/</link>
-        <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/tags/oral-defence/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>e-Energy</title>
-        <link>https://ntuiot.xyz/tags/e-energy/</link>
-        <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/tags/e-energy/</guid>
         <description></description>
       </item>
       
@@ -164,15 +173,6 @@
         <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
         
         <guid>https://ntuiot.xyz/tags/ubicomp/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>CPS-IoT Week</title>
-        <link>https://ntuiot.xyz/tags/cps-iot-week/</link>
-        <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/tags/cps-iot-week/</guid>
         <description></description>
       </item>
       
