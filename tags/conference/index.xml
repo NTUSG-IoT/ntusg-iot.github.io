@@ -1,231 +1,155 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>conference on NTU IoT Sensing Group</title>
-    <link>https://ntuiot.xyz/tags/conference/</link>
-    <description>Recent content in conference on NTU IoT Sensing Group</description>
+    <title>Conference on NTU IoT Research Group</title>
+    <link>https://rrwang1.github.io/tags/conference/</link>
+    <description>Recent content in Conference on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy;{year}, NTU IoT Sensing Group. All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/tags/conference/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>e-Energy 2023</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/e-energy-2023/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/blog/conference/e-energy-2023/</guid>
+      <description>ACM e-Energy&#39;23 held at Orlando has been successfully concluded, where Prof. Rui Tan served as a TPC Co-Chair. Link to album</description>
+    </item>
     
-        <atom:link href="https://ntuiot.xyz/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CPS-IoT 2023</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/cps-iot-2023/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/blog/conference/cps-iot-2023/</guid>
+      <description>Group members Jiale Chen, Wenjie Luo, and Yimin Dai presented their works at CPS-IoT Week 2023. </description>
+    </item>
     
+    <item>
+      <title>ICCPS 2023 Best Paper</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/iccps-2023/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/blog/conference/iccps-2023/</guid>
+      <description>Group member Jiale Chen’s work, “BubCam”, won best paper award at The 14th ACM/IEEE International Conference on Cyber-Physical System. Congratulations! </description>
+    </item>
     
+    <item>
+      <title>SenSys 2022</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/sensys-2022/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/blog/conference/sensys-2022/</guid>
+      <description>Linshan and alumni Qun and Zhenyu presented their works on SenSys&#39;22, Boston. </description>
+    </item>
     
+    <item>
+      <title>SenSys&#39;22</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/sensys-22/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>ACM e-Energy&#39;23 Successfully Concluded</title>
-        <link>https://ntuiot.xyz/blog/energy-23/</link>
-        <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/energy-23/</guid>
-        <description>ACM e-Energy&#39;23 held at Orlando has been successfully concluded, where Prof. Rui Tan served as a TPC Co-Chair.
-Link to album</description>
-      </item>
+      <guid>https://rrwang1.github.io/posts/blog/conference/sensys-22/</guid>
+      <description>Linshan&amp;rsquo;s work PriMask is selected as SenSys&#39;22 Best Paper Candidate. Congratulations! </description>
+    </item>
+    
+    <item>
+      <title>e-Energy 2021 - SECON 2021</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/e-energy-2021-secon-2021/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>Jiale Chen&#39;s work won best paper award at ICCPS 2023</title>
-        <link>https://ntuiot.xyz/blog/cpsweek2023-bestpaper/</link>
-        <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/cpsweek2023-bestpaper/</guid>
-        <description>Jiale&amp;rsquo;s work, &amp;ldquo;BubCam&amp;rdquo;, won best paper award at The 14th ACM/IEEE International Conference on Cyber-Physical System.
-Congratulations!</description>
-      </item>
+      <guid>https://rrwang1.github.io/posts/blog/conference/e-energy-2021-secon-2021/</guid>
+      <description>Qun, Siyuan, and Joy presented their papers at e-Energy&#39;21 and SECON&#39;21 </description>
+    </item>
+    
+    <item>
+      <title>IPSN 2021</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/ipsn-2021/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>Jiale, Wenjie, Yimin presented at CPS-IoT Week 2023</title>
-        <link>https://ntuiot.xyz/blog/cpsweek2023/</link>
-        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/cpsweek2023/</guid>
-        <description>Group members Jiale Chen, Wenjie Luo, and Yimin Dai presented their works at CPS-IoT Week 2023.</description>
-      </item>
+      <guid>https://rrwang1.github.io/posts/blog/conference/ipsn-2021/</guid>
+      <description>Wenjie has presented our paper “PhyAug: Physics-Directed Data Augmentation for Deep Sensing Model Transfer in Cyber-Physical Systems” on the ACM/IEEE IPSN 2021, part of CPS Week 2021. The paper has also be selected as the Best Artifact Award Runner-up. Congratulations! </description>
+    </item>
+    
+    <item>
+      <title>IEEE PES Day 2021</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/ieee-pes-day-2021/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>Group members/alumni presented papers on SenSys&#39;22</title>
-        <link>https://ntuiot.xyz/blog/sensys22/</link>
-        <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/sensys22/</guid>
-        <description>Linshan and alumni Qun and Zhenyu presented their works on SenSys&#39;22, Boston.</description>
-      </item>
+      <guid>https://rrwang1.github.io/posts/blog/conference/ieee-pes-day-2021/</guid>
+      <description>Rui gave a talk titled &amp;ldquo;Experiences and Learned Lessons from an Air Free-Cooled Tropical Data Center Testbed (Dec 2017 – Dec 2019)&amp;rdquo; on IEEE PES Day 2021. </description>
+    </item>
+    
+    <item>
+      <title>IPSN TPC 2020</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/ipsn-tpc-2020/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>PriMask is selected as SenSys&#39;22 Best Paper Candidate</title>
-        <link>https://ntuiot.xyz/blog/sensys22_primask/</link>
-        <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/sensys22_primask/</guid>
-        <description>Linshan&amp;rsquo;s work PriMask is selected as SenSys&#39;22 Best Paper Candidate. Congratulations!</description>
-      </item>
+      <guid>https://rrwang1.github.io/posts/blog/conference/ipsn-tpc-2020/</guid>
+      <description>IPSN TPC meeting , Washington University in St. Louis, Jan 2020. </description>
+    </item>
+    
+    <item>
+      <title>Embedded AI Submit 2019</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/embedded-al-2019/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>Qun, Siyuan, and Joy presented their papers at e-Energy&#39;21 and SECON&#39;21</title>
-        <link>https://ntuiot.xyz/blog/eenergy21_secon21/</link>
-        <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/eenergy21_secon21/</guid>
-        <description>Qun, Siyuan, and Joy presented their papers at e-Energy&#39;21 and SECON&#39;21.</description>
-      </item>
+      <guid>https://rrwang1.github.io/posts/blog/conference/embedded-al-2019/</guid>
+      <description>Embedded AI Submit 2019 at Shenzhen, Dec 2019 </description>
+    </item>
+    
+    <item>
+      <title>SenSys 2019</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/sensys-2019/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>Wenjie presented PhyAug at IPSN&#39;21 and won Best Artifact Award Runner-Up</title>
-        <link>https://ntuiot.xyz/blog/ipsn21/</link>
-        <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/ipsn21/</guid>
-        <description>Wenjie has presented our paper &amp;ldquo;PhyAug: Physics-Directed Data Augmentation for Deep Sensing Model Transfer in Cyber-Physical Systems&amp;rdquo; on the ACM/IEEE IPSN 2021, part of CPS Week 2021. The paper has also be selected as the Best Artifact Award Runner-up. Congratulations!</description>
-      </item>
+      <guid>https://rrwang1.github.io/posts/blog/conference/sensys-2019/</guid>
+      <description>Qun&amp;rsquo;s paper presentation &amp;ldquo;Moving Target Defense for Embedded Deep Visual Sensing against Adversarial Examples&amp;rdquo; at SenSys, New York, Nov 2019. </description>
+    </item>
+    
+    <item>
+      <title>AIChallengeIoT 2019</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/aichallengeiot-2019/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>IEEE PES Day 2021 Talk</title>
-        <link>https://ntuiot.xyz/blog/pes/</link>
-        <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/pes/</guid>
-        <description>Rui gave a talk titled &amp;ldquo;Experiences and Learned Lessons from an Air Free-Cooled Tropical Data Center Testbed (Dec 2017 – Dec 2019)&amp;rdquo; on IEEE PES Day 2021.</description>
-      </item>
+      <guid>https://rrwang1.github.io/posts/blog/conference/aichallengeiot-2019/</guid>
+      <description>Paper presentation “Challenges of Privacy-Preserving Machine Learning in IoT”, at AIChallengeIoT&#39;19, New York, Nov 2019. </description>
+    </item>
+    
+    <item>
+      <title>MobiCom 2019</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/mobicom-2019/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>Embedded AI Submit 2019 at Shenzhen</title>
-        <link>https://ntuiot.xyz/blog/embeddedai19/</link>
-        <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/embeddedai19/</guid>
-        <description>Embedded AI Submit, Shenzhen, Dec 2019</description>
-      </item>
+      <guid>https://rrwang1.github.io/posts/blog/conference/mobicom-2019/</guid>
+      <description>Zhenyu&amp;rsquo;s paper presentation at ACM MobiCom, Oct 2019 MobiCom 25th Anniversary, on a beach of Los Cabos, Oct 2019 MobiCom 2019 limited edition! </description>
+    </item>
+    
+    <item>
+      <title>IoTDI 2019</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/iotdi-2019/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>Central Park, New York</title>
-        <link>https://ntuiot.xyz/blog/centralparl/</link>
-        <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/centralparl/</guid>
-        <description>Central Park, New York, Nov 2019</description>
-      </item>
+      <guid>https://rrwang1.github.io/posts/blog/conference/iotdi-2019/</guid>
+      <description>Linshan&amp;rsquo;s paper presentation &amp;ldquo;On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects&amp;rdquo; at IoTDI, Montreal, Apr 2019. </description>
+    </item>
+    
+    <item>
+      <title>EWSN 2019</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/ewsn-2019/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>Qun&#39;s paper presentation at SenSys&#39;19</title>
-        <link>https://ntuiot.xyz/blog/sensys19/</link>
-        <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/sensys19/</guid>
-        <description>Qun&amp;rsquo;s paper presentation &amp;ldquo;Moving Target Defense for Embedded Deep Visual Sensing against Adversarial Examples&amp;rdquo; at SenSys, New York, Nov 2019.</description>
-      </item>
+      <guid>https://rrwang1.github.io/posts/blog/conference/ewsn-2019/</guid>
+      <description>Keynote &amp;ldquo;Cyber-Physical Approach to Resilient City-Scale IoT Systems&amp;rdquo;, The 1st workshop on Low Power Wide Area Networks for Internet of Things, EWSN&#39;19, Tsinghua University, Feb 2019. </description>
+    </item>
+    
+    <item>
+      <title>Ubicomp 2018</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/ubicomp-2018/</link>
+      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
       
-      <item>
-        <title>Paper presentation at AIChallengeIoT&#39;19</title>
-        <link>https://ntuiot.xyz/blog/aichallengeiot/</link>
-        <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/aichallengeiot/</guid>
-        <description>Paper presentation &amp;ldquo;Challenges of Privacy-Preserving Machine Learning in IoT&amp;rdquo;, the First International Workshop on Challenges in Artificial Intelligence and Machine Learning for Internet of Things (AIChallengeIoT&#39;19), New York, Nov 2019.</description>
-      </item>
-      
-      <item>
-        <title>Twilights of Los Cabos</title>
-        <link>https://ntuiot.xyz/blog/loscabos/</link>
-        <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/loscabos/</guid>
-        <description>Twilights of Los Cabos
-Sunrise in Cabos.
-Art walk at Cabo San Lucas Downtown.</description>
-      </item>
-      
-      <item>
-        <title>Zhenyu and Rui at Los Cabos</title>
-        <link>https://ntuiot.xyz/blog/zhenyu_rui_loascabos/</link>
-        <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/zhenyu_rui_loascabos/</guid>
-        <description>Zhenyu and Rui at Los Cabos, Oct 2019</description>
-      </item>
-      
-      <item>
-        <title>MobiCom 25th Anniversary</title>
-        <link>https://ntuiot.xyz/blog/mobicom19/</link>
-        <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/mobicom19/</guid>
-        <description>MobiCom 25th Anniversary, on a beach of Los Cabos, Oct 2019
-MobiCom 2019 limited edition!</description>
-      </item>
-      
-      <item>
-        <title>Zhenyu&#39;s Paper Presentation at MobiCom&#39;19</title>
-        <link>https://ntuiot.xyz/blog/zhenyumobicom19/</link>
-        <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/zhenyumobicom19/</guid>
-        <description>Zhenyu&amp;rsquo;s paper presentation at ACM MobiCom, Oct 2019</description>
-      </item>
-      
-      <item>
-        <title>Qun&#39;s Presentation at UBICOMP&#39;19</title>
-        <link>https://ntuiot.xyz/blog/ubicomp18/</link>
-        <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/ubicomp18/</guid>
-        <description>Qun&amp;rsquo;s paper presentation at UbiComp, Singapore, Oct, 2018</description>
-      </item>
-      
-      <item>
-        <title>Linshan&#39;s Paper Presentation, IoTDI&#39;19</title>
-        <link>https://ntuiot.xyz/blog/iotdi19/</link>
-        <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/iotdi19/</guid>
-        <description>Linshan&amp;rsquo;s paper presentation &amp;ldquo;On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects&amp;rdquo; at IoTDI, Montreal, Apr 2019</description>
-      </item>
-      
-      <item>
-        <title>Twilight of Montreal</title>
-        <link>https://ntuiot.xyz/blog/cpsiot19twilight/</link>
-        <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/cpsiot19twilight/</guid>
-        <description>Twilight of Montreal, CPS-IoT Week, Apr 2019</description>
-      </item>
-      
-      <item>
-        <title>Keynote of LPNET, EWSN&#39;19</title>
-        <link>https://ntuiot.xyz/blog/ewsn19/</link>
-        <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/ewsn19/</guid>
-        <description>Keynote &amp;ldquo;Cyber-Physical Approach to Resilient City-Scale IoT Systems&amp;rdquo;, The 1st workshop on Low Power Wide Area Networks for Internet of Things, EWSN&#39;19, Tsinghua University, Feb 2019</description>
-      </item>
-      
-      <item>
-        <title>The DATA: Data Acquisition to Analysis Workshop at SenSys&#39;18</title>
-        <link>https://ntuiot.xyz/blog/data18/</link>
-        <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/data18/</guid>
-        <description>The DATA: Data Acquisition to Analysis Workshop, SenSys&#39;18, Shenzhen, Nov, 2018.</description>
-      </item>
-      
-      <item>
-        <title>Landmark of Singapore, ISORC&#39;18</title>
-        <link>https://ntuiot.xyz/blog/isorc18/</link>
-        <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/isorc18/</guid>
-        <description>Landmark of Singapore, token on the banquet of ISORC&#39;18</description>
-      </item>
-      
-      <item>
-        <title>Chaojie and Rui at Maui, Hawaii</title>
-        <link>https://ntuiot.xyz/blog/hawaii18/</link>
-        <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
-        
-        <guid>https://ntuiot.xyz/blog/hawaii18/</guid>
-        <description>Maui, Hawaii. Apr 2018.</description>
-      </item>
-      
+      <guid>https://rrwang1.github.io/posts/blog/conference/ubicomp-2018/</guid>
+      <description>Qun’s paper presentation at UbiComp, Singapore, Oct, 2018 </description>
+    </item>
+    
     
   </channel>
 </rss>
