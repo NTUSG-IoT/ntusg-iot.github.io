@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2. Publications on NTU IoT Research Group</title>
+    <link>https://ntuiot.xyz/posts/papers/</link>
+    <description>Recent content in 2. Publications on NTU IoT Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://ntuiot.xyz/posts/papers/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Conference and workshop papers</title>
+      <link>https://ntuiot.xyz/posts/papers/pubs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntuiot.xyz/posts/papers/pubs/</guid>
+      <description>An Optimization Approach for Selection and Deployment of Energy-Efficient Servers in Green Data Centers. Duc Van Le, Rui Tan. The 12th International Workshop on The Ever-Evolving Data Centers: Research and Innovation (E2DC), co-located with ACM e-Energy, June 4, 2024, Singapore Poster: Two Tropical Data Center Testbeds and Data Yields from 2018 to 2024. Rongrong Wang, Duc Van Le, Rui Tan. The 15th ACM International Conference on Future and Sustainable Energy Systems (e-Energy), June 5-7, 2024, Singapore.</description>
+    </item>
+    
+    <item>
+      <title>Journal papers</title>
+      <link>https://ntuiot.xyz/posts/papers/journal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntuiot.xyz/posts/papers/journal/</guid>
+      <description>Impacts of Increasing Temperature and Relative Humidity in Air-Cooled Tropical Data Centers. Duc Van Le, Jing Zhou, Rongrong Wang, Rui Tan, Fei Duan. IEEE Transactions on Sustainable Computing In press. Preprint Data
+A Collaborative Visual Sensing System for Precise Quality Inspection at Manufacturing Lines. Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. ACM Transactions on Cyber-Physical Systems (TCPS). In press. Special Issue: Best Papers of ICCPS 2023. Preprint</description>
+    </item>
+    
+    <item>
+      <title>Thesis</title>
+      <link>https://ntuiot.xyz/posts/papers/thesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntuiot.xyz/posts/papers/thesis/</guid>
+      <description> **Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.**Wenjie LuoPDF **Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions.**Zhenyu YanPDF **Exploiting LoRaWAN for Efficient and Resilient IoT Networks.**Chaojie GuPDF **Lightweight Privacy-Preserving Deep Learning and Inference in IoT.**Linshang JiangPDF **Improving Security of Autonomous Cyber-Physical Systems against Adversarial Examples.**Qun SongPDF </description>
+    </item>
+    
+    <item>
+      <title>Book chapters</title>
+      <link>https://ntuiot.xyz/posts/papers/book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntuiot.xyz/posts/papers/book/</guid>
+      <description>Artificial Intelligence of Things for Industrial Visual Sensing Systems in HP&amp;rsquo;s Factories.
+Duc Van Le, Siyuan Zhou, Joy Qiping Yang, Jiale Chen, Daren Ho, Rui Tan. Digital Manufacturing, Vol. 2. Elsevier.
+Lightweight Privacy-Preserving Machine Learning and Inference. Linshan Jiang and Rui Tan.
+Intelligent IoT for the Digital World (Eds. Yang Yang, Xu Chen, Rui Tan, Yong Xiao). Wiley. In production.
+Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li, and Rui Tan.</description>
+    </item>
+    
+    <item>
+      <title>Technical report</title>
+      <link>https://ntuiot.xyz/posts/papers/report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntuiot.xyz/posts/papers/report/</guid>
+      <description> Tropical Data Centre Proof-of-Concept. Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. Technical Report, Nanyang Technological University, 2019. PDF </description>
+    </item>
+    
+    <item>
+      <title>Standard</title>
+      <link>https://ntuiot.xyz/posts/papers/standard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntuiot.xyz/posts/papers/standard/</guid>
+      <description> Deployment and Operation of Data Centre IT Equipment under Tropical Climate, Singapore Standard 697:2023 Link </description>
+    </item>
+    
+    
+  </channel>
+</rss>
