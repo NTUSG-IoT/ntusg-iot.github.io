@@ -11,7 +11,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/pubs/</guid>
-      <description>An Optimization Approach for Selection and Deployment of Energy-Efficient Servers in Green Data Centers. Duc Van Le, Rui Tan. The 12th International Workshop on The Ever-Evolving Data Centers: Research and Innovation (E2DC), co-located with ACM e-Energy, June 4, 2024, Singapore Poster: Two Tropical Data Center Testbeds and Data Yields from 2018 to 2024. Rongrong Wang, Duc Van Le, Rui Tan. The 15th ACM International Conference on Future and Sustainable Energy Systems (e-Energy), June 5-7, 2024, Singapore.</description>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;An Optimization Approach for Selection and Deployment of Energy-Efficient Servers in Green Data Centers.&lt;/strong&gt; &lt;br&gt;
+Duc Van Le, Rui Tan. &lt;br&gt;
+&lt;em&gt;The 12th International Workshop on The Ever-Evolving Data Centers: Research and Innovation (E2DC)&lt;/em&gt;, co-located with ACM e-Energy, June 4, 2024, Singapore&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!--[PDF](https://tanrui.github.io/pub/FedCFC.pdf)--&gt;    
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Poster: Two Tropical Data Center Testbeds and Data Yields from 2018 to 2024.&lt;/strong&gt; &lt;br&gt;
+Rongrong Wang, Duc Van Le, Rui Tan. &lt;br&gt;
+&lt;em&gt;The 15th ACM International Conference on Future and Sustainable Energy Systems (e-Energy)&lt;/em&gt;, June 5-7, 2024, Singapore.&lt;/font&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!--[PDF](https://tanrui.github.io/pub/GhostStripe-MobiSys.pdf)--&gt;    
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;FedCFC On-Device Personalized Federated Learning with Closed-Form Continuous-Time Neural Networks.&lt;/strong&gt; &lt;br&gt;
+Yimin Dai, Rui Tan. &lt;br&gt;
+&lt;em&gt;The 23rd ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)&lt;/em&gt;, May 13-16, 2024, Hong Kong. CPS-IoT Week 2024. &lt;font color=blue&gt;(Acceptance ratio: 21.5%)&lt;/font&gt; &lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/FedCFC.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;, &lt;a href=&#34;https://github.com/hhhddyy/FedCFC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -20,8 +37,26 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/journal/</guid>
-      <description>Impacts of Increasing Temperature and Relative Humidity in Air-Cooled Tropical Data Centers. Duc Van Le, Jing Zhou, Rongrong Wang, Rui Tan, Fei Duan. IEEE Transactions on Sustainable Computing In press. Preprint Data
-A Collaborative Visual Sensing System for Precise Quality Inspection at Manufacturing Lines. Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. ACM Transactions on Cyber-Physical Systems (TCPS). In press. Special Issue: Best Papers of ICCPS 2023. Preprint</description>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Impacts of Increasing Temperature and Relative Humidity in Air-Cooled Tropical Data Centers.&lt;/strong&gt; &lt;br&gt;
+Duc Van Le, Jing Zhou, Rongrong Wang, Rui Tan, Fei Duan. &lt;br&gt;
+&lt;em&gt;IEEE Transactions on Sustainable Computing&lt;/em&gt; In press. &lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/TDC2-TSUSC.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Preprint&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/BLBQ2T&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;A Collaborative Visual Sensing System for Precise Quality Inspection at Manufacturing Lines.&lt;/strong&gt; &lt;br&gt;
+Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. &lt;br&gt;
+&lt;em&gt;ACM Transactions on Cyber-Physical Systems (TCPS).&lt;/em&gt; In press. &lt;br&gt;
+&lt;strong&gt;&lt;font color=red&gt;Special Issue: Best Papers of ICCPS 2023.&lt;/font&gt;&lt;/strong&gt; &lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/BubCam-TCPS.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Preprint&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Design, Deployment, and Evaluation of an Industrial AIoT System for Quality Control at HP Factories.&lt;/strong&gt; &lt;br&gt;
+Duc Van Le, Joy Qiping Yang; Siyuan Zhou; Daren Ho; Rui Tan. &lt;br&gt;
+&lt;em&gt;ACM Transactions on Sensor Networks (TOSN).&lt;/em&gt; In press. &lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/IET-TOSN23.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Preprint&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,7 +65,13 @@ A Collaborative Visual Sensing System for Precise Quality Inspection at Manufact
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/thesis/</guid>
-      <description> **Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.**Wenjie LuoPDF **Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions.**Zhenyu YanPDF **Exploiting LoRaWAN for Efficient and Resilient IoT Networks.**Chaojie GuPDF **Lightweight Privacy-Preserving Deep Learning and Inference in IoT.**Linshang JiangPDF **Improving Security of Autonomous Cyber-Physical Systems against Adversarial Examples.**Qun SongPDF </description>
+      <description>&lt;ol&gt;
+&lt;li&gt;**Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.**Wenjie Luo&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/169116/2/mythesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions.**Zhenyu Yan&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/137802/3/YanZhenyu-thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Exploiting LoRaWAN for Efficient and Resilient IoT Networks.**Chaojie Gu&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/143912/2/chaojie_thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Lightweight Privacy-Preserving Deep Learning and Inference in IoT.**Linshang Jiang&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/155000/4/thesis-revision-final.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Improving Security of Autonomous Cyber-Physical Systems against Adversarial Examples.**Qun Song&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/161165/2/thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -39,11 +80,21 @@ A Collaborative Visual Sensing System for Precise Quality Inspection at Manufact
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/book/</guid>
-      <description>Artificial Intelligence of Things for Industrial Visual Sensing Systems in HP&amp;rsquo;s Factories.
-Duc Van Le, Siyuan Zhou, Joy Qiping Yang, Jiale Chen, Daren Ho, Rui Tan. Digital Manufacturing, Vol. 2. Elsevier.
-Lightweight Privacy-Preserving Machine Learning and Inference. Linshan Jiang and Rui Tan.
-Intelligent IoT for the Digital World (Eds. Yang Yang, Xu Chen, Rui Tan, Yong Xiao). Wiley. In production.
-Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li, and Rui Tan.</description>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Artificial Intelligence of Things for Industrial Visual Sensing Systems in HP&amp;rsquo;s Factories.&lt;/strong&gt;&lt;br&gt;
+Duc Van Le, Siyuan Zhou, Joy Qiping Yang, Jiale Chen, Daren Ho, Rui Tan. &lt;br&gt;
+Digital Manufacturing, Vol. 2. Elsevier.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Lightweight Privacy-Preserving Machine Learning and Inference.&lt;/strong&gt; &lt;br&gt;
+Linshan Jiang and Rui Tan.&lt;br&gt;
+Intelligent IoT for the Digital World (Eds. Yang Yang, Xu Chen, Rui Tan, Yong Xiao). Wiley. In production.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Time Synchronization Management for Wide-Area Applications.&lt;/strong&gt; &lt;br&gt;
+Zhenyu Yan, Yang Li, and Rui Tan.&lt;br&gt;
+Intelligent IoT for the Digital World (Eds. Yang Yang, Xu Chen, Rui Tan, Yong Xiao). Wiley. In production.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -52,7 +103,12 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/report/</guid>
-      <description> Tropical Data Centre Proof-of-Concept. Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. Technical Report, Nanyang Technological University, 2019. PDF </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tropical Data Centre Proof-of-Concept.&lt;/strong&gt; &lt;br&gt;
+Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. &lt;br&gt;
+Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
+&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/137780/4/main.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -61,7 +117,10 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/standard/</guid>
-      <description> Deployment and Operation of Data Centre IT Equipment under Tropical Climate, Singapore Standard 697:2023 Link </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deployment and Operation of Data Centre IT Equipment under Tropical Climate, Singapore Standard 697:2023&lt;/strong&gt;  &lt;br&gt;
+&lt;a href=&#34;https://www.singaporestandardseshop.sg/Product/SSPdtDetail/f64b2a31-57a0-49ec-8716-57ccbdc33365&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     

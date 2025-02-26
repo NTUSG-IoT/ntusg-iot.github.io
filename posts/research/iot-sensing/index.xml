@@ -12,8 +12,10 @@
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/powerline/</guid>
-      <description>Main contributors from the group: Zhenyu Yan(topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Linshan Jiang
-Electric power distribution networks penetrate into all civil infrastructures. The service powerlines emit both electric fields and magnetic fields. The electric fields are induced by the voltages of the powerlines, and the magnetic fields are induced by the currents going through the powerlines. Because the power networks provide alternating currents at a nominal frequency (e.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Zhenyu Yan(topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Linshan Jiang&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;Electric power distribution networks penetrate into all civil infrastructures. The service powerlines emit both electric fields and magnetic fields. The electric fields are induced by the voltages of the powerlines, and the magnetic fields are induced by the currents going through the powerlines. Because the power networks provide alternating currents at a nominal frequency (e.g., 50Hz in Singapore), the electric and magnetic fields emitted from the service powerlines also oscillate at the nominal frequency.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -22,8 +24,10 @@ Electric power distribution networks penetrate into all civil infrastructures. T
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/lora/</guid>
-      <description>Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo
-Low-power wide-area networks (LPWANs) form an important class of wireless networks for many geographically distributed Internet-of-Things (IoT) objects. LPWANs form a new pole in the spectrum of power consumption versus communication ranges, as shown in the figure below. LPWANs’ long-range communication capabilities will increase the degree of connectivity of IoT and enable deep penetration of networked intelligence into urban territories (e.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;Low-power wide-area networks (LPWANs) form an important class of wireless networks for many geographically distributed Internet-of-Things (IoT) objects. LPWANs form a new pole in the spectrum of power consumption versus communication ranges, as shown in the figure below. LPWANs’ long-range communication capabilities will increase the degree of connectivity of IoT and enable deep penetration of networked intelligence into urban territories (e.g., wide areas, buildings, and underground structures) that have challenged the existing low-power short-range wireless technologies. Among various LPWAN technologies, we primarily focus on LoRaWAN due to its various advantages, such as the use of license-free industrial, scientific, and medical (ISM) frequency band, open data link layer specification, and low cost (several US dollars per unit).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,8 +36,21 @@ Low-power wide-area networks (LPWANs) form an important class of wireless networ
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/building/</guid>
-      <description>Main contributors from the group: Duc Van Le (topic coordinator), Rongrong Wang, Yingbo Liu (alumnus)
-We study the problems of sensing the environment conditions in a building and controlling various actuators to reduce the building’s energy consumption and maintain certain environmental condition levels when the load (e.g., IT equipment, human occupants) of the building varies over time. Dr. Rui Tan has early research works on residential power disaggregation by deploying wireless sensors in a nearly ad hoc way [1, 2], temperature field prediction [3] and cooling control [4] in computer rooms.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Duc Van Le (topic coordinator), Rongrong Wang, Yingbo Liu (alumnus)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/research/images/building/tropical_datacenter.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;We study the problems of sensing the environment conditions in a building and controlling various actuators to reduce the building’s energy consumption and maintain certain environmental condition levels when the load (e.g., IT equipment, human occupants) of the building varies over time. Dr. Rui Tan has early research works on residential power disaggregation by deploying wireless sensors in a nearly ad hoc way [1, 2], temperature field prediction [3] and cooling control [4] in computer rooms. At present, the group is actively conducting research for improving the energy efficiency of data centers in Singapore’s tropical condition with year-round high temperatures and high humidity levels.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -42,8 +59,10 @@ We study the problems of sensing the environment conditions in a building and co
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/acoustic/</guid>
-      <description>Main contributors from the group: Wenjie Luo (topic coordinator), Qun Song, Chaojie Gu, Zhenyu Yan, Duc Van Le, Siyuan Zhou, Jiale Chen, Qiping (Joy) Yang
-The acoustic and imagery sensing modalities provide abundant information about the sensed target. As a result, the volume of an acoustic/imagery signal sample is often high and the data processing to extract useful information requires intensive computing. Such characteristics introduce various system challenges in data acquisition, computing, storage, and network transmission on networked sensing platforms with constrained processing capabilities, network bandwidth, and bounded energy supply.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Wenjie Luo (topic coordinator), Qun Song, Chaojie Gu, Zhenyu Yan, Duc Van Le, Siyuan Zhou, Jiale Chen, Qiping (Joy) Yang&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;The acoustic and imagery sensing modalities provide abundant information about the sensed target. As a result, the volume of an acoustic/imagery signal sample is often high and the data processing to extract useful information requires intensive computing. Such characteristics introduce various system challenges in data acquisition, computing, storage, and network transmission on networked sensing platforms with constrained processing capabilities, network bandwidth, and bounded energy supply.&lt;/p&gt;</description>
     </item>
     
     

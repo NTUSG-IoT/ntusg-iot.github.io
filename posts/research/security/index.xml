@@ -12,9 +12,23 @@
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/security/secure/</guid>
-      <description>Main contributors from the group: Qun Song (topic coordinator), Zhenyu Yan
-Image modified from this, credit goes to the source. Also refer to this paper for background
-By 2025, it is estimated that there will be more than 41.6 billion networked IoT devices. These IoT devices generate 79.4 zettabyes data yearly, which is almost twice of today’s whole Internet (44 zettabytes). Transmitting such massive IoT data to the clouds for centralized processing will face communication bandwidth bottleneck.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Qun Song (topic coordinator), Zhenyu Yan&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/research/images/secure/img1.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Image modified from &lt;a href=&#34;https://www.nbcnews.com/news/world/giant-pandas-are-no-longer-endangered-n643336&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt;, credit goes to the source. Also refer to &lt;a href=&#34;https://arxiv.org/pdf/1412.6572.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this paper&lt;/a&gt; for background&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;By 2025, it is estimated that there will be more than &lt;a href=&#34;https://www.statista.com/statistics/1017863/worldwide-iot-connected-devices-data-size/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;41.6 billion&lt;/a&gt; networked IoT devices. These IoT devices generate &lt;a href=&#34;https://www.statista.com/statistics/1017863/worldwide-iot-connected-devices-data-size/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;79.4 zettabyes&lt;/a&gt; data yearly, which is almost twice of today’s whole Internet (&lt;a href=&#34;https://www.weforum.org/agenda/2019/04/how-much-data-is-generated-each-day-cf4bddf29f/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;44 zettabytes&lt;/a&gt;). Transmitting such massive IoT data to the clouds for centralized processing will face communication bandwidth bottleneck. In addition, the communication networks will introduce uncertain time delays that are undesirable for many applications. To cope with these grand challenges, edge computing moves the computation on the IoT data closer to the data sources. Specifically, the IoT sensors and the last-mile data aggregators, acting as edge nodes, will undertake a significant portion of the computation on the IoT data; only data summaries and commands will be exchanged between the edge nodes and the cloud servers through the Internet when needed. As such, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -23,8 +37,11 @@ By 2025, it is estimated that there will be more than 41.6 billion networked IoT
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/security/privicy/</guid>
-      <description>Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)
-Privacy-Preserving Machine Learning in IoT As explained in our post, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;privacy-preserving-machine-learning-in-iot&#34;&gt;Privacy-Preserving Machine Learning in IoT&lt;/h3&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;As explained in our &lt;a href=&#34;https://ntuiot.xyz/research/secure/&#34;&gt;post&lt;/a&gt;, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems. In a number of scenarios, the IoT edge and the cloud back end need to work together to implement AI-empowered sensing, during which privacy-sensitive data generated at the edge may be exchanged between the edge and the cloud. The group has ongoing research on designing and evaluating privacy-preserving learning and inference approaches in AIoT systems. Our challenge paper &lt;a href=&#34;https://github.com/tanrui/www/blob/master/pub/aichallengeiot19-final3.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt; provides a taxonomy of the existing privacy-preserving learning and inference approaches.&lt;/p&gt;</description>
     </item>
     
     

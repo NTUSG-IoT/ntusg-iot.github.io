@@ -12,7 +12,92 @@
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/intro/</guid>
-      <description>1. IoT sensing systems and applications a. Powerline radiation sensing The periodic electric and magnetic fields emitted by the service power cables distributed in civil infrastructures provide both time and location information. Our research exploits these fields to develop clock synchronization, natural timestamping, localization, and device authentication services for indoor and wearable IoT objects. b. LoRa radio sensing LoRa is a low-power wide-area network (LPWAN) technology that can interconnect IoT objects distributed in large geographic areas or deep indoor/underground structures.</description>
+      <description>&lt;h3 id=&#34;1-iot-sensing-systems-and-applications&#34;&gt;1. IoT sensing systems and applications&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/powerline.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/powerline/&#34;&gt;&lt;strong&gt;a. Powerline radiation sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; The periodic electric and magnetic fields emitted by the service power cables distributed in civil infrastructures provide both time and location information. Our research exploits these fields to develop clock synchronization, natural timestamping, localization, and device authentication services for indoor and wearable IoT objects.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;   &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/lora.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/lora/&#34;&gt;&lt;strong&gt;b. LoRa radio sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; LoRa is a low-power wide-area network (LPWAN) technology that can interconnect IoT objects distributed in large geographic areas or deep indoor/underground structures. Its long-range communication capability enables wide-area sensing using its own radio frequency signals. We sense the arrival time, frequency bias, and strength of LoRa signal for data timestamping, network security, and object localization.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;   &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/audio.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/acoustic_image/&#34;&gt;&lt;strong&gt;c. Acoustic and imagery sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; Acoustic and imagery sensing provides abundant information, but also imposes challenges on efficient processing on resource-constrained IoT objects. With deep learning techniques, we develop coordinated signal processing algorithms running on IoT objects and edge/cloud servers for indoor localization, voice recognition, and image-based object detection systems. Our systems are being deployed to manufacturing production lines.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;   &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/building.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/building/&#34;&gt;&lt;strong&gt;d. Building sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; We are interested in designing networked sensing systems to monitor the energy consumption and indoor conditions in various types of building environments (households, offices, data centers). Our research work provides enabling technologies for implementing very energy-efficient data centers in Singapore’s year-round hot and humid tropical condition.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;2-security-and-privacy-of-aiot-sensing&#34;&gt;2. Security and privacy of AIoT sensing&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/secure.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/secure/&#34;&gt;&lt;strong&gt;a. Secure sensing in AIoT&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; Deep neural networks have brought performance breakthroughs for sensing systems but also undesirable system complexities that may engender security vulnerabilities. The adversarial example attack is such an instance. We design and implement countermeasures that can be used by resource-constrained IoT devices against the adversarial example attack.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;   &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/datacenter.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/privacy/&#34;&gt;&lt;strong&gt;b. Privacy-preserving sensing in AIoT&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; Many IoT sensors operate in privacy-sensitive spaces and times. We design efficient approaches for resource-constrained IoT sensors to enable deep neural network-based learning and inference on the sensing data while protecting the users’ privacy.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
     </item>
     
     <item>
@@ -21,9 +106,23 @@
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/security/secure/</guid>
-      <description>Main contributors from the group: Qun Song (topic coordinator), Zhenyu Yan
-Image modified from this, credit goes to the source. Also refer to this paper for background
-By 2025, it is estimated that there will be more than 41.6 billion networked IoT devices. These IoT devices generate 79.4 zettabyes data yearly, which is almost twice of today’s whole Internet (44 zettabytes). Transmitting such massive IoT data to the clouds for centralized processing will face communication bandwidth bottleneck.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Qun Song (topic coordinator), Zhenyu Yan&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/research/images/secure/img1.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Image modified from &lt;a href=&#34;https://www.nbcnews.com/news/world/giant-pandas-are-no-longer-endangered-n643336&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt;, credit goes to the source. Also refer to &lt;a href=&#34;https://arxiv.org/pdf/1412.6572.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this paper&lt;/a&gt; for background&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;By 2025, it is estimated that there will be more than &lt;a href=&#34;https://www.statista.com/statistics/1017863/worldwide-iot-connected-devices-data-size/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;41.6 billion&lt;/a&gt; networked IoT devices. These IoT devices generate &lt;a href=&#34;https://www.statista.com/statistics/1017863/worldwide-iot-connected-devices-data-size/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;79.4 zettabyes&lt;/a&gt; data yearly, which is almost twice of today’s whole Internet (&lt;a href=&#34;https://www.weforum.org/agenda/2019/04/how-much-data-is-generated-each-day-cf4bddf29f/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;44 zettabytes&lt;/a&gt;). Transmitting such massive IoT data to the clouds for centralized processing will face communication bandwidth bottleneck. In addition, the communication networks will introduce uncertain time delays that are undesirable for many applications. To cope with these grand challenges, edge computing moves the computation on the IoT data closer to the data sources. Specifically, the IoT sensors and the last-mile data aggregators, acting as edge nodes, will undertake a significant portion of the computation on the IoT data; only data summaries and commands will be exchanged between the edge nodes and the cloud servers through the Internet when needed. As such, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,8 +131,11 @@ By 2025, it is estimated that there will be more than 41.6 billion networked IoT
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/security/privicy/</guid>
-      <description>Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)
-Privacy-Preserving Machine Learning in IoT As explained in our post, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;privacy-preserving-machine-learning-in-iot&#34;&gt;Privacy-Preserving Machine Learning in IoT&lt;/h3&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;As explained in our &lt;a href=&#34;https://ntuiot.xyz/research/secure/&#34;&gt;post&lt;/a&gt;, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems. In a number of scenarios, the IoT edge and the cloud back end need to work together to implement AI-empowered sensing, during which privacy-sensitive data generated at the edge may be exchanged between the edge and the cloud. The group has ongoing research on designing and evaluating privacy-preserving learning and inference approaches in AIoT systems. Our challenge paper &lt;a href=&#34;https://github.com/tanrui/www/blob/master/pub/aichallengeiot19-final3.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt; provides a taxonomy of the existing privacy-preserving learning and inference approaches.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -42,8 +144,10 @@ Privacy-Preserving Machine Learning in IoT As explained in our post, a hybrid co
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/powerline/</guid>
-      <description>Main contributors from the group: Zhenyu Yan(topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Linshan Jiang
-Electric power distribution networks penetrate into all civil infrastructures. The service powerlines emit both electric fields and magnetic fields. The electric fields are induced by the voltages of the powerlines, and the magnetic fields are induced by the currents going through the powerlines. Because the power networks provide alternating currents at a nominal frequency (e.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Zhenyu Yan(topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Linshan Jiang&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;Electric power distribution networks penetrate into all civil infrastructures. The service powerlines emit both electric fields and magnetic fields. The electric fields are induced by the voltages of the powerlines, and the magnetic fields are induced by the currents going through the powerlines. Because the power networks provide alternating currents at a nominal frequency (e.g., 50Hz in Singapore), the electric and magnetic fields emitted from the service powerlines also oscillate at the nominal frequency.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -52,8 +156,10 @@ Electric power distribution networks penetrate into all civil infrastructures. T
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/lora/</guid>
-      <description>Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo
-Low-power wide-area networks (LPWANs) form an important class of wireless networks for many geographically distributed Internet-of-Things (IoT) objects. LPWANs form a new pole in the spectrum of power consumption versus communication ranges, as shown in the figure below. LPWANs’ long-range communication capabilities will increase the degree of connectivity of IoT and enable deep penetration of networked intelligence into urban territories (e.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;Low-power wide-area networks (LPWANs) form an important class of wireless networks for many geographically distributed Internet-of-Things (IoT) objects. LPWANs form a new pole in the spectrum of power consumption versus communication ranges, as shown in the figure below. LPWANs’ long-range communication capabilities will increase the degree of connectivity of IoT and enable deep penetration of networked intelligence into urban territories (e.g., wide areas, buildings, and underground structures) that have challenged the existing low-power short-range wireless technologies. Among various LPWAN technologies, we primarily focus on LoRaWAN due to its various advantages, such as the use of license-free industrial, scientific, and medical (ISM) frequency band, open data link layer specification, and low cost (several US dollars per unit).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,8 +168,21 @@ Low-power wide-area networks (LPWANs) form an important class of wireless networ
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/building/</guid>
-      <description>Main contributors from the group: Duc Van Le (topic coordinator), Rongrong Wang, Yingbo Liu (alumnus)
-We study the problems of sensing the environment conditions in a building and controlling various actuators to reduce the building’s energy consumption and maintain certain environmental condition levels when the load (e.g., IT equipment, human occupants) of the building varies over time. Dr. Rui Tan has early research works on residential power disaggregation by deploying wireless sensors in a nearly ad hoc way [1, 2], temperature field prediction [3] and cooling control [4] in computer rooms.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Duc Van Le (topic coordinator), Rongrong Wang, Yingbo Liu (alumnus)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/research/images/building/tropical_datacenter.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;We study the problems of sensing the environment conditions in a building and controlling various actuators to reduce the building’s energy consumption and maintain certain environmental condition levels when the load (e.g., IT equipment, human occupants) of the building varies over time. Dr. Rui Tan has early research works on residential power disaggregation by deploying wireless sensors in a nearly ad hoc way [1, 2], temperature field prediction [3] and cooling control [4] in computer rooms. At present, the group is actively conducting research for improving the energy efficiency of data centers in Singapore’s tropical condition with year-round high temperatures and high humidity levels.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -72,8 +191,10 @@ We study the problems of sensing the environment conditions in a building and co
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/acoustic/</guid>
-      <description>Main contributors from the group: Wenjie Luo (topic coordinator), Qun Song, Chaojie Gu, Zhenyu Yan, Duc Van Le, Siyuan Zhou, Jiale Chen, Qiping (Joy) Yang
-The acoustic and imagery sensing modalities provide abundant information about the sensed target. As a result, the volume of an acoustic/imagery signal sample is often high and the data processing to extract useful information requires intensive computing. Such characteristics introduce various system challenges in data acquisition, computing, storage, and network transmission on networked sensing platforms with constrained processing capabilities, network bandwidth, and bounded energy supply.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Wenjie Luo (topic coordinator), Qun Song, Chaojie Gu, Zhenyu Yan, Duc Van Le, Siyuan Zhou, Jiale Chen, Qiping (Joy) Yang&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;The acoustic and imagery sensing modalities provide abundant information about the sensed target. As a result, the volume of an acoustic/imagery signal sample is often high and the data processing to extract useful information requires intensive computing. Such characteristics introduce various system challenges in data acquisition, computing, storage, and network transmission on networked sensing platforms with constrained processing capabilities, network bandwidth, and bounded energy supply.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -82,7 +203,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/wenjie-phd-def/</guid>
-      <description>Wenjie completed his PhD defense on June 27th 2023. </description>
+      <description>&lt;h2 id=&#34;wenjie-completed-his-phd-defense-on-june-27th-2023&#34;&gt;Wenjie completed his PhD defense on June 27th 2023.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/wenjieoral.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -91,7 +226,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/e-energy-2023/</guid>
-      <description>ACM e-Energy&#39;23 held at Orlando has been successfully concluded, where Prof. Rui Tan served as a TPC Co-Chair. Link to album</description>
+      <description>&lt;h2 id=&#34;acm-e-energy23-held-at-orlando-has-been-successfully-concluded-where-prof-rui-tan-served-as-a-tpc-co-chair&#34;&gt;ACM e-Energy&#39;23 held at Orlando has been successfully concluded, where Prof. Rui Tan served as a TPC Co-Chair.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://photos.app.goo.gl/tjZaK8zn49CD1ACN9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link to album&lt;/a&gt;&lt;/p&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/e-energy-23.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -100,7 +249,48 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/cps-iot-2023/</guid>
-      <description>Group members Jiale Chen, Wenjie Luo, and Yimin Dai presented their works at CPS-IoT Week 2023. </description>
+      <description>&lt;h2 id=&#34;group-members-jiale-chen-wenjie-luo-and-yimin-dai-presented-their-works-at-cps-iot-week-2023&#34;&gt;Group members Jiale Chen, Wenjie Luo, and Yimin Dai presented their works at CPS-IoT Week 2023.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/jiale-iccps-23.jpg&#34;
+    
+        alt=&#34;Jiale Chen&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/di-cps.png&#34;
+    
+        alt=&#34;Wenjie Luo&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/yimin-ipsn-23.jpg&#34;
+    
+        alt=&#34;Yimin Dai&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -109,7 +299,48 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/iccps-2023/</guid>
-      <description>Group member Jiale Chen’s work, “BubCam”, won best paper award at The 14th ACM/IEEE International Conference on Cyber-Physical System. Congratulations! </description>
+      <description>&lt;h2 id=&#34;group-member-jiale-chens-work-bubcam-won-best-paper-award-at-the-14th-acmieee-international-conference-on-cyber-physical-system-congratulations&#34;&gt;Group member Jiale Chen’s work, “BubCam”, won best paper award at The 14th ACM/IEEE International Conference on Cyber-Physical System. Congratulations!&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/iccps_best_paper.jpeg&#34;
+    
+        alt=&#34;Jiale Chen&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/di-cps.png&#34;
+    
+        alt=&#34;Wenjie Luo&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/yimin-ipsn-23.jpg&#34;
+    
+        alt=&#34;Yimin Dai&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -118,7 +349,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2022/</guid>
-      <description>Linshan and alumni Qun and Zhenyu presented their works on SenSys&#39;22, Boston. </description>
+      <description>&lt;h2 id=&#34;linshan-and-alumni-qun-and-zhenyu-presented-their-works-on-sensys22-boston&#34;&gt;Linshan and alumni Qun and Zhenyu presented their works on SenSys&#39;22, Boston.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/sensys22.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -127,7 +372,20 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/sensys-22/</guid>
-      <description>Linshan&amp;rsquo;s work PriMask is selected as SenSys&#39;22 Best Paper Candidate. Congratulations! </description>
+      <description>&lt;h2 id=&#34;linshans-work-primask-is-selected-as-sensys22-best-paper-candidate-congratulations&#34;&gt;Linshan&amp;rsquo;s work PriMask is selected as SenSys&#39;22 Best Paper Candidate. Congratulations!&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/sensys22_primask.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -136,7 +394,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/career-qun/</guid>
-      <description>Qun joined TU Delft as a tenure-track Assistant Professor on 30th Aug 2022. </description>
+      <description>&lt;h2 id=&#34;qun-joined-tu-delft-as-a-tenure-track-assistant-professor-on-30th-aug-2022&#34;&gt;Qun joined TU Delft as a tenure-track Assistant Professor on 30th Aug 2022.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_join_tu_delft.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -145,7 +417,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/linshan-phd-def/</guid>
-      <description>Linshan completed his PhD defense on Dec 6th 2021. </description>
+      <description>&lt;h2 id=&#34;linshan-completed-his-phd-defense-on-dec-6th-2021&#34;&gt;Linshan completed his PhD defense on Dec 6th 2021.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/linshanoral.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -154,7 +440,22 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-award/</guid>
-      <description>Group graduate Dr. Zhenyu Yan won the Rising Star Award of ACM SIGBED China, 2021. Click for details</description>
+      <description>&lt;h2 id=&#34;group-graduate-dr-zhenyu-yan-won-the-rising-star-award-of-acm-sigbed-china-2021&#34;&gt;Group graduate Dr. Zhenyu Yan won the Rising Star Award of ACM SIGBED China, 2021.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/p5WL8TkmqYTG9DDT9XvsQA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click for details&lt;/a&gt;&lt;/p&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_rising_star.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -163,7 +464,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/career-zc/</guid>
-      <description>Dr. Zhenyu Yan and Dr. Chaojie joined the faculty of CUHK and ZJU. </description>
+      <description>&lt;h2 id=&#34;dr-zhenyu-yan-and-dr-chaojie-joined-the-faculty-of-cuhk-and-zju&#34;&gt;Dr. Zhenyu Yan and Dr. Chaojie joined the faculty of CUHK and ZJU.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_cuhk_chaojie_zju.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -172,16 +487,43 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/qun-phd-def/</guid>
-      <description>Qun completed her PhD defense, Aug 12th, 2022. </description>
+      <description>&lt;h2 id=&#34;qun-completed-her-phd-defense-aug-12th-2022&#34;&gt;Qun completed her PhD defense, Aug 12th, 2022.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_oral.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
       <title>e-Energy 2021 - SECON 2021</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/e-energy-2021-secon-2021/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/e-energy-2021---secon-2021/</link>
       <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/e-energy-2021-secon-2021/</guid>
-      <description>Qun, Siyuan, and Joy presented their papers at e-Energy&#39;21 and SECON&#39;21 </description>
+      <guid>https://ntuiot.xyz/posts/blog/conference/e-energy-2021---secon-2021/</guid>
+      <description>&lt;h2 id=&#34;qun-siyuan-and-joy-presented-their-papers-at-e-energy21-and-secon21&#34;&gt;Qun, Siyuan, and Joy presented their papers at e-Energy&#39;21 and SECON&#39;21&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_eenergy_siyuan_joy_secon.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -190,7 +532,18 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/ipsn-2021/</guid>
-      <description>Wenjie has presented our paper “PhyAug: Physics-Directed Data Augmentation for Deep Sensing Model Transfer in Cyber-Physical Systems” on the ACM/IEEE IPSN 2021, part of CPS Week 2021. The paper has also be selected as the Best Artifact Award Runner-up. Congratulations! </description>
+      <description>&lt;h2 id=&#34;wenjie-has-presented-our-paper-phyaug-physics-directed-data-augmentation-for-deep-sensing-model-transfer-in-cyber-physical-systems-on-the-acmieee-ipsn-2021-part-of-cps-week-2021-the-paper-has-also-be-selected-as-the-best-artifact-award-runner-up-congratulations&#34;&gt;Wenjie has presented our paper “PhyAug: Physics-Directed Data Augmentation for Deep Sensing Model Transfer in Cyber-Physical Systems” on the ACM/IEEE IPSN 2021, part of CPS Week 2021. The paper has also be selected as the Best Artifact Award Runner-up. Congratulations!&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/ipsn21.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;</description>
     </item>
     
     <item>
@@ -199,7 +552,18 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/ieee-pes-day-2021/</guid>
-      <description>Rui gave a talk titled &amp;ldquo;Experiences and Learned Lessons from an Air Free-Cooled Tropical Data Center Testbed (Dec 2017 – Dec 2019)&amp;rdquo; on IEEE PES Day 2021. </description>
+      <description>&lt;h2 id=&#34;rui-gave-a-talk-titled-experiences-and-learned-lessons-from-an-air-free-cooled-tropical-data-center-testbed-dec-2017--dec-2019-on-ieee-pes-day-2021&#34;&gt;Rui gave a talk titled &amp;ldquo;Experiences and Learned Lessons from an Air Free-Cooled Tropical Data Center Testbed (Dec 2017 – Dec 2019)&amp;rdquo; on IEEE PES Day 2021.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/pes.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;</description>
     </item>
     
     <item>
@@ -208,7 +572,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-cov/</guid>
-      <description>Zhenyu attended the NTU Convocation for the Class of 2020 and had his Ph.D. degree officially conferred. Rui also witnessed the ceremony. </description>
+      <description>&lt;h2 id=&#34;zhenyu-attended-the-ntu-convocation-for-the-class-of-2020-and-had-his-phd-degree-officially-conferred-rui-also-witnessed-the-ceremony&#34;&gt;Zhenyu attended the NTU Convocation for the Class of 2020 and had his Ph.D. degree officially conferred. Rui also witnessed the ceremony.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_convocation_1.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -217,7 +595,18 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/ipsn-tpc-2020/</guid>
-      <description>IPSN TPC meeting , Washington University in St. Louis, Jan 2020. </description>
+      <description>&lt;h2 id=&#34;ipsn-tpc-meeting--washington-university-in-st-louis-jan-2020&#34;&gt;IPSN TPC meeting , Washington University in St. Louis, Jan 2020.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/ipsntpc20.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;</description>
     </item>
     
     <item>
@@ -226,7 +615,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/chaojie-phd-def/</guid>
-      <description>Chaojie completed his PhD defense, Sep 22nd 2020. </description>
+      <description>&lt;h2 id=&#34;chaojie-completed-his-phd-defense-sep-22nd-2020&#34;&gt;Chaojie completed his PhD defense, Sep 22nd 2020.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/chaojieoral.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -235,7 +638,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-phd-def/</guid>
-      <description>Zhenyu completed his PhD defense, Feb 20th 2020. </description>
+      <description>&lt;h2 id=&#34;zhenyu-completed-his-phd-defense-feb-20th-2020&#34;&gt;Zhenyu completed his PhD defense, Feb 20th 2020.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyuoral.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -244,7 +661,18 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/embedded-al-2019/</guid>
-      <description>Embedded AI Submit 2019 at Shenzhen, Dec 2019 </description>
+      <description>&lt;h2 id=&#34;embedded-ai-submit-2019-at-shenzhen-dec-2019&#34;&gt;Embedded AI Submit 2019 at Shenzhen, Dec 2019&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/embeddedai19.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;</description>
     </item>
     
     <item>
@@ -253,7 +681,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/newyork-2019/</guid>
-      <description>Central Park, New York, Nov 2019. </description>
+      <description>&lt;h2 id=&#34;central-park-new-york-nov-2019&#34;&gt;Central Park, New York, Nov 2019.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/centralpark.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -262,7 +704,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2019/</guid>
-      <description>Qun&amp;rsquo;s paper presentation &amp;ldquo;Moving Target Defense for Embedded Deep Visual Sensing against Adversarial Examples&amp;rdquo; at SenSys, New York, Nov 2019. </description>
+      <description>&lt;h2 id=&#34;quns-paper-presentation-moving-target-defense-for-embedded-deep-visual-sensing-against-adversarial-examples-at-sensys-new-york-nov-2019&#34;&gt;Qun&amp;rsquo;s paper presentation &amp;ldquo;Moving Target Defense for Embedded Deep Visual Sensing against Adversarial Examples&amp;rdquo; at SenSys, New York, Nov 2019.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_sensys19.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -271,7 +727,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/aichallengeiot-2019/</guid>
-      <description>Paper presentation “Challenges of Privacy-Preserving Machine Learning in IoT”, at AIChallengeIoT&#39;19, New York, Nov 2019. </description>
+      <description>&lt;h2 id=&#34;paper-presentation-challenges-of-privacy-preserving-machine-learning-in-iot-at-aichallengeiot19-new-york-nov-2019&#34;&gt;Paper presentation “Challenges of Privacy-Preserving Machine Learning in IoT”, at AIChallengeIoT&#39;19, New York, Nov 2019.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_sensys19.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -280,7 +750,60 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</guid>
-      <description>Zhenyu and Rui at Los Cabos, Oct 2019. Twilights of Los Cabos. Sunrise in Cabos. Art walk at Cabo San Lucas Downtown. </description>
+      <description>&lt;h2 id=&#34;zhenyu-and-rui-at-los-cabos-oct-2019&#34;&gt;Zhenyu and Rui at Los Cabos, Oct 2019.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_rui_loascabos.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;h4 id=&#34;twilights-of-los-cabos&#34;&gt;Twilights of Los Cabos.&lt;/h4&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos1.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;h4 id=&#34;sunrise-in-cabos&#34;&gt;Sunrise in Cabos.&lt;/h4&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos3.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;h4 id=&#34;art-walk-at-cabo-san-lucas-downtown&#34;&gt;Art walk at Cabo San Lucas Downtown.&lt;/h4&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos4.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -289,7 +812,47 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/mobicom-2019/</guid>
-      <description>Zhenyu&amp;rsquo;s paper presentation at ACM MobiCom, Oct 2019 MobiCom 25th Anniversary, on a beach of Los Cabos, Oct 2019 MobiCom 2019 limited edition! </description>
+      <description>&lt;h2 id=&#34;zhenyus-paper-presentation-at-acm-mobicom-oct-2019&#34;&gt;Zhenyu&amp;rsquo;s paper presentation at ACM MobiCom, Oct 2019&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_mobicom19.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;h4 id=&#34;mobicom-25th-anniversary-on-a-beach-of-los-cabos-oct-2019&#34;&gt;MobiCom 25th Anniversary, on a beach of Los Cabos, Oct 2019&lt;/h4&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/mobicom19.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;h4 id=&#34;mobicom-2019-limited-edition&#34;&gt;MobiCom 2019 limited edition!&lt;/h4&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos2.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -298,7 +861,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/iotdi-2019/</guid>
-      <description>Linshan&amp;rsquo;s paper presentation &amp;ldquo;On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects&amp;rdquo; at IoTDI, Montreal, Apr 2019. </description>
+      <description>&lt;h2 id=&#34;linshans-paper-presentation-on-lightweight-privacy-preserving-collaborative-learning-for-internet-of-things-objects-at-iotdi-montreal-apr-2019&#34;&gt;Linshan&amp;rsquo;s paper presentation &amp;ldquo;On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects&amp;rdquo; at IoTDI, Montreal, Apr 2019.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/iotdi19.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -307,7 +884,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/montreal-2019/</guid>
-      <description>Twilight of Montreal, CPS-IoT Week, Apr 2019. </description>
+      <description>&lt;h2 id=&#34;twilight-of-montreal-cps-iot-week-apr-2019&#34;&gt;Twilight of Montreal, CPS-IoT Week, Apr 2019.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/cpsiot19twilight.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -316,7 +907,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/ewsn-2019/</guid>
-      <description>Keynote &amp;ldquo;Cyber-Physical Approach to Resilient City-Scale IoT Systems&amp;rdquo;, The 1st workshop on Low Power Wide Area Networks for Internet of Things, EWSN&#39;19, Tsinghua University, Feb 2019. </description>
+      <description>&lt;h2 id=&#34;keynote-cyber-physical-approach-to-resilient-city-scale-iot-systems-the-1st-workshop-on-low-power-wide-area-networks-for-internet-of-things-ewsn19-tsinghua-university-feb-2019&#34;&gt;Keynote &amp;ldquo;Cyber-Physical Approach to Resilient City-Scale IoT Systems&amp;rdquo;, The 1st workshop on Low Power Wide Area Networks for Internet of Things, EWSN&#39;19, Tsinghua University, Feb 2019.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/ewsn19.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -325,7 +930,20 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/fog-computing/</guid>
-      <description>The 2nd Fog Computing+ Workshop: Trustworthy Fog, Dec 14th 2018, NTU Singapore. </description>
+      <description>&lt;h2 id=&#34;the-2nd-fog-computing-workshop-trustworthy-fog-dec-14th-2018-ntu-singapore&#34;&gt;The 2nd Fog Computing+ Workshop: Trustworthy Fog, Dec 14th 2018, NTU Singapore.&lt;/h2&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/fog18.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -334,7 +952,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2018/</guid>
-      <description>The DATA: Data Acquisition to Analysis Workshop, SenSys&#39;18, Shenzhen, Nov, 2018. </description>
+      <description>&lt;h2 id=&#34;the-data-data-acquisition-to-analysis-workshop-sensys18-shenzhen-nov-2018&#34;&gt;The DATA: Data Acquisition to Analysis Workshop, SenSys&#39;18, Shenzhen, Nov, 2018.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/data18.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -343,7 +975,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/ubicomp-2018/</guid>
-      <description>Qun’s paper presentation at UbiComp, Singapore, Oct, 2018 </description>
+      <description>&lt;h2 id=&#34;quns-paper-presentation-at-ubicomp-singapore-oct-2018&#34;&gt;Qun’s paper presentation at UbiComp, Singapore, Oct, 2018&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_ubicomp18.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -352,7 +998,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</guid>
-      <description>Workshop on Next-Generation Cyber-Physical Systems, Sep 15th 2018, University of Virginia. </description>
+      <description>&lt;h2 id=&#34;workshop-on-next-generation-cyber-physical-systems-sep-15th-2018-university-of-virginia&#34;&gt;Workshop on Next-Generation Cyber-Physical Systems, Sep 15th 2018, University of Virginia.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/uva18.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -361,7 +1021,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/conference/isorc-2018/</guid>
-      <description>Landmark of Singapore, token on the banquet of ISORC&#39;18. </description>
+      <description>&lt;h2 id=&#34;landmark-of-singapore-token-on-the-banquet-of-isorc18&#34;&gt;Landmark of Singapore, token on the banquet of ISORC&#39;18.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/isorc18.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -370,7 +1044,21 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/blog/event/hawaii-2018/</guid>
-      <description>Chaojie and Rui at Maui, Hawaii. Apr 2018. </description>
+      <description>&lt;h2 id=&#34;chaojie-and-rui-at-maui-hawaii-apr-2018&#34;&gt;Chaojie and Rui at Maui, Hawaii. Apr 2018.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/hawaii18.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
     </item>
     
     
@@ -392,7 +1080,24 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/pubs/</guid>
-      <description>An Optimization Approach for Selection and Deployment of Energy-Efficient Servers in Green Data Centers. Duc Van Le, Rui Tan. The 12th International Workshop on The Ever-Evolving Data Centers: Research and Innovation (E2DC), co-located with ACM e-Energy, June 4, 2024, Singapore Poster: Two Tropical Data Center Testbeds and Data Yields from 2018 to 2024. Rongrong Wang, Duc Van Le, Rui Tan. The 15th ACM International Conference on Future and Sustainable Energy Systems (e-Energy), June 5-7, 2024, Singapore.</description>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;An Optimization Approach for Selection and Deployment of Energy-Efficient Servers in Green Data Centers.&lt;/strong&gt; &lt;br&gt;
+Duc Van Le, Rui Tan. &lt;br&gt;
+&lt;em&gt;The 12th International Workshop on The Ever-Evolving Data Centers: Research and Innovation (E2DC)&lt;/em&gt;, co-located with ACM e-Energy, June 4, 2024, Singapore&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!--[PDF](https://tanrui.github.io/pub/FedCFC.pdf)--&gt;    
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Poster: Two Tropical Data Center Testbeds and Data Yields from 2018 to 2024.&lt;/strong&gt; &lt;br&gt;
+Rongrong Wang, Duc Van Le, Rui Tan. &lt;br&gt;
+&lt;em&gt;The 15th ACM International Conference on Future and Sustainable Energy Systems (e-Energy)&lt;/em&gt;, June 5-7, 2024, Singapore.&lt;/font&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!--[PDF](https://tanrui.github.io/pub/GhostStripe-MobiSys.pdf)--&gt;    
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;FedCFC On-Device Personalized Federated Learning with Closed-Form Continuous-Time Neural Networks.&lt;/strong&gt; &lt;br&gt;
+Yimin Dai, Rui Tan. &lt;br&gt;
+&lt;em&gt;The 23rd ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)&lt;/em&gt;, May 13-16, 2024, Hong Kong. CPS-IoT Week 2024. &lt;font color=blue&gt;(Acceptance ratio: 21.5%)&lt;/font&gt; &lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/FedCFC.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;, &lt;a href=&#34;https://github.com/hhhddyy/FedCFC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -401,8 +1106,26 @@ The acoustic and imagery sensing modalities provide abundant information about t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/journal/</guid>
-      <description>Impacts of Increasing Temperature and Relative Humidity in Air-Cooled Tropical Data Centers. Duc Van Le, Jing Zhou, Rongrong Wang, Rui Tan, Fei Duan. IEEE Transactions on Sustainable Computing In press. Preprint Data
-A Collaborative Visual Sensing System for Precise Quality Inspection at Manufacturing Lines. Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. ACM Transactions on Cyber-Physical Systems (TCPS). In press. Special Issue: Best Papers of ICCPS 2023. Preprint</description>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Impacts of Increasing Temperature and Relative Humidity in Air-Cooled Tropical Data Centers.&lt;/strong&gt; &lt;br&gt;
+Duc Van Le, Jing Zhou, Rongrong Wang, Rui Tan, Fei Duan. &lt;br&gt;
+&lt;em&gt;IEEE Transactions on Sustainable Computing&lt;/em&gt; In press. &lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/TDC2-TSUSC.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Preprint&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/BLBQ2T&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;A Collaborative Visual Sensing System for Precise Quality Inspection at Manufacturing Lines.&lt;/strong&gt; &lt;br&gt;
+Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. &lt;br&gt;
+&lt;em&gt;ACM Transactions on Cyber-Physical Systems (TCPS).&lt;/em&gt; In press. &lt;br&gt;
+&lt;strong&gt;&lt;font color=red&gt;Special Issue: Best Papers of ICCPS 2023.&lt;/font&gt;&lt;/strong&gt; &lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/BubCam-TCPS.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Preprint&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Design, Deployment, and Evaluation of an Industrial AIoT System for Quality Control at HP Factories.&lt;/strong&gt; &lt;br&gt;
+Duc Van Le, Joy Qiping Yang; Siyuan Zhou; Daren Ho; Rui Tan. &lt;br&gt;
+&lt;em&gt;ACM Transactions on Sensor Networks (TOSN).&lt;/em&gt; In press. &lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/IET-TOSN23.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Preprint&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -411,7 +1134,13 @@ A Collaborative Visual Sensing System for Precise Quality Inspection at Manufact
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/thesis/</guid>
-      <description> **Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.**Wenjie LuoPDF **Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions.**Zhenyu YanPDF **Exploiting LoRaWAN for Efficient and Resilient IoT Networks.**Chaojie GuPDF **Lightweight Privacy-Preserving Deep Learning and Inference in IoT.**Linshang JiangPDF **Improving Security of Autonomous Cyber-Physical Systems against Adversarial Examples.**Qun SongPDF </description>
+      <description>&lt;ol&gt;
+&lt;li&gt;**Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.**Wenjie Luo&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/169116/2/mythesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions.**Zhenyu Yan&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/137802/3/YanZhenyu-thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Exploiting LoRaWAN for Efficient and Resilient IoT Networks.**Chaojie Gu&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/143912/2/chaojie_thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Lightweight Privacy-Preserving Deep Learning and Inference in IoT.**Linshang Jiang&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/155000/4/thesis-revision-final.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Improving Security of Autonomous Cyber-Physical Systems against Adversarial Examples.**Qun Song&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/161165/2/thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -420,11 +1149,21 @@ A Collaborative Visual Sensing System for Precise Quality Inspection at Manufact
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/book/</guid>
-      <description>Artificial Intelligence of Things for Industrial Visual Sensing Systems in HP&amp;rsquo;s Factories.
-Duc Van Le, Siyuan Zhou, Joy Qiping Yang, Jiale Chen, Daren Ho, Rui Tan. Digital Manufacturing, Vol. 2. Elsevier.
-Lightweight Privacy-Preserving Machine Learning and Inference. Linshan Jiang and Rui Tan.
-Intelligent IoT for the Digital World (Eds. Yang Yang, Xu Chen, Rui Tan, Yong Xiao). Wiley. In production.
-Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li, and Rui Tan.</description>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Artificial Intelligence of Things for Industrial Visual Sensing Systems in HP&amp;rsquo;s Factories.&lt;/strong&gt;&lt;br&gt;
+Duc Van Le, Siyuan Zhou, Joy Qiping Yang, Jiale Chen, Daren Ho, Rui Tan. &lt;br&gt;
+Digital Manufacturing, Vol. 2. Elsevier.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Lightweight Privacy-Preserving Machine Learning and Inference.&lt;/strong&gt; &lt;br&gt;
+Linshan Jiang and Rui Tan.&lt;br&gt;
+Intelligent IoT for the Digital World (Eds. Yang Yang, Xu Chen, Rui Tan, Yong Xiao). Wiley. In production.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Time Synchronization Management for Wide-Area Applications.&lt;/strong&gt; &lt;br&gt;
+Zhenyu Yan, Yang Li, and Rui Tan.&lt;br&gt;
+Intelligent IoT for the Digital World (Eds. Yang Yang, Xu Chen, Rui Tan, Yong Xiao). Wiley. In production.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -433,7 +1172,12 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/report/</guid>
-      <description> Tropical Data Centre Proof-of-Concept. Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. Technical Report, Nanyang Technological University, 2019. PDF </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tropical Data Centre Proof-of-Concept.&lt;/strong&gt; &lt;br&gt;
+Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. &lt;br&gt;
+Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
+&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/137780/4/main.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -442,7 +1186,10 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/standard/</guid>
-      <description> Deployment and Operation of Data Centre IT Equipment under Tropical Climate, Singapore Standard 697:2023 Link </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deployment and Operation of Data Centre IT Equipment under Tropical Climate, Singapore Standard 697:2023&lt;/strong&gt;  &lt;br&gt;
+&lt;a href=&#34;https://www.singaporestandardseshop.sg/Product/SSPdtDetail/f64b2a31-57a0-49ec-8716-57ccbdc33365&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -451,7 +1198,175 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/team/</guid>
-      <description>Faculty Rui Tan Associate Professor Postdoctoral Van Duc Le Senior research fellow Xiangzhong Luo Research fellow Postgraduate Researchers and Students Dongfang Guo PhD Student Rongrong Wang PhD Student Siyuan Zhou PhD Student Jiale Chen PhD Student Yimin Dai PhD Student Zimo Ma PhD Student Yuting Wu PhD Student Duc Phuc Nguyen PhD Student Zhuoran Chen Project Officer Visiting Students Huimin Chen Visiting Student (PhD candidate at ZJU) Shihao Shen Visiting Student (PhD candidate at TJU) Alumni Zhenyu Yan (PhD student and Research Fellow; Joined the faculty of CUHK in 2021) Chaojie Gu (PhD student and Research Fellow; Joined the faculty of ZJU in 2021) Qun Song (PhD student; Joined the faculty of TU Delft in 2022) Linshan Jiang (PhD student and Research Fellow) Wenjie Luo (PhD student) Yingbo Liu (Research Fellow; Joined the faculty of YNUFE in 2019 ) Rutvij H.</description>
+      <description>&lt;h3 id=&#34;faculty&#34;&gt;Faculty&lt;/h3&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/rui_tan.jpg&#34;
+    
+    
+        width=&#34;160px&#34;
+    
+    
+        height=&#34;200px&#34;
+    
+    
+        style=&#34;float: left;&#34;
+    
+    
+&gt;
+
+&lt;p&gt;&lt;div class=&#34;row&#34;&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-1&#34;&gt;
+            
+        &lt;/div&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-11&#34;&gt;
+            &lt;h4 id=&#34;rui-tan&#34;&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/members/faculty/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rui Tan&lt;/a&gt;&lt;/h4&gt;
+&lt;h5 id=&#34;associate-professor&#34;&gt;Associate Professor&lt;/h5&gt;
+&lt;div style=&#34;margin-top: 5rem;&#34;&gt;&lt;/div&gt;
+
+        &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;postdoctoral&#34;&gt;Postdoctoral&lt;/h3&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/van_duc_le.jpg&#34;
+    
+    
+        width=&#34;160px&#34;
+    
+    
+        height=&#34;200px&#34;
+    
+    
+        style=&#34;float: left;&#34;
+    
+    
+&gt;
+
+&lt;p&gt;&lt;div class=&#34;row&#34;&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-1&#34;&gt;
+            
+        &lt;/div&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-11&#34;&gt;
+            &lt;h4 id=&#34;van-duc-le&#34;&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/members/staff/duc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Van Duc Le&lt;/a&gt;&lt;/h4&gt;
+&lt;h5 id=&#34;senior-research-fellow&#34;&gt;Senior research fellow&lt;/h5&gt;
+&lt;div style=&#34;margin-top: 5rem;&#34;&gt;&lt;/div&gt;
+
+        &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/xiangzhong_luo.png&#34;
+    
+    
+        width=&#34;160px&#34;
+    
+    
+        height=&#34;200px&#34;
+    
+    
+        style=&#34;float: left;&#34;
+    
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 2rem;&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;row&#34;&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-1&#34;&gt;
+            
+        &lt;/div&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-11&#34;&gt;
+            &lt;h4 id=&#34;xiangzhong-luo&#34;&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/members/staff/xiangzhong/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xiangzhong Luo&lt;/a&gt;&lt;/h4&gt;
+&lt;h5 id=&#34;research-fellow&#34;&gt;Research fellow&lt;/h5&gt;
+&lt;div style=&#34;margin-top: 5rem;&#34;&gt;&lt;/div&gt;
+
+        &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;postgraduate-researchers-and-students&#34;&gt;Postgraduate Researchers and Students&lt;/h3&gt;
+&lt;div class=&#34;row&#34;&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-1&#34;&gt;
+            
+        &lt;/div&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-11&#34;&gt;
+            
+        &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/dongfang_guo.jpg&#34;
+    
+    
+        width=&#34;160px&#34;
+    
+    
+        height=&#34;200px&#34;
+    
+    
+        style=&#34;float: left;&#34;
+    
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 2rem;&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;row&#34;&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-1&#34;&gt;
+            
+        &lt;/div&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-11&#34;&gt;
+            &lt;h4 id=&#34;dongfang-guo&#34;&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/members/phd/dongfang/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dongfang Guo&lt;/a&gt;&lt;/h4&gt;
+&lt;h5 id=&#34;phd-student&#34;&gt;PhD Student&lt;/h5&gt;
+&lt;div style=&#34;margin-top: 5rem;&#34;&gt;&lt;/div&gt;
+
+        &lt;/div&gt;
+    
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/rongrong_wang.jpg&#34;
+    
+    
+        width=&#34;160px&#34;
+    
+    
+        height=&#34;200px&#34;
+    
+    
+        style=&#34;float: left;&#34;
+    
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 2rem;&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;row&#34;&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-1&#34;&gt;
+            
+        &lt;/div&gt;
+    
+       &lt;div class=&#34;col col-sm-12 col-lg-11&#34;&gt;
+            &lt;h4 id=&#34;rongrong-wang&#34;&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/members/phd/rongrong/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rongrong Wang&lt;/a&gt;&lt;/h4&gt;
+&lt;h5 id=&#34;phd-student&#34;&gt;PhD Student&lt;/h5&gt;
+&lt;div style=&#34;margin-top: 5rem;&#34;&gt;&lt;/div&gt;
+
+        &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;div style=&#34;margin-top: 2rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -460,7 +1375,30 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/faculty/</guid>
-      <description>Rui Tan Position: Associate Professor Contact: tanrui@ntu.edu.sg Bio: Rui Tan (M&#39;08-SM&#39;18) is an Associate Professor at School of Computer Science and Engineering, Nanyang Technological University, Singapore. Previously, he was a Research Scientist (2012-2015) and a Senior Research Scientist (2015) at Advanced Digital Sciences Center, a Singapore-based research center of University of Illinois at Urbana-Champaign (UIUC), a Principle Research Affiliate (2012-2015) at Coordinated Science Lab of UIUC, and a postdoctoral Research Associate (2010-2012) at Department of Computer Science and Engineering, Michigan State University, East Lansing.</description>
+      <description>&lt;h1 id=&#34;rui-tan&#34;&gt;Rui Tan&lt;/h1&gt;
+&lt;p&gt;&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/rui_tan.jpg&#34;
+      
+      
+          width=&#34;200px&#34;
+      
+      
+          height=&#34;250px&#34;
+      
+      
+      
+          class=&#34;center&#34;
+      
+  &gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: Associate Professor&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:tanrui@ntu.edu.sg&#34;&gt;tanrui@ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: Rui Tan (M&#39;08-SM&#39;18) is an Associate Professor at School of Computer Science and Engineering, Nanyang Technological University, Singapore. Previously, he was a Research Scientist (2012-2015) and a Senior Research Scientist (2015) at Advanced Digital Sciences Center, a Singapore-based research center of University of Illinois at Urbana-Champaign (UIUC), a Principle Research Affiliate (2012-2015) at Coordinated Science Lab of UIUC, and a postdoctoral Research Associate (2010-2012) at Department of Computer Science and Engineering, Michigan State University, East Lansing. He received the Ph.D. (2010) degree in computer science from City University of Hong Kong, the B.S. (2004) and M.S. (2007) degrees from Shanghai Jiao Tong University, China. His research interests include cyber-physical systems, sensor networks, and ubiquitous computing systems. He received the Best Paper Awards from IPSN&#39;17, CPSR-SG&#39;17, Best Paper Runner-Ups from IEEE PerCom&#39;13 and IPSN&#39;14.&lt;/li&gt;
+&lt;li&gt;Personal website: &lt;a href=&#34;https://personal.ntu.edu.sg/tanrui/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://personal.ntu.edu.sg/tanrui/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Publication: &lt;a href=&#34;https://personal.ntu.edu.sg/tanrui/publication.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://personal.ntu.edu.sg/tanrui/publication.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -469,7 +1407,34 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/staff/duc/</guid>
-      <description>Position: Research Fellow Contact: vdle@ntu.edu.sg Bio: Duc Van Le is research fellow at the HP-NTU Digital Manufacturing Corporate Lab, Nanyang Technological University (NTU), Singapore. He obtained his B.Eng. degree in electronics and telecommunications engineering from the Le Quy Don Technical University, Vietnam, and PhD degree in computer engineering from the University of Ulsan, South Korea, in 2011 and 2016, respectively. Before joining NTU, he worked as a research fellow at Department of Computer Science, National University of Singapore (NUS) from 2016 to 2018.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/van_duc_le.jpg&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: Research Fellow&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:vdle@ntu.edu.sg&#34;&gt;vdle@ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: Duc Van Le is research fellow at the HP-NTU Digital Manufacturing Corporate Lab, Nanyang Technological University (NTU), Singapore. He obtained his B.Eng. degree in electronics and telecommunications engineering from the Le Quy Don Technical University, Vietnam, and PhD degree in computer engineering from the University of Ulsan, South Korea, in 2011 and 2016, respectively. Before joining NTU, he worked as a research fellow at Department of Computer Science, National University of Singapore (NUS) from 2016 to 2018. His research interests include sensor networks, mobile edge computing and deep learning for cyber-physical systems.&lt;/li&gt;
+&lt;li&gt;Personal website: &lt;a href=&#34;https://sites.google.com/site/levanduc2001/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sites.google.com/site/levanduc2001/home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Publication: &lt;a href=&#34;https://sites.google.com/site/levanduc2001/publication&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sites.google.com/site/levanduc2001/publication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Research projects:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/research/iot-sensing/building/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Building sensing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/research/iot-sensing/acoustic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Acoustic and imagery sensing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -478,7 +1443,26 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/staff/xiangzhong/</guid>
-      <description>Position: Research Fellow Contact: xiangzhong.luo@ntu.edu.sg Bio: Xiangzhong Luo is a research fellow at the School of Computer Science and Engineering, Nanyang Technological University, Singapore. He received the B.Eng. and Ph.D. degrees from Shanghai Jiao Tong University, China, and Nanyang Technological University, Singapore, in 2019 and 2023, respectively. His current research interests include efficient and robust deep learning algorithms. </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/xiangzhong_luo.png&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: Research Fellow&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:xiangzhong.luo@ntu.edu.sg&#34;&gt;xiangzhong.luo@ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: Xiangzhong Luo is a research fellow at the School of Computer Science and Engineering, Nanyang Technological University, Singapore. He received the B.Eng. and Ph.D. degrees from Shanghai Jiao Tong University, China, and Nanyang Technological University, Singapore, in 2019 and 2023, respectively. His current research interests include efficient and robust deep learning algorithms.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -487,7 +1471,38 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/phd/rongrong/</guid>
-      <description>Position: PhD Student, Research Associate Contact: rrwang@ntu.edu.sg Bio: I received B.E. (2013) from Northwestern Polytechnical University in China M.S. (2017) from Nanyang Technological University. I am currently a Ph.D student in NTU. My research interest is advanced sensing and smart CPS environment. Publication: Control of Air Free-Cooled Data Centers in Tropics via Deep Reinforcement Learning. A Testbed and Data Yields for Studying Data Center Energy Efficiency and Reliability. Research projects: Building sensing Powerline radiation sensing </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/rongrong_wang.jpg&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: PhD Student, Research Associate&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:rrwang@ntu.edu.sg&#34;&gt;rrwang@ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: I received B.E. (2013) from Northwestern Polytechnical University in China M.S. (2017) from Nanyang Technological University. I am currently a Ph.D student in NTU. My research interest is advanced sensing and smart CPS environment.&lt;/li&gt;
+&lt;li&gt;Publication:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://personal.ntu.edu.sg/tanrui/pub/TDC-buildsys.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Control of Air Free-Cooled Data Centers in Tropics via Deep Reinforcement Learning.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://personal.ntu.edu.sg/tanrui/pub/DATA2018.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Testbed and Data Yields for Studying Data Center Energy Efficiency and Reliability.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Research projects:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/research/iot-sensing/building/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Building sensing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/research/iot-sensing/powerline/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Powerline radiation sensing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -496,7 +1511,32 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/phd/dongfang/</guid>
-      <description>Position: PhD Student, Research Associate Contact: dongfang.guo@ntu.edu.sg Bio: Dongfang Guo is a Ph.D student and Research Associate at SCSE, NTU. He received his B.Eng. degree from University of Electronic Science and Technology of China, and his M.Sc. degree from Nanyang Technological University, Singapore. His research interests lie in the field of Internet of Things and Cyber-Physical Systems. Research projects: LoRa radio sensing Acoustic and imagery sensing </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/dongfang_guo.jpg&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: PhD Student, Research Associate&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:dongfang.guo@ntu.edu.sg&#34;&gt;dongfang.guo@ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: Dongfang Guo is a Ph.D student and Research Associate at SCSE, NTU. He received his B.Eng. degree from University of Electronic Science and Technology of China, and his M.Sc. degree from Nanyang Technological University, Singapore. His research interests lie in the field of Internet of Things and Cyber-Physical Systems.&lt;/li&gt;
+&lt;li&gt;Research projects:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/research/iot-sensing/lora/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LoRa radio sensing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/research/iot-sensing/acoustic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Acoustic and imagery sensing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -505,7 +1545,31 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/phd/siyuan/</guid>
-      <description>Position: PhD Student, Research Associate Contact: siyuan.zhou@ntu.edu.sg Bio: I am currently a Ph.D student in school of computer science and engineering, Nanyang Technological University, Singapore. My currently research focuses on embedded deep visual sensing in industrial IoT. Research projects: Acoustic and imagery sensing </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/siyuan_zhou.png&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: PhD Student, Research Associate&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:siyuan.zhou@ntu.edu.sg&#34;&gt;siyuan.zhou@ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: I am currently a Ph.D student in school of computer science and engineering, Nanyang Technological University, Singapore. My currently research focuses on embedded deep visual sensing in industrial IoT.&lt;/li&gt;
+&lt;li&gt;Research projects:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/research/iot-sensing/acoustic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Acoustic and imagery sensing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -514,7 +1578,36 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/phd/jiale/</guid>
-      <description>Position: PhD Student, Research Associate Contact: +65 88708195 (Mobile phone) jiale.chen@ntu.edu.sg Bio: I am now a Ph.D student and research associate in HP/NTU Lab. I received my Master degree from Hong Kong University of Science and Technology in 2019. I got my bachelor degree from Southern China University of Technology in 2018. Research projects: Acoustic and imagery sensing </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/jiale_chen.jpg&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: PhD Student, Research Associate&lt;/li&gt;
+&lt;li&gt;Contact:
+&lt;ul&gt;
+&lt;li&gt;+65 88708195 (Mobile phone)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:jiale.chen@ntu.edu.sg&#34;&gt;jiale.chen@ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bio: I am now a Ph.D student and research associate in HP/NTU Lab. I received my Master degree from Hong Kong University of Science and Technology in 2019. I got my bachelor degree from Southern China University of Technology in 2018.&lt;/li&gt;
+&lt;li&gt;Research projects:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/research/iot-sensing/acoustic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Acoustic and imagery sensing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -523,7 +1616,26 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/phd/yimin/</guid>
-      <description>Position: PhD Student Contact: yimin004@e.ntu.edu.sg Bio: I am currently a PhD Student in school of computer science and engineering, Nanyang Technological University, Singapore. I obtained my bachelor degree in computing in The Hong Kong Polytechnic University in 2021 and master degree in school of computer science and engineering, Nanyang Technological University, Singapore, 2022. My research interest lies in novel applications in sensing systems and utilizing edge AI algorithm in boosting the performance of sensing systems.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/yimin_dai.jpg&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: PhD Student&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:yimin004@e.ntu.edu.sg&#34;&gt;yimin004@e.ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: I am currently a PhD Student in school of computer science and engineering, Nanyang Technological University, Singapore. I obtained my bachelor degree in computing  in The Hong Kong Polytechnic University in 2021 and master degree in school of computer science and engineering, Nanyang Technological University, Singapore, 2022. My research interest lies in novel applications in sensing systems and utilizing edge AI algorithm in boosting the performance of sensing systems.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -532,7 +1644,26 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/phd/zimo/</guid>
-      <description>Position: Ph. D. Student Contact: zimo.ma@ntu.edu.sg Bio: Zimo Ma is currently a Ph.D. student at the School of Computer Science and Engineering at Nanyang Technological University. He completed the bachelor&amp;rsquo;s degree in 2020 and subsequently earned the master&amp;rsquo;s degree in 2023, both from Beihang University. Prior to the current studies, he served as a Research Associate in the Computer Networks and Communication Lab at NTU. </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/zimo_ma.png&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: Ph. D. Student&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:zimo.ma@ntu.edu.sg&#34;&gt;zimo.ma@ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: Zimo Ma is currently a Ph.D. student at the School of Computer Science and Engineering at Nanyang Technological University. He completed the bachelor&amp;rsquo;s degree in 2020 and subsequently earned the master&amp;rsquo;s degree in 2023, both from Beihang University. Prior to the current studies, he served as a Research Associate in the Computer Networks and Communication Lab at NTU.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -541,7 +1672,26 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/phd/nguyen/</guid>
-      <description>Position: PhD Student Contact: ducphuc001@e.ntu.edu.sg Bio: Duc Phuc Nguyen is currently a PhD student in the School of Computer Science and Engineering (SCSE) at Nanyang Technological University, Singapore. He obtained his bachelor&amp;rsquo;s degree in Computer Science and Engineering from Ho Chi Minh City University of Technology (HCMUT), Vietnam National University Ho Chi Minh City (VNU-HCM), Vietnam, in 2023, where he was a Research Assistant in the ML4U Research Team, working on the topics of computer vision and deep learning.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/nguyen.png&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: PhD Student&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:ducphuc001@e.ntu.edu.sg&#34;&gt;ducphuc001@e.ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: Duc Phuc Nguyen is currently a PhD student in the School of Computer Science and Engineering (SCSE) at Nanyang Technological University, Singapore. He obtained his bachelor&amp;rsquo;s degree in Computer Science and Engineering from Ho Chi Minh City University of Technology (HCMUT), Vietnam National University Ho Chi Minh City (VNU-HCM), Vietnam, in 2023, where he was a Research Assistant in the ML4U Research Team, working on the topics of computer vision and deep learning. His current research interest lies in adversarial machine learning and its applications for constructing more robust sensing systems with guarantee.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -550,7 +1700,31 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/phd/yuting/</guid>
-      <description>Position: PhD Student Contact: yuting.wu@ntu.edu.sg Bio: Yuting Wu received M.Sc. (2020) in Electrical and Electronic Engineering from Nanyang Technological University, Singapore, and his B.Eng degree in Automation from North-eastern University, China (2019). Previously, he was a Research Associate (2020-2021) at the Centre for System Intelligence and Efficiency, NTU, researching Reinforcement learning applications. Currently, He works as Research Associate on the SCALE project under Prof. Tan Rui. Research project: Acoustic and imagery sensing </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/yuting_wu.jpg&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: PhD Student&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:yuting.wu@ntu.edu.sg&#34;&gt;yuting.wu@ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: Yuting Wu received M.Sc. (2020) in Electrical and Electronic Engineering from Nanyang Technological University, Singapore, and his B.Eng degree in Automation from North-eastern University, China (2019). Previously, he was a Research Associate (2020-2021) at the Centre for System Intelligence and Efficiency, NTU, researching Reinforcement learning applications. Currently, He works as Research Associate on the SCALE project under Prof. Tan Rui.&lt;/li&gt;
+&lt;li&gt;Research project:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/research/iot-sensing/acoustic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Acoustic and imagery sensing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -559,7 +1733,31 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/phd/zhuoran/</guid>
-      <description>Position: Project Officer Contact: chen1192@e.ntu.edu.sg Bio: Zhuoran Chen is a Project Officer at HP-NTU Digital Manufacturing Corporate Lab. He received his bachelor’s degree in computer engineering from Nanyang Technological University, Singapore, in 2021. His current research directions are 3D sensing and hardware acceleration in mobile computing. Research project: Acoustic and imagery sensing </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/zhuoran_chen.jpg&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: Project Officer&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:chen1192@e.ntu.edu.sg&#34;&gt;chen1192@e.ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: Zhuoran Chen is a Project Officer at HP-NTU Digital Manufacturing Corporate Lab. He received his bachelor’s degree in computer engineering from Nanyang Technological University, Singapore, in 2021. His current research directions are 3D sensing and hardware acceleration in mobile computing.&lt;/li&gt;
+&lt;li&gt;Research project:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/research/iot-sensing/acoustic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Acoustic and imagery sensing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -568,7 +1766,31 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/visit/huimin/</guid>
-      <description>Position: Visting Student Contact: N2207910A@e.ntu.edu.sg Bio: I am currently a Ph.D. student at the college of control science and engineering, Zhejiang University. I received my B.Eng. degree from Nanjing University of Aeronautics and Astronautics in 2018. Now I am a visiting student at NTU under Prof. Tan Rui, and my research interest lies in acoustic sensing. Research projects: Acoustic and imagery sensing </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/huimin_chen.jpg&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: Visting Student&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:N2207910A@e.ntu.edu.sg&#34;&gt;N2207910A@e.ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio: I am currently a Ph.D. student at the college of control science and engineering, Zhejiang University. I received my B.Eng. degree from Nanjing University of Aeronautics and Astronautics in 2018. Now I am a visiting student at NTU under Prof. Tan Rui, and my research interest lies in acoustic sensing.&lt;/li&gt;
+&lt;li&gt;Research projects:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ntuiot.xyz/posts/research/iot-sensing/acoustic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Acoustic and imagery sensing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -577,7 +1799,27 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/visit/shihao/</guid>
-      <description>Position: Visting Student Contact: N2308651E@e.ntu.edu.sg Bio: I am currently a Ph.D. student at the college of intelligence and computing, Tianjin University. I received my B.Eng. degree from Tianjin University in 2019. Now I am a visiting student at NTU under Prof. Tan Rui, and my research interest lies in distributed container clouds, scheduling optimization, and edge computing. </description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/shihao_shen.jpg&#34;
+    
+    
+        width=&#34;200px&#34;
+    
+    
+        height=&#34;250px&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Position: Visting Student&lt;/li&gt;
+&lt;li&gt;Contact: &lt;a href=&#34;mailto:N2308651E@e.ntu.edu.sg&#34;&gt;N2308651E@e.ntu.edu.sg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bio:  I am currently a Ph.D. student at the college of intelligence and computing, Tianjin University. I received my B.Eng. degree from Tianjin University in 2019.
+Now I am a visiting student at NTU under Prof. Tan Rui, and my research interest lies in distributed container clouds, scheduling optimization, and edge computing.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -586,7 +1828,137 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/members/alumni/</guid>
-      <description> Zhenyu Yan PhD student and Research Fellow Joined faculty of CUHK in 2021 Chaojie Gu PhD student and Research Fellow Joined faculty of ZJU in 2021 Qun Song PhD student Joined faculty of TU Delft in 2022 Linshan Jiang PhD student and Research Fellow Wenjie Luo PhD student Joy Qiping Yang Project officer Yingbo Liu (Research Fellow; Joined the faculty of YNUFE in 2019 ) Rutvij H. Jhaveri (Research Fellow; Joined the faculty of PDEU India in 2019 ) Hangtai Li (Visiting Student) Mengyao Zheng (Visiting Student; Admitted to Harvard master program in 2021 ) Dixing Xu (Visiting Student) Chongrong Fang (Visiting Student; Joined the faculty of SJTU in 2021 ) Jue Tian (Visiting Student) Lilin Xu (Visiting Student) </description>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/zhenyu_yan.jpg&#34;
+    
+    
+        width=&#34;100px&#34;
+    
+    
+        height=&#34;125px&#34;
+    
+    
+    
+&gt;
+&lt;/td&gt;
+          &lt;td&gt;    &lt;a href=&#34;https://yanzhenyu.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zhenyu Yan&lt;/a&gt;  PhD student and Research Fellow &lt;em&gt;Joined faculty of CUHK in 2021&lt;/em&gt;        &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/chaojie_gu.jpg&#34;
+    
+    
+        width=&#34;100px&#34;
+    
+    
+        height=&#34;125px&#34;
+    
+    
+    
+&gt;
+&lt;/td&gt;
+          &lt;td&gt;    &lt;a href=&#34;https://chaojiegu.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chaojie Gu&lt;/a&gt;  PhD student and Research Fellow &lt;em&gt;Joined faculty of ZJU in 2021&lt;/em&gt;         &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/qun_song.jpg&#34;
+    
+    
+        width=&#34;100px&#34;
+    
+    
+        height=&#34;125px&#34;
+    
+    
+    
+&gt;
+&lt;/td&gt;
+          &lt;td&gt;    &lt;a href=&#34;https://song-qun.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qun Song&lt;/a&gt;   PhD student   &lt;em&gt;Joined faculty of TU Delft in 2022&lt;/em&gt;         &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/linshan_jiang.jpg&#34;
+    
+    
+        width=&#34;100px&#34;
+    
+    
+        height=&#34;125px&#34;
+    
+    
+    
+&gt;
+&lt;/td&gt;
+          &lt;td&gt;    &lt;a href=&#34;https://scholar.google.com.sg/citations?user=S01E5-cAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linshan Jiang&lt;/a&gt;   PhD student and Research Fellow&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;        &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/wenjie_luo.jpg&#34;
+    
+    
+        width=&#34;100px&#34;
+    
+    
+        height=&#34;125px&#34;
+    
+    
+    
+&gt;
+&lt;/td&gt;
+          &lt;td&gt;    &lt;a href=&#34;https://wenjieluo.xyz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wenjie Luo&lt;/a&gt;   PhD student            &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/qiping_yang.jpg&#34;
+    
+    
+        width=&#34;100px&#34;
+    
+    
+        height=&#34;125px&#34;
+    
+    
+    
+&gt;
+&lt;/td&gt;
+          &lt;td&gt;    Joy Qiping Yang  Project officer        &lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Yingbo Liu (Research Fellow; &lt;em&gt;Joined the faculty of YNUFE in 2019&lt;/em&gt; )&lt;/li&gt;
+&lt;li&gt;Rutvij H. Jhaveri (Research Fellow; &lt;em&gt;Joined the faculty of PDEU India in 2019&lt;/em&gt; )&lt;/li&gt;
+&lt;li&gt;Hangtai Li (Visiting Student)&lt;/li&gt;
+&lt;li&gt;Mengyao Zheng (Visiting Student; &lt;em&gt;Admitted to Harvard master program in 2021&lt;/em&gt; )&lt;/li&gt;
+&lt;li&gt;Dixing Xu (Visiting Student)&lt;/li&gt;
+&lt;li&gt;Chongrong Fang (Visiting Student; &lt;em&gt;Joined the faculty of SJTU in 2021&lt;/em&gt; )&lt;/li&gt;
+&lt;li&gt;Jue Tian (Visiting Student)&lt;/li&gt;
+&lt;li&gt;Lilin Xu (Visiting Student)&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -595,7 +1967,8 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/call/achievements/</guid>
-      <description>Undergrad achievements Our group has good interest and records in working with well motivated undergraduate students either from our own School and the external on research topics that we know. We guide them to read literature, perform hands-on work, and write the research report on a selected and timely topic, such that they can make their little but novel and publishable contributions. We believe that a senior undergraduate, if willing to undertake exploratory and challenging tasks, is ready for research.</description>
+      <description>&lt;h2 id=&#34;undergrad-achievements&#34;&gt;Undergrad achievements&lt;/h2&gt;
+&lt;p&gt;Our group has good interest and records in working with well motivated undergraduate students either from our own School and the external on research topics that we know. We guide them to read literature, perform hands-on work, and write the research report on a selected and timely topic, such that they can make their little but novel and publishable contributions. We believe that a senior undergraduate, if willing to undertake exploratory and challenging tasks, is ready for research. With the above rationale, our group has produced the following research publications driven by undergrads:&lt;/p&gt;</description>
     </item>
     
     

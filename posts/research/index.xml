@@ -12,7 +12,92 @@
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/intro/</guid>
-      <description>1. IoT sensing systems and applications a. Powerline radiation sensing The periodic electric and magnetic fields emitted by the service power cables distributed in civil infrastructures provide both time and location information. Our research exploits these fields to develop clock synchronization, natural timestamping, localization, and device authentication services for indoor and wearable IoT objects. b. LoRa radio sensing LoRa is a low-power wide-area network (LPWAN) technology that can interconnect IoT objects distributed in large geographic areas or deep indoor/underground structures.</description>
+      <description>&lt;h3 id=&#34;1-iot-sensing-systems-and-applications&#34;&gt;1. IoT sensing systems and applications&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/powerline.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/powerline/&#34;&gt;&lt;strong&gt;a. Powerline radiation sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; The periodic electric and magnetic fields emitted by the service power cables distributed in civil infrastructures provide both time and location information. Our research exploits these fields to develop clock synchronization, natural timestamping, localization, and device authentication services for indoor and wearable IoT objects.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;   &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/lora.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/lora/&#34;&gt;&lt;strong&gt;b. LoRa radio sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; LoRa is a low-power wide-area network (LPWAN) technology that can interconnect IoT objects distributed in large geographic areas or deep indoor/underground structures. Its long-range communication capability enables wide-area sensing using its own radio frequency signals. We sense the arrival time, frequency bias, and strength of LoRa signal for data timestamping, network security, and object localization.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;   &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/audio.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/acoustic_image/&#34;&gt;&lt;strong&gt;c. Acoustic and imagery sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; Acoustic and imagery sensing provides abundant information, but also imposes challenges on efficient processing on resource-constrained IoT objects. With deep learning techniques, we develop coordinated signal processing algorithms running on IoT objects and edge/cloud servers for indoor localization, voice recognition, and image-based object detection systems. Our systems are being deployed to manufacturing production lines.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;   &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/building.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/building/&#34;&gt;&lt;strong&gt;d. Building sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; We are interested in designing networked sensing systems to monitor the energy consumption and indoor conditions in various types of building environments (households, offices, data centers). Our research work provides enabling technologies for implementing very energy-efficient data centers in Singapore’s year-round hot and humid tropical condition.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;2-security-and-privacy-of-aiot-sensing&#34;&gt;2. Security and privacy of AIoT sensing&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/secure.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/secure/&#34;&gt;&lt;strong&gt;a. Secure sensing in AIoT&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; Deep neural networks have brought performance breakthroughs for sensing systems but also undesirable system complexities that may engender security vulnerabilities. The adversarial example attack is such an instance. We design and implement countermeasures that can be used by resource-constrained IoT devices against the adversarial example attack.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;   &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/datacenter.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;   &lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/privacy/&#34;&gt;&lt;strong&gt;b. Privacy-preserving sensing in AIoT&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; Many IoT sensors operate in privacy-sensitive spaces and times. We design efficient approaches for resource-constrained IoT sensors to enable deep neural network-based learning and inference on the sensing data while protecting the users’ privacy.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
     </item>
     
     <item>
@@ -21,9 +106,23 @@
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/security/secure/</guid>
-      <description>Main contributors from the group: Qun Song (topic coordinator), Zhenyu Yan
-Image modified from this, credit goes to the source. Also refer to this paper for background
-By 2025, it is estimated that there will be more than 41.6 billion networked IoT devices. These IoT devices generate 79.4 zettabyes data yearly, which is almost twice of today’s whole Internet (44 zettabytes). Transmitting such massive IoT data to the clouds for centralized processing will face communication bandwidth bottleneck.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Qun Song (topic coordinator), Zhenyu Yan&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/research/images/secure/img1.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Image modified from &lt;a href=&#34;https://www.nbcnews.com/news/world/giant-pandas-are-no-longer-endangered-n643336&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this&lt;/a&gt;, credit goes to the source. Also refer to &lt;a href=&#34;https://arxiv.org/pdf/1412.6572.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this paper&lt;/a&gt; for background&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;By 2025, it is estimated that there will be more than &lt;a href=&#34;https://www.statista.com/statistics/1017863/worldwide-iot-connected-devices-data-size/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;41.6 billion&lt;/a&gt; networked IoT devices. These IoT devices generate &lt;a href=&#34;https://www.statista.com/statistics/1017863/worldwide-iot-connected-devices-data-size/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;79.4 zettabyes&lt;/a&gt; data yearly, which is almost twice of today’s whole Internet (&lt;a href=&#34;https://www.weforum.org/agenda/2019/04/how-much-data-is-generated-each-day-cf4bddf29f/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;44 zettabytes&lt;/a&gt;). Transmitting such massive IoT data to the clouds for centralized processing will face communication bandwidth bottleneck. In addition, the communication networks will introduce uncertain time delays that are undesirable for many applications. To cope with these grand challenges, edge computing moves the computation on the IoT data closer to the data sources. Specifically, the IoT sensors and the last-mile data aggregators, acting as edge nodes, will undertake a significant portion of the computation on the IoT data; only data summaries and commands will be exchanged between the edge nodes and the cloud servers through the Internet when needed. As such, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,8 +131,11 @@ By 2025, it is estimated that there will be more than 41.6 billion networked IoT
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/security/privicy/</guid>
-      <description>Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)
-Privacy-Preserving Machine Learning in IoT As explained in our post, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;privacy-preserving-machine-learning-in-iot&#34;&gt;Privacy-Preserving Machine Learning in IoT&lt;/h3&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;As explained in our &lt;a href=&#34;https://ntuiot.xyz/research/secure/&#34;&gt;post&lt;/a&gt;, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems. In a number of scenarios, the IoT edge and the cloud back end need to work together to implement AI-empowered sensing, during which privacy-sensitive data generated at the edge may be exchanged between the edge and the cloud. The group has ongoing research on designing and evaluating privacy-preserving learning and inference approaches in AIoT systems. Our challenge paper &lt;a href=&#34;https://github.com/tanrui/www/blob/master/pub/aichallengeiot19-final3.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt; provides a taxonomy of the existing privacy-preserving learning and inference approaches.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -42,8 +144,10 @@ Privacy-Preserving Machine Learning in IoT As explained in our post, a hybrid co
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/powerline/</guid>
-      <description>Main contributors from the group: Zhenyu Yan(topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Linshan Jiang
-Electric power distribution networks penetrate into all civil infrastructures. The service powerlines emit both electric fields and magnetic fields. The electric fields are induced by the voltages of the powerlines, and the magnetic fields are induced by the currents going through the powerlines. Because the power networks provide alternating currents at a nominal frequency (e.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Zhenyu Yan(topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Linshan Jiang&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;Electric power distribution networks penetrate into all civil infrastructures. The service powerlines emit both electric fields and magnetic fields. The electric fields are induced by the voltages of the powerlines, and the magnetic fields are induced by the currents going through the powerlines. Because the power networks provide alternating currents at a nominal frequency (e.g., 50Hz in Singapore), the electric and magnetic fields emitted from the service powerlines also oscillate at the nominal frequency.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -52,8 +156,10 @@ Electric power distribution networks penetrate into all civil infrastructures. T
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/lora/</guid>
-      <description>Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo
-Low-power wide-area networks (LPWANs) form an important class of wireless networks for many geographically distributed Internet-of-Things (IoT) objects. LPWANs form a new pole in the spectrum of power consumption versus communication ranges, as shown in the figure below. LPWANs’ long-range communication capabilities will increase the degree of connectivity of IoT and enable deep penetration of networked intelligence into urban territories (e.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;Low-power wide-area networks (LPWANs) form an important class of wireless networks for many geographically distributed Internet-of-Things (IoT) objects. LPWANs form a new pole in the spectrum of power consumption versus communication ranges, as shown in the figure below. LPWANs’ long-range communication capabilities will increase the degree of connectivity of IoT and enable deep penetration of networked intelligence into urban territories (e.g., wide areas, buildings, and underground structures) that have challenged the existing low-power short-range wireless technologies. Among various LPWAN technologies, we primarily focus on LoRaWAN due to its various advantages, such as the use of license-free industrial, scientific, and medical (ISM) frequency band, open data link layer specification, and low cost (several US dollars per unit).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,8 +168,21 @@ Low-power wide-area networks (LPWANs) form an important class of wireless networ
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/building/</guid>
-      <description>Main contributors from the group: Duc Van Le (topic coordinator), Rongrong Wang, Yingbo Liu (alumnus)
-We study the problems of sensing the environment conditions in a building and controlling various actuators to reduce the building’s energy consumption and maintain certain environmental condition levels when the load (e.g., IT equipment, human occupants) of the building varies over time. Dr. Rui Tan has early research works on residential power disaggregation by deploying wireless sensors in a nearly ad hoc way [1, 2], temperature field prediction [3] and cooling control [4] in computer rooms.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Duc Van Le (topic coordinator), Rongrong Wang, Yingbo Liu (alumnus)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;https://ntuiot.xyz/posts/research/images/building/tropical_datacenter.png&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;We study the problems of sensing the environment conditions in a building and controlling various actuators to reduce the building’s energy consumption and maintain certain environmental condition levels when the load (e.g., IT equipment, human occupants) of the building varies over time. Dr. Rui Tan has early research works on residential power disaggregation by deploying wireless sensors in a nearly ad hoc way [1, 2], temperature field prediction [3] and cooling control [4] in computer rooms. At present, the group is actively conducting research for improving the energy efficiency of data centers in Singapore’s tropical condition with year-round high temperatures and high humidity levels.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -72,8 +191,10 @@ We study the problems of sensing the environment conditions in a building and co
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/research/iot-sensing/acoustic/</guid>
-      <description>Main contributors from the group: Wenjie Luo (topic coordinator), Qun Song, Chaojie Gu, Zhenyu Yan, Duc Van Le, Siyuan Zhou, Jiale Chen, Qiping (Joy) Yang
-The acoustic and imagery sensing modalities provide abundant information about the sensed target. As a result, the volume of an acoustic/imagery signal sample is often high and the data processing to extract useful information requires intensive computing. Such characteristics introduce various system challenges in data acquisition, computing, storage, and network transmission on networked sensing platforms with constrained processing capabilities, network bandwidth, and bounded energy supply.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Main contributors from the group: Wenjie Luo (topic coordinator), Qun Song, Chaojie Gu, Zhenyu Yan, Duc Van Le, Siyuan Zhou, Jiale Chen, Qiping (Joy) Yang&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;p&gt;The acoustic and imagery sensing modalities provide abundant information about the sensed target. As a result, the volume of an acoustic/imagery signal sample is often high and the data processing to extract useful information requires intensive computing. Such characteristics introduce various system challenges in data acquisition, computing, storage, and network transmission on networked sensing platforms with constrained processing capabilities, network bandwidth, and bounded energy supply.&lt;/p&gt;</description>
     </item>
     
     
