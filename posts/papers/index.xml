@@ -11,24 +11,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/pubs/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;An Optimization Approach for Selection and Deployment of Energy-Efficient Servers in Green Data Centers.&lt;/strong&gt; &lt;br&gt;
-Duc Van Le, Rui Tan. &lt;br&gt;
-&lt;em&gt;The 12th International Workshop on The Ever-Evolving Data Centers: Research and Innovation (E2DC)&lt;/em&gt;, co-located with ACM e-Energy, June 4, 2024, Singapore&lt;/li&gt;
+      <description>&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Stable and Efficient Stochastic Differential Equation Networks for Time Series on Edge Devices.&lt;/strong&gt; &lt;br&gt;
+Yimin Dai, Li-Lian Wang, Rui Tan. &lt;br&gt;
+&lt;em&gt;The 23rd ACM Conference on Embedded Networked Sensor Systems (SenSys)&lt;/em&gt;, May 6-9, 2025, Irvine, USA. CPS-IoT Week 2025.   &lt;font color=blue&gt;(Acceptance ratio: 18.7%)&lt;/font&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;!--[PDF](https://tanrui.github.io/pub/FedCFC.pdf)--&gt;    
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;strong&gt;Poster: Two Tropical Data Center Testbeds and Data Yields from 2018 to 2024.&lt;/strong&gt; &lt;br&gt;
-Rongrong Wang, Duc Van Le, Rui Tan. &lt;br&gt;
-&lt;em&gt;The 15th ACM International Conference on Future and Sustainable Energy Systems (e-Energy)&lt;/em&gt;, June 5-7, 2024, Singapore.&lt;/font&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;!--[PDF](https://tanrui.github.io/pub/GhostStripe-MobiSys.pdf)--&gt;    
-&lt;ol start=&#34;3&#34;&gt;
+&lt;!--[PDF](https://tanrui.github.io/pub/FedCFC.pdf)--&gt;   
+&lt;h3 id=&#34;2024&#34;&gt;2024&lt;/h3&gt;
+&lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;FedCFC On-Device Personalized Federated Learning with Closed-Form Continuous-Time Neural Networks.&lt;/strong&gt; &lt;br&gt;
-Yimin Dai, Rui Tan. &lt;br&gt;
-&lt;em&gt;The 23rd ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)&lt;/em&gt;, May 13-16, 2024, Hong Kong. CPS-IoT Week 2024. &lt;font color=blue&gt;(Acceptance ratio: 21.5%)&lt;/font&gt; &lt;br&gt;
-&lt;a href=&#34;https://tanrui.github.io/pub/FedCFC.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;, &lt;a href=&#34;https://github.com/hhhddyy/FedCFC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Demo: Invisible Adversarial Stripes against Traffic Sign Recognition in Autonomous Driving.&lt;/strong&gt; &lt;br&gt;
+Dongfang Guo, Yuting Wu, Yimin Dai, Pengfie Zhou, Xin Lou, Rui Tan. &lt;br&gt;
+&lt;em&gt;The 22nd ACM Conference on Embedded Networked Sensor Systems (SenSys)&lt;/em&gt;, November 4-7, 2024, Hangzhou, China. &lt;strong&gt;&lt;font color=red&gt;Best Demo Award &lt;/font&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/GhostStripe-SenSys-Demo.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -37,7 +33,15 @@ Yimin Dai, Rui Tan. &lt;br&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntuiot.xyz/posts/papers/journal/</guid>
-      <description>&lt;ol&gt;
+      <description>&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;RoboCam: Model-Based Robotic Visual Sensing for Precise Inspection of Mesh Screens.&lt;/strong&gt; &lt;br&gt;
+Siyuan Zhou, Duc Van Le, Linshan Jiang, Zhuoran Chen, Xiaohua Peng, Daren Ho, Jianmin Zheng, Rui Tan. &lt;br&gt;
+&lt;em&gt;ACM Transactions on Sensor Networks (TOSN).&lt;/em&gt; In press. &lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/RoboCam.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Preprint&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;2024&#34;&gt;2024&lt;/h3&gt;
+&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Impacts of Increasing Temperature and Relative Humidity in Air-Cooled Tropical Data Centers.&lt;/strong&gt; &lt;br&gt;
 Duc Van Le, Jing Zhou, Rongrong Wang, Rui Tan, Fei Duan. &lt;br&gt;
@@ -50,13 +54,7 @@ Duc Van Le, Jing Zhou, Rongrong Wang, Rui Tan, Fei Duan. &lt;br&gt;
 Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. &lt;br&gt;
 &lt;em&gt;ACM Transactions on Cyber-Physical Systems (TCPS).&lt;/em&gt; In press. &lt;br&gt;
 &lt;strong&gt;&lt;font color=red&gt;Special Issue: Best Papers of ICCPS 2023.&lt;/font&gt;&lt;/strong&gt; &lt;br&gt;
-&lt;a href=&#34;https://tanrui.github.io/pub/BubCam-TCPS.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Preprint&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Design, Deployment, and Evaluation of an Industrial AIoT System for Quality Control at HP Factories.&lt;/strong&gt; &lt;br&gt;
-Duc Van Le, Joy Qiping Yang; Siyuan Zhou; Daren Ho; Rui Tan. &lt;br&gt;
-&lt;em&gt;ACM Transactions on Sensor Networks (TOSN).&lt;/em&gt; In press. &lt;br&gt;
-&lt;a href=&#34;https://tanrui.github.io/pub/IET-TOSN23.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Preprint&lt;/a&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;https://tanrui.github.io/pub/BubCam-TCPS.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Preprint&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -66,11 +64,11 @@ Duc Van Le, Joy Qiping Yang; Siyuan Zhou; Daren Ho; Rui Tan. &lt;br&gt;
       
       <guid>https://ntuiot.xyz/posts/papers/thesis/</guid>
       <description>&lt;ol&gt;
-&lt;li&gt;**Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.**Wenjie Luo&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/169116/2/mythesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;**Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions.**Zhenyu Yan&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/137802/3/YanZhenyu-thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;**Exploiting LoRaWAN for Efficient and Resilient IoT Networks.**Chaojie Gu&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/143912/2/chaojie_thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;**Lightweight Privacy-Preserving Deep Learning and Inference in IoT.**Linshang Jiang&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/155000/4/thesis-revision-final.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;**Improving Security of Autonomous Cyber-Physical Systems against Adversarial Examples.**Qun Song&lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/161165/2/thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions.**Zhenyu Yan &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/137802/3/YanZhenyu-thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Exploiting LoRaWAN for Efficient and Resilient IoT Networks.**Chaojie Gu &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/143912/2/chaojie_thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Lightweight Privacy-Preserving Deep Learning and Inference in IoT.**Linshang Jiang &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/155000/4/thesis-revision-final.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Improving Security of Autonomous Cyber-Physical Systems against Adversarial Examples.**Qun Song &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/161165/2/thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;**Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.**Wenjie Luo &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/169116/2/mythesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
     
