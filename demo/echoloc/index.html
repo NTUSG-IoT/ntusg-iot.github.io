@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EchoLoc</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.5ebb77a0e7635bfb4bdb0109a19723605f52677c92b71e81d7f56da5b709b734.css" integrity="sha256-Xrt3oOdjW/tL2wEJoZcjYF9SZ3yStx6B1/VtpbcJtzQ=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/logo_hu_838c3e856e518c18.png" />
+
+<meta property="og:url" content="https://ntuiot.xyz/demo/echoloc/">
+  <meta property="og:site_name" content="NTU IoT Research Group">
+  <meta property="og:title" content="EchoLoc">
+  <meta property="og:description" content="Infrastructure-Free Smartphone Indoor Localization Using Room Acoustic Responses">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="demo">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="EchoLoc">
+  <meta name="twitter:description" content="Infrastructure-Free Smartphone Indoor Localization Using Room Acoustic Responses">
+
+    
+    
+<meta name="description" content="Infrastructure-Free Smartphone Indoor Localization Using Room Acoustic Responses" />
+
+
+    
+
+    
+
+
+
+
+</head>
+
+  <body class="type-demo kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/site/logo_hu_838c3e856e518c18.png" alt="Logo">
+      NTU IoT Research Group</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      
+        <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/logo_hu_838c3e856e518c18.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/logo_hu_838c3e856e518c18.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all"></a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/research/">1. Research</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/intro/" title="Research Focus">Research Focus</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/research/security/">Security and privacy of AIoT sensing</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/security/secure/" title="Secure sensing in AIoT">Secure sensing in AIoT</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/security/privicy/" title="Privacy-preserving sensing in AIoT">Privacy-preserving sensing in AIoT</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/research/iot-sensing/">IoT sensing systems and applications</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/iot-sensing/powerline/" title="Powerline radiation sensing">Powerline radiation sensing</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/iot-sensing/lora/" title="LoRa radio sensing">LoRa radio sensing</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/iot-sensing/building/" title="Building sensing">Building sensing</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/iot-sensing/acoustic/" title="Acoustic and imagery sensing">Acoustic and imagery sensing</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/papers/">2. Publications</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/papers/pubs/" title="Conference and workshop papers">Conference and workshop papers</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/papers/journal/" title="Journal papers">Journal papers</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/papers/thesis/" title="Thesis">Thesis</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/papers/book/" title="Book chapters">Book chapters</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/papers/report/" title="Technical report">Technical report</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/papers/standard/" title="Standard">Standard</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/members/">3. Team</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/team/" title="Members">Members</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/faculty/" title="Faculty">Faculty</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/alumni/" title="Alumni">Alumni</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/staff/" title="Postdoctoral">Postdoctoral</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/members/phd/">Postgraduate Researchers and Students</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/yimin/" title="Yimin Dai">Yimin Dai</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/dongfang/" title="Dongfang Guo">Dongfang Guo</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/siyuan/" title="Siyuan Zhou">Siyuan Zhou</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/jiale/" title="Jiale Chen">Jiale Chen</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/zimo/" title="Zimo Ma">Zimo Ma</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/nguyen/" title="Duc Phuc Nguyen">Duc Phuc Nguyen</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/yuting/" title="Yuting Wu">Yuting Wu</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/members/visit/">Visiting Students</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/visit/wenbin/" title="Wenbin Tian">Wenbin Tian</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/call/">4. Call for Undergrads</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/call/achievements/" title="Undergrad achievements">Undergrad achievements</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/blog/">5. Blog</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/blog/conference/">Conference</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/aichallengeiot-2019/" title="AIChallengeIoT 2019">AIChallengeIoT 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/cps-iot-2023/" title="CPS-IoT 2023">CPS-IoT 2023</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/e-energy-2021---secon-2021/" title="e-Energy 2021 - SECON 2021">e-Energy 2021 - SECON 2021</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/e-energy-2023/" title="e-Energy 2023">e-Energy 2023</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/embedded-al-2019/" title="Embedded AI Submit 2019">Embedded AI Submit 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ewsn-2019/" title="EWSN 2019">EWSN 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/fog-computing/" title="Fog Computing&#43; Workshop">Fog Computing&#43; Workshop</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/iccps-2023/" title="ICCPS 2023 Best Paper">ICCPS 2023 Best Paper</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ieee-pes-day-2021/" title="IEEE PES Day 2021">IEEE PES Day 2021</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/iotdi-2019/" title="IoTDI 2019">IoTDI 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ipsn-2021/" title="IPSN 2021">IPSN 2021</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ipsn-tpc-2020/" title="IPSN TPC 2020">IPSN TPC 2020</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/isorc-2018/" title="ISORC 2018">ISORC 2018</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/mobicom-2019/" title="MobiCom 2019">MobiCom 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ngcps-2018/" title="NGCPS 2018">NGCPS 2018</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/sensys-2018/" title="SenSys 2018">SenSys 2018</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/sensys-2019/" title="SenSys 2019">SenSys 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/sensys-2022/" title="SenSys 2022">SenSys 2022</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/sensys-22/" title="SenSys&#39;22 PriMask">SenSys&#39;22 PriMask</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ubicomp-2018/" title="UobiComp 2018">UobiComp 2018</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/blog/event/">Event</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/chaojie-phd-def/" title="Chaojie PhD defense 2020">Chaojie PhD defense 2020</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/career-zc/" title="CUHK and ZJU Faculty">CUHK and ZJU Faculty</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/hawaii-2018/" title="Hawaii 2018">Hawaii 2018</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/linshan-phd-def/" title="Linshan PhD defense 2021">Linshan PhD defense 2021</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/los-cabos-2019/" title="Los Cabos 2019">Los Cabos 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/montreal-2019/" title="Montreal 2019">Montreal 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/newyork-2019/" title="New York 2019">New York 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/qun-phd-def/" title="Qun PhD defense 2022">Qun PhD defense 2022</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/career-qun/" title="TU Delft Faculty">TU Delft Faculty</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/wenjie-phd-def/" title="Wenjie PhD defense 2023">Wenjie PhD defense 2023</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/zhenyu-award/" title="Zhenyu Award 2021">Zhenyu Award 2021</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/zhenyu-cov/" title="Zhenyu Convocation 2020">Zhenyu Convocation 2020</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/zhenyu-phd-def/" title="Zhenyu PhD defense 2020">Zhenyu PhD defense 2020</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/site/logo_hu_d99ddb43395bfbc1.png' alt="Author Image">
+          <h5 class="author-name">NTU IoT Research Group</h5>
+          
+        </div>
+
+        <div class="title">
+          <h1>EchoLoc</h1>
+        </div>
+        
+        <div class="taxonomy-terms">
+          <ul style="padding-left: 0;">
+            
+          </ul>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>Video demo:</p>
+<iframe src="https://www.youtube.com/embed/5si0Cq6LzT4"
+        style="width: 100%; height: 500px; max-width: none;" allowfullscreen>
+</iframe>
+<p>&ndash;</p>
+<p>Smartphone-based localization has attracted wide research in recent years due to the proliferation of smartphones and the increasingly demanded location-aware services. In indoor environments, the global positioning system (GPS) are often unavailable due to the blockage of GPS signal and more stringent requirements of indoor positioning services. Therefore, a number of modalities such as Bluetooth and Wi-Fi are exploited to build smartphone-based indoor localization systems. These solutions are usually infrastructure-based, which require the installation of extra anchor points for localizing the smartphones. Excessive effort for infrastructure installation often stems the applicability of infrastructure-based indoor localization systems. Therefore, an accurate, reliable infrastructure-free indoor localization system will be more favorable compared with infrastructure-based systems.</p>
+<p><strong>EchoLoc</strong> is a deep neural network (DNN) based system for accurate and large-scale smartphone indoor localization using room acoustic responses. It has four salient advantages.</p>
+<ol>
+<li>EchoLoc is infrastructure free and only requires the access to the smartphone audio system. We show that the potential applications of EchoLoc span from small meeting rooms to large semi-open concert halls.</li>
+<li>EchoLoc achieves 95% location recall accuracy in a large public indoor space and sub-meter mean localization error in the tested lab office. This localization accuracy can support a range of location-based mobile services such as navigation, way finding, workspace clock-in, artwork interaction, emergency response, etc.</li>
+<li>EchoLoc works with normal hand grasping of the smartphone and require no special holdings of the phone.</li>
+<li>EchoLoc emits chirps in a frequency range from 15 kHz to 20 kHz, which lies in the nearly inaudible range of human ears. Therefore, EchoLoc is robust to ambient noise and causes little/no annoyance to users.</li>
+</ol>
+<!-- <div class="row">
+    <div class="col-sm-12 text-center">
+        {% include figure.html path="/demo/images/echoloc/echoloc_workflow.jpg" title="echoloc_workflow" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Workflow of EchoLoc.
+</div> -->
+<figure style="max-width:900px; margin:auto; text-align:center;">
+    <img src="/demo/images/echoloc/echoloc_workflow.jpg" 
+         alt="echoloc_workflow" 
+         class="img-fluid rounded z-depth-1" 
+         style="width: 100%; height: auto;">
+    <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+        Workflow of EchoLoc.
+    </figcaption>
+</figure>
+<p>There are a few recent works exploiting smartphone acoustic system for indoor localization. However, they only achieve room-level localization or only evaluate the localization performance at a few locations per room.</p>
+<p>EchoLoc performance is evaluated in a public indoor space and a lab area. Among the 101 fingerprinted locations in a large scale public indoor space, EchoLoc achieves a 95% location recognition accuracy (left figure below). Among the 61 locations fingerprinted in our lab area, EchoLoc achieves an 81% location recognition accuracy and sub-meter mean localization error (right figure below).</p>
+<!-- <div class="image-container">
+  <div class="row justify-content-md-center">
+    <div class="col-sm-4">
+      {% include figure.html path="content/demo/images/echoloc/echoloc_cm.jpg" title="echoloc_cm" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-5">
+      {% include figure.html path="content/demo/images/echoloc/echoloc_cdf.jpg" title="echoloc_cdf" class="img-fluid rounded z-depth-1" %}
+    </div>
+  </div>
+  <div class="caption">
+    Left: Confusion matrix in public indoor space (101 positions, 95% accuracy); Right: Localization error in lab area (61 positions, 81% accuracy).
+  </div>
+</div> -->
+<figure style="max-width: 600px; margin: auto; text-align: center; display: flex; justify-content: center; gap: 20px;">
+    <div style="width: 45%;">
+        <img src="/demo/images/echoloc/echoloc_cm.jpg" 
+             alt="echoloc_cm" 
+             class="img-fluid rounded z-depth-1" 
+             style="width: 100%; height: auto;">
+        <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+            (a) Confusion matrix in public indoor space (101 positions, 95% accuracy).
+        </figcaption>
+    </div>
+    <div style="width: 51%;">
+        <img src="/demo/images/echoloc/echoloc_cdf.jpg" 
+             alt="echoloc_cdf" 
+             class="img-fluid rounded z-depth-1" 
+             style="width: 100%; height: auto;">
+        <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+            (b) Localization error in lab area (61 positions, 81% accuracy).
+        </figcaption>
+    </div>
+</figure>
+<p>EchoLoc can support a range of location-based mobile services such as navigation, way finding, workspace clock-in, artwork interaction, emergency response, etc., in various indoor environments.</p>
+<p>To give some example, in an office building, EchoLoc can be used for employee clock-in or phone-nearby required device unlock. In a large shopping mall, EchoLoc can help customers to locate their positions and provide guidance toward a specific shop. In a hospital, EchoLoc can be used for patients’ location monitoring and emergency response. In a gallery or museum, visitors can trigger the narration of an artwork using EchoLoc just in front of it.</p>
+<p>The demo abstract was published on SenSys'21 Demo (<a href="https://tanrui.github.io/pub/EchoLoc-demo.pdf" target="_blank" rel="noopener">PDF</a>).</p>
+
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+            <strong>Share on:</strong>
+            
+            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fntuiot.xyz%2fdemo%2fecholoc%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fntuiot.xyz%2fdemo%2fecholoc%2f&text=EchoLoc&via=NTU%20IoT%20Research%20Group" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+            
+            
+            
+                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fntuiot.xyz%2fdemo%2fecholoc%2f&title=EchoLoc" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=EchoLoc https%3a%2f%2fntuiot.xyz%2fdemo%2fecholoc%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn btn-sm email-btn" href="mailto:?subject=EchoLoc&body=https%3a%2f%2fntuiot.xyz%2fdemo%2fecholoc%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-3">
+      <div class="row text-left">
+        
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    
+    <div class="container">
+      
+        <img src="/images/site/logo_hu_2d381c3c8d8a4126.png" alt="Toha Theme Logo">
+        NTU IoT Research Group Copyright © 2021. All rights reserved. <br>
+            Webmasters: Chaojie Gu and Zhenyu Yan (06/2020-07/2021);
+            Dongfang Guo and Wenjie Luo (07/2021-06/2023); Rongrong Wang (07/2023-).
+        
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.1cb58c04b170ca5485ededc0689e1dcdae166b4053e4d429e5b296636f91bf84.js" integrity="sha256-HLWMBLFwylSF7e3AaJ4dza4Wa0BT5NQp5bKWY2&#43;Rv4Q=" defer></script>
+
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>

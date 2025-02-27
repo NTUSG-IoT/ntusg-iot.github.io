@@ -162,6 +162,12 @@
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
+    <loc>https://ntuiot.xyz/demo/</loc>
+    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ntuiot.xyz/</loc>
+    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ntuiot.xyz/posts/research/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -169,9 +175,6 @@
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ntuiot.xyz/posts/research/iot-sensing/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ntuiot.xyz/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ntuiot.xyz/posts/blog/</loc>
@@ -371,6 +374,10 @@
     <loc>https://ntuiot.xyz/posts/members/</loc>
   </url><url>
     <loc>https://ntuiot.xyz/posts/call/</loc>
+  </url><url>
+    <loc>https://ntuiot.xyz/demo/echoloc/</loc>
+  </url><url>
+    <loc>https://ntuiot.xyz/demo/ghoststripe/</loc>
   </url><url>
     <loc>https://ntuiot.xyz/posts/members/staff/</loc>
   </url><url>
