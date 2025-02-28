@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CPS on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/tags/cps/</link>
+    <link>http://localhost:1313/tags/cps/</link>
     <description>Recent content in CPS on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/cps/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 15 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/cps/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>NGCPS 2018</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</link>
+      <link>http://localhost:1313/posts/blog/conference/ngcps-2018/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/ngcps-2018/</guid>
       <description>&lt;h2 id=&#34;workshop-on-next-generation-cyber-physical-systems-sep-15th-2018-university-of-virginia&#34;&gt;Workshop on Next-Generation Cyber-Physical Systems, Sep 15th 2018, University of Virginia.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/uva18.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/uva18.jpg&#34;
     
     
     

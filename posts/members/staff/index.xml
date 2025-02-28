@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Postdoctoral on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/posts/members/staff/</link>
+    <link>http://localhost:1313/posts/members/staff/</link>
     <description>Recent content in Postdoctoral on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://ntuiot.xyz/posts/members/staff/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://localhost:1313/posts/members/staff/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

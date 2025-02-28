@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3. Team on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/posts/members/</link>
+    <link>http://localhost:1313/posts/members/</link>
     <description>Recent content in 3. Team on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://ntuiot.xyz/posts/members/index.xml" rel="self" type="application/rss+xml" /><item>
+    <language>en</language><atom:link href="http://localhost:1313/posts/members/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Members</title>
-      <link>https://ntuiot.xyz/posts/members/team/</link>
+      <link>http://localhost:1313/posts/members/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/team/</guid>
+      <guid>http://localhost:1313/posts/members/team/</guid>
       <description>&lt;h3 id=&#34;faculty&#34;&gt;Faculty&lt;/h3&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/rui_tan.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/members/photo/rui_tan.jpg&#34;
     
     
         width=&#34;160px&#34;
@@ -59,7 +59,7 @@
     
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/dongfang_guo.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/dongfang_guo.jpg&#34;
     
     
         width=&#34;160px&#34;
@@ -90,7 +90,7 @@
 &lt;/div&gt;
 
 &lt;div style=&#34;margin-top: 2rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/siyuan_zhou.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/siyuan_zhou.jpg&#34;
     
     
         width=&#34;160px&#34;
@@ -121,7 +121,7 @@
 &lt;/div&gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/jiale_chen.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/jiale_chen.jpg&#34;
     
     
         width=&#34;160px&#34;
@@ -152,7 +152,7 @@
 &lt;/div&gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/yimin_dai.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/yimin_dai.jpg&#34;
     
     
         width=&#34;160px&#34;
@@ -188,13 +188,13 @@
     
     <item>
       <title>Faculty</title>
-      <link>https://ntuiot.xyz/posts/members/faculty/</link>
+      <link>http://localhost:1313/posts/members/faculty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/faculty/</guid>
+      <guid>http://localhost:1313/posts/members/faculty/</guid>
       <description>&lt;h1 id=&#34;rui-tan&#34;&gt;Rui Tan&lt;/h1&gt;
 &lt;p&gt;&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/rui_tan.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/members/photo/rui_tan.jpg&#34;
       
       
           width=&#34;200px&#34;
@@ -220,11 +220,11 @@
     
     <item>
       <title>Dongfang Guo</title>
-      <link>https://ntuiot.xyz/posts/members/phd/dongfang/</link>
+      <link>http://localhost:1313/posts/members/phd/dongfang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/dongfang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/dongfang_guo.jpg&#34;
+      <guid>http://localhost:1313/posts/members/phd/dongfang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/dongfang_guo.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -254,11 +254,11 @@
     
     <item>
       <title>Siyuan Zhou</title>
-      <link>https://ntuiot.xyz/posts/members/phd/siyuan/</link>
+      <link>http://localhost:1313/posts/members/phd/siyuan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/siyuan/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/siyuan_zhou.png&#34;
+      <guid>http://localhost:1313/posts/members/phd/siyuan/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/siyuan_zhou.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -287,11 +287,11 @@
     
     <item>
       <title>Jiale Chen</title>
-      <link>https://ntuiot.xyz/posts/members/phd/jiale/</link>
+      <link>http://localhost:1313/posts/members/phd/jiale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/jiale/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/jiale_chen.jpg&#34;
+      <guid>http://localhost:1313/posts/members/phd/jiale/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/jiale_chen.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -325,11 +325,11 @@
     
     <item>
       <title>Yimin Dai</title>
-      <link>https://ntuiot.xyz/posts/members/phd/yimin/</link>
+      <link>http://localhost:1313/posts/members/phd/yimin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/yimin/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/yimin_dai.jpg&#34;
+      <guid>http://localhost:1313/posts/members/phd/yimin/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/yimin_dai.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -353,11 +353,11 @@
     
     <item>
       <title>Zimo Ma</title>
-      <link>https://ntuiot.xyz/posts/members/phd/zimo/</link>
+      <link>http://localhost:1313/posts/members/phd/zimo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/zimo/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/zimo_ma.png&#34;
+      <guid>http://localhost:1313/posts/members/phd/zimo/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/zimo_ma.png&#34;
     
     
         width=&#34;200px&#34;
@@ -381,11 +381,11 @@
     
     <item>
       <title>Duc Phuc Nguyen</title>
-      <link>https://ntuiot.xyz/posts/members/phd/nguyen/</link>
+      <link>http://localhost:1313/posts/members/phd/nguyen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/nguyen/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/nguyen.png&#34;
+      <guid>http://localhost:1313/posts/members/phd/nguyen/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/nguyen.png&#34;
     
     
         width=&#34;200px&#34;
@@ -409,11 +409,11 @@
     
     <item>
       <title>Yihan Xu</title>
-      <link>https://ntuiot.xyz/posts/members/phd/yihan/</link>
+      <link>http://localhost:1313/posts/members/phd/yihan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/yihan/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/yihan_xu.jpg&#34;
+      <guid>http://localhost:1313/posts/members/phd/yihan/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/yihan_xu.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -437,11 +437,11 @@
     
     <item>
       <title>Yuting Wu</title>
-      <link>https://ntuiot.xyz/posts/members/phd/yuting/</link>
+      <link>http://localhost:1313/posts/members/phd/yuting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/yuting/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/yuting_wu.jpg&#34;
+      <guid>http://localhost:1313/posts/members/phd/yuting/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/yuting_wu.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -470,11 +470,11 @@
     
     <item>
       <title>Wenbin Tian</title>
-      <link>https://ntuiot.xyz/posts/members/visit/wenbin/</link>
+      <link>http://localhost:1313/posts/members/visit/wenbin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/visit/wenbin/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/wenbin_tian.jpg&#34;
+      <guid>http://localhost:1313/posts/members/visit/wenbin/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/wenbin_tian.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -498,10 +498,10 @@
     
     <item>
       <title>Alumni</title>
-      <link>https://ntuiot.xyz/posts/members/alumni/</link>
+      <link>http://localhost:1313/posts/members/alumni/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/alumni/</guid>
+      <guid>http://localhost:1313/posts/members/alumni/</guid>
       <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -511,7 +511,7 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/zhenyu_yan.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/zhenyu_yan.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -530,7 +530,7 @@
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/chaojie_gu.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/chaojie_gu.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -549,7 +549,7 @@
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/qun_song.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/qun_song.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -568,7 +568,7 @@
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/linshan_jiang.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/linshan_jiang.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -587,7 +587,7 @@
           &lt;td&gt;        &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/wenjie_luo.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/wenjie_luo.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -606,7 +606,7 @@
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/rongrong_wang.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/rongrong_wang.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -625,7 +625,7 @@
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/qiping_yang.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/qiping_yang.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -644,7 +644,7 @@
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/zhuoran_chen.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/zhuoran_chen.jpg&#34;
     
     
         width=&#34;100px&#34;

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Career on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/tags/career/</link>
+    <link>http://localhost:1313/tags/career/</link>
     <description>Recent content in Career on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/career/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/career/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>TU Delft Faculty</title>
-      <link>https://ntuiot.xyz/posts/blog/event/career-qun/</link>
+      <link>http://localhost:1313/posts/blog/event/career-qun/</link>
       <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/career-qun/</guid>
+      <guid>http://localhost:1313/posts/blog/event/career-qun/</guid>
       <description>&lt;h2 id=&#34;qun-joined-tu-delft-as-a-tenure-track-assistant-professor-on-30th-aug-2022&#34;&gt;Qun joined TU Delft as a tenure-track Assistant Professor on 30th Aug 2022.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_join_tu_delft.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/qun_join_tu_delft.png&#34;
     
     
     
@@ -31,15 +31,15 @@
     
     <item>
       <title>Zhenyu Award 2021</title>
-      <link>https://ntuiot.xyz/posts/blog/event/zhenyu-award/</link>
+      <link>http://localhost:1313/posts/blog/event/zhenyu-award/</link>
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-award/</guid>
+      <guid>http://localhost:1313/posts/blog/event/zhenyu-award/</guid>
       <description>&lt;h2 id=&#34;group-graduate-dr-zhenyu-yan-won-the-rising-star-award-of-acm-sigbed-china-2021&#34;&gt;Group graduate Dr. Zhenyu Yan won the Rising Star Award of ACM SIGBED China, 2021.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/p5WL8TkmqYTG9DDT9XvsQA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click for details&lt;/a&gt;&lt;/p&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_rising_star.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_rising_star.png&#34;
     
     
     
@@ -55,14 +55,14 @@
     
     <item>
       <title>CUHK and ZJU Faculty</title>
-      <link>https://ntuiot.xyz/posts/blog/event/career-zc/</link>
+      <link>http://localhost:1313/posts/blog/event/career-zc/</link>
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/career-zc/</guid>
+      <guid>http://localhost:1313/posts/blog/event/career-zc/</guid>
       <description>&lt;h2 id=&#34;dr-zhenyu-yan-and-dr-chaojie-joined-the-faculty-of-cuhk-and-zju&#34;&gt;Dr. Zhenyu Yan and Dr. Chaojie joined the faculty of CUHK and ZJU.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_cuhk_chaojie_zju.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_cuhk_chaojie_zju.jpg&#34;
     
     
     

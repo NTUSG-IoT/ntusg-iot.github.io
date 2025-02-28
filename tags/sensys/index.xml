@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SenSys on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/tags/sensys/</link>
+    <link>http://localhost:1313/tags/sensys/</link>
     <description>Recent content in SenSys on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/sensys/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/sensys/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>SenSys 2022</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/sensys-2022/</link>
+      <link>http://localhost:1313/posts/blog/conference/sensys-2022/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2022/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/sensys-2022/</guid>
       <description>&lt;h2 id=&#34;linshan-and-alumni-qun-and-zhenyu-presented-their-works-on-sensys22-boston&#34;&gt;Linshan and alumni Qun and Zhenyu presented their works on SenSys&#39;22, Boston.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/sensys22.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/sensys22.jpg&#34;
     
     
     
@@ -31,14 +31,14 @@
     
     <item>
       <title>SenSys&#39;22</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/sensys-22/</link>
+      <link>http://localhost:1313/posts/blog/conference/sensys-22/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-22/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/sensys-22/</guid>
       <description>&lt;h2 id=&#34;linshans-work-primask-is-selected-as-sensys22-best-paper-candidate-congratulations&#34;&gt;Linshan&amp;rsquo;s work PriMask is selected as SenSys&#39;22 Best Paper Candidate. Congratulations!&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/sensys22_primask.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/sensys22_primask.png&#34;
     
     
     
@@ -53,14 +53,14 @@
     
     <item>
       <title>SenSys 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/sensys-2019/</link>
+      <link>http://localhost:1313/posts/blog/conference/sensys-2019/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/sensys-2019/</guid>
       <description>&lt;h2 id=&#34;quns-paper-presentation-moving-target-defense-for-embedded-deep-visual-sensing-against-adversarial-examples-at-sensys-new-york-nov-2019&#34;&gt;Qun&amp;rsquo;s paper presentation &amp;ldquo;Moving Target Defense for Embedded Deep Visual Sensing against Adversarial Examples&amp;rdquo; at SenSys, New York, Nov 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_sensys19.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/qun_sensys19.jpg&#34;
     
     
     
@@ -76,14 +76,14 @@
     
     <item>
       <title>SenSys 2018</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/sensys-2018/</link>
+      <link>http://localhost:1313/posts/blog/conference/sensys-2018/</link>
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2018/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/sensys-2018/</guid>
       <description>&lt;h2 id=&#34;the-data-data-acquisition-to-analysis-workshop-sensys18-shenzhen-nov-2018&#34;&gt;The DATA: Data Acquisition to Analysis Workshop, SenSys&#39;18, Shenzhen, Nov, 2018.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/data18.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/data18.jpg&#34;
     
     
     

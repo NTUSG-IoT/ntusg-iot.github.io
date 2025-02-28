@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Embedded AI on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/tags/embedded-ai/</link>
+    <link>http://localhost:1313/tags/embedded-ai/</link>
     <description>Recent content in Embedded AI on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/embedded-ai/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/embedded-ai/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Embedded AI Submit 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/embedded-al-2019/</link>
+      <link>http://localhost:1313/posts/blog/conference/embedded-al-2019/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/embedded-al-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/embedded-al-2019/</guid>
       <description>&lt;h2 id=&#34;embedded-ai-submit-2019-at-shenzhen-dec-2019&#34;&gt;Embedded AI Submit 2019 at Shenzhen, Dec 2019&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/embeddedai19.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/embeddedai19.jpg&#34;
     
     
     

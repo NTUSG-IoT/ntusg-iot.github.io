@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SECON on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/tags/secon/</link>
+    <link>http://localhost:1313/tags/secon/</link>
     <description>Recent content in SECON on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/secon/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sun, 11 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/secon/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>e-Energy 2021 - SECON 2021</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/e-energy-2021---secon-2021/</link>
+      <link>http://localhost:1313/posts/blog/conference/e-energy-2021---secon-2021/</link>
       <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/e-energy-2021---secon-2021/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/e-energy-2021---secon-2021/</guid>
       <description>&lt;h2 id=&#34;qun-siyuan-and-joy-presented-their-papers-at-e-energy21-and-secon21&#34;&gt;Qun, Siyuan, and Joy presented their papers at e-Energy&#39;21 and SECON&#39;21&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_eenergy_siyuan_joy_secon.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/qun_eenergy_siyuan_joy_secon.jpg&#34;
     
     
     

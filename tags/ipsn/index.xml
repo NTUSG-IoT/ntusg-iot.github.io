@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IPSN on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/tags/ipsn/</link>
+    <link>http://localhost:1313/tags/ipsn/</link>
     <description>Recent content in IPSN on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/ipsn/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ipsn/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>IPSN 2021</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/ipsn-2021/</link>
+      <link>http://localhost:1313/posts/blog/conference/ipsn-2021/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/ipsn-2021/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/ipsn-2021/</guid>
       <description>&lt;h2 id=&#34;wenjie-has-presented-our-paper-phyaug-physics-directed-data-augmentation-for-deep-sensing-model-transfer-in-cyber-physical-systems-on-the-acmieee-ipsn-2021-part-of-cps-week-2021-the-paper-has-also-be-selected-as-the-best-artifact-award-runner-up-congratulations&#34;&gt;Wenjie has presented our paper “PhyAug: Physics-Directed Data Augmentation for Deep Sensing Model Transfer in Cyber-Physical Systems” on the ACM/IEEE IPSN 2021, part of CPS Week 2021. The paper has also be selected as the Best Artifact Award Runner-up. Congratulations!&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/ipsn21.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/ipsn21.png&#34;
     
     
     
@@ -28,14 +28,14 @@
     
     <item>
       <title>IPSN TPC 2020</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/ipsn-tpc-2020/</link>
+      <link>http://localhost:1313/posts/blog/conference/ipsn-tpc-2020/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/ipsn-tpc-2020/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/ipsn-tpc-2020/</guid>
       <description>&lt;h2 id=&#34;ipsn-tpc-meeting--washington-university-in-st-louis-jan-2020&#34;&gt;IPSN TPC meeting , Washington University in St. Louis, Jan 2020.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/ipsntpc20.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/ipsntpc20.jpg&#34;
     
     
     

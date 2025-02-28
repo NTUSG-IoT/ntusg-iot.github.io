@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2. Publications on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/posts/papers/</link>
+    <link>http://localhost:1313/posts/papers/</link>
     <description>Recent content in 2. Publications on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://ntuiot.xyz/posts/papers/index.xml" rel="self" type="application/rss+xml" /><item>
+    <language>en</language><atom:link href="http://localhost:1313/posts/papers/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Conference and workshop papers</title>
-      <link>https://ntuiot.xyz/posts/papers/pubs/</link>
+      <link>http://localhost:1313/posts/papers/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/pubs/</guid>
+      <guid>http://localhost:1313/posts/papers/pubs/</guid>
       <description>&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Stable and Efficient Stochastic Differential Equation Networks for Time Series on Edge Devices.&lt;/strong&gt; &lt;br&gt;
@@ -29,10 +29,10 @@ Dongfang Guo, Yuting Wu, Yimin Dai, Pengfie Zhou, Xin Lou, Rui Tan. &lt;br&gt;
     
     <item>
       <title>Journal papers</title>
-      <link>https://ntuiot.xyz/posts/papers/journal/</link>
+      <link>http://localhost:1313/posts/papers/journal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/journal/</guid>
+      <guid>http://localhost:1313/posts/papers/journal/</guid>
       <description>&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;RoboCam: Model-Based Robotic Visual Sensing for Precise Inspection of Mesh Screens.&lt;/strong&gt; &lt;br&gt;
@@ -59,10 +59,10 @@ Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. &lt;br&gt;
     
     <item>
       <title>Thesis</title>
-      <link>https://ntuiot.xyz/posts/papers/thesis/</link>
+      <link>http://localhost:1313/posts/papers/thesis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/thesis/</guid>
+      <guid>http://localhost:1313/posts/papers/thesis/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;**Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions.**Zhenyu Yan &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/137802/3/YanZhenyu-thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;**Exploiting LoRaWAN for Efficient and Resilient IoT Networks.**Chaojie Gu &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/143912/2/chaojie_thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
@@ -74,10 +74,10 @@ Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. &lt;br&gt;
     
     <item>
       <title>Book chapters</title>
-      <link>https://ntuiot.xyz/posts/papers/book/</link>
+      <link>http://localhost:1313/posts/papers/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/book/</guid>
+      <guid>http://localhost:1313/posts/papers/book/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Artificial Intelligence of Things for Industrial Visual Sensing Systems in HP&amp;rsquo;s Factories.&lt;/strong&gt;&lt;br&gt;
@@ -97,10 +97,10 @@ Intelligent IoT for the Digital World (Eds. Yang Yang, Xu Chen, Rui Tan, Yong Xi
     
     <item>
       <title>Technical report</title>
-      <link>https://ntuiot.xyz/posts/papers/report/</link>
+      <link>http://localhost:1313/posts/papers/report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/report/</guid>
+      <guid>http://localhost:1313/posts/papers/report/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tropical Data Centre Proof-of-Concept.&lt;/strong&gt; &lt;br&gt;
 Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. &lt;br&gt;
@@ -111,10 +111,10 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Standard</title>
-      <link>https://ntuiot.xyz/posts/papers/standard/</link>
+      <link>http://localhost:1313/posts/papers/standard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/standard/</guid>
+      <guid>http://localhost:1313/posts/papers/standard/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Deployment and Operation of Data Centre IT Equipment under Tropical Climate, Singapore Standard 697:2023&lt;/strong&gt;  &lt;br&gt;
 &lt;a href=&#34;https://www.singaporestandardseshop.sg/Product/SSPdtDetail/f64b2a31-57a0-49ec-8716-57ccbdc33365&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;

@@ -2,392 +2,392 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ntuiot.xyz/posts/research/intro/</loc>
+    <loc>http://localhost:1313/posts/research/intro/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/research/security/secure/</loc>
+    <loc>http://localhost:1313/posts/research/security/secure/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/research/security/privicy/</loc>
+    <loc>http://localhost:1313/posts/research/security/privicy/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/research/iot-sensing/powerline/</loc>
+    <loc>http://localhost:1313/posts/research/iot-sensing/powerline/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/research/iot-sensing/lora/</loc>
+    <loc>http://localhost:1313/posts/research/iot-sensing/lora/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/research/iot-sensing/building/</loc>
+    <loc>http://localhost:1313/posts/research/iot-sensing/building/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/research/iot-sensing/acoustic/</loc>
+    <loc>http://localhost:1313/posts/research/iot-sensing/acoustic/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/papers/pubs/</loc>
+    <loc>http://localhost:1313/posts/papers/pubs/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/papers/journal/</loc>
+    <loc>http://localhost:1313/posts/papers/journal/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/papers/thesis/</loc>
+    <loc>http://localhost:1313/posts/papers/thesis/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/papers/book/</loc>
+    <loc>http://localhost:1313/posts/papers/book/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/papers/report/</loc>
+    <loc>http://localhost:1313/posts/papers/report/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/papers/standard/</loc>
+    <loc>http://localhost:1313/posts/papers/standard/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/team/</loc>
+    <loc>http://localhost:1313/posts/members/team/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/faculty/</loc>
+    <loc>http://localhost:1313/posts/members/faculty/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/phd/dongfang/</loc>
+    <loc>http://localhost:1313/posts/members/phd/dongfang/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/phd/siyuan/</loc>
+    <loc>http://localhost:1313/posts/members/phd/siyuan/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/phd/jiale/</loc>
+    <loc>http://localhost:1313/posts/members/phd/jiale/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/phd/yimin/</loc>
+    <loc>http://localhost:1313/posts/members/phd/yimin/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/phd/zimo/</loc>
+    <loc>http://localhost:1313/posts/members/phd/zimo/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/phd/nguyen/</loc>
+    <loc>http://localhost:1313/posts/members/phd/nguyen/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/phd/yihan/</loc>
+    <loc>http://localhost:1313/posts/members/phd/yihan/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/phd/yuting/</loc>
+    <loc>http://localhost:1313/posts/members/phd/yuting/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/visit/wenbin/</loc>
+    <loc>http://localhost:1313/posts/members/visit/wenbin/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/alumni/</loc>
+    <loc>http://localhost:1313/posts/members/alumni/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/call/achievements/</loc>
+    <loc>http://localhost:1313/posts/call/achievements/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/research/security/</loc>
+    <loc>http://localhost:1313/posts/research/security/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/demo/</loc>
+    <loc>http://localhost:1313/demo/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/research/</loc>
+    <loc>http://localhost:1313/posts/research/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/research/iot-sensing/</loc>
+    <loc>http://localhost:1313/posts/research/iot-sensing/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/</loc>
+    <loc>http://localhost:1313/posts/blog/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/categories/basic/</loc>
+    <loc>http://localhost:1313/categories/basic/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/event/</loc>
+    <loc>http://localhost:1313/tags/event/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/</loc>
+    <loc>http://localhost:1313/posts/blog/event/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/oral-defence/</loc>
+    <loc>http://localhost:1313/tags/oral-defence/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/wenjie-phd-def/</loc>
+    <loc>http://localhost:1313/posts/blog/event/wenjie-phd-def/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/conference/</loc>
+    <loc>http://localhost:1313/tags/conference/</loc>
     <lastmod>2023-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/</loc>
     <lastmod>2023-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/e-energy/</loc>
+    <loc>http://localhost:1313/tags/e-energy/</loc>
     <lastmod>2023-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/e-energy-2023/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/e-energy-2023/</loc>
     <lastmod>2023-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/cps-iot-2023/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/cps-iot-2023/</loc>
     <lastmod>2023-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/cpsweek/</loc>
+    <loc>http://localhost:1313/tags/cpsweek/</loc>
     <lastmod>2023-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/iccps-2023/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/iccps-2023/</loc>
     <lastmod>2023-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/sensys/</loc>
+    <loc>http://localhost:1313/tags/sensys/</loc>
     <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/sensys-2022/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/sensys-2022/</loc>
     <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/sensys-22/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/sensys-22/</loc>
     <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/career/</loc>
+    <loc>http://localhost:1313/tags/career/</loc>
     <lastmod>2022-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/career-qun/</loc>
+    <loc>http://localhost:1313/posts/blog/event/career-qun/</loc>
     <lastmod>2022-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/linshan-phd-def/</loc>
+    <loc>http://localhost:1313/posts/blog/event/linshan-phd-def/</loc>
     <lastmod>2021-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/zhenyu-award/</loc>
+    <loc>http://localhost:1313/posts/blog/event/zhenyu-award/</loc>
     <lastmod>2021-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/career-zc/</loc>
+    <loc>http://localhost:1313/posts/blog/event/career-zc/</loc>
     <lastmod>2021-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/qun-phd-def/</loc>
+    <loc>http://localhost:1313/posts/blog/event/qun-phd-def/</loc>
     <lastmod>2021-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/e-energy-2021---secon-2021/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/e-energy-2021---secon-2021/</loc>
     <lastmod>2021-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/secon/</loc>
+    <loc>http://localhost:1313/tags/secon/</loc>
     <lastmod>2021-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/ipsn/</loc>
+    <loc>http://localhost:1313/tags/ipsn/</loc>
     <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/ipsn-2021/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/ipsn-2021/</loc>
     <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/ieee-eps/</loc>
+    <loc>http://localhost:1313/tags/ieee-eps/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/ieee-pes-day-2021/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/ieee-pes-day-2021/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/convocation/</loc>
+    <loc>http://localhost:1313/tags/convocation/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/zhenyu-cov/</loc>
+    <loc>http://localhost:1313/posts/blog/event/zhenyu-cov/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/ipsn-tpc-2020/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/ipsn-tpc-2020/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/chaojie-phd-def/</loc>
+    <loc>http://localhost:1313/posts/blog/event/chaojie-phd-def/</loc>
     <lastmod>2020-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/zhenyu-phd-def/</loc>
+    <loc>http://localhost:1313/posts/blog/event/zhenyu-phd-def/</loc>
     <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/embedded-ai/</loc>
+    <loc>http://localhost:1313/tags/embedded-ai/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/embedded-al-2019/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/embedded-al-2019/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/newyork-2019/</loc>
+    <loc>http://localhost:1313/posts/blog/event/newyork-2019/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/scenery/</loc>
+    <loc>http://localhost:1313/tags/scenery/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/sensys-2019/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/sensys-2019/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/aichallengeiot-2019/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/aichallengeiot-2019/</loc>
     <lastmod>2019-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/al-challenge-iot/</loc>
+    <loc>http://localhost:1313/tags/al-challenge-iot/</loc>
     <lastmod>2019-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</loc>
+    <loc>http://localhost:1313/posts/blog/event/los-cabos-2019/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/mobicom/</loc>
+    <loc>http://localhost:1313/tags/mobicom/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/mobicom-2019/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/mobicom-2019/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/iotdi/</loc>
+    <loc>http://localhost:1313/tags/iotdi/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/iotdi-2019/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/iotdi-2019/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/cps-iot/</loc>
+    <loc>http://localhost:1313/tags/cps-iot/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/montreal-2019/</loc>
+    <loc>http://localhost:1313/posts/blog/event/montreal-2019/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/ewsn/</loc>
+    <loc>http://localhost:1313/tags/ewsn/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/ewsn-2019/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/ewsn-2019/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/fog-computing&#43;-workshop/</loc>
+    <loc>http://localhost:1313/tags/fog-computing&#43;-workshop/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/fog-computing/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/fog-computing/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/workshop/</loc>
+    <loc>http://localhost:1313/tags/workshop/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/sensys-2018/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/sensys-2018/</loc>
     <lastmod>2018-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/ubicomp-2018/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/ubicomp-2018/</loc>
     <lastmod>2018-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/uobicomp/</loc>
+    <loc>http://localhost:1313/tags/uobicomp/</loc>
     <lastmod>2018-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/cps/</loc>
+    <loc>http://localhost:1313/tags/cps/</loc>
     <lastmod>2018-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/ngcps-2018/</loc>
     <lastmod>2018-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/isorc/</loc>
+    <loc>http://localhost:1313/tags/isorc/</loc>
     <lastmod>2018-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/conference/isorc-2018/</loc>
+    <loc>http://localhost:1313/posts/blog/conference/isorc-2018/</loc>
     <lastmod>2018-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/blog/event/hawaii-2018/</loc>
+    <loc>http://localhost:1313/posts/blog/event/hawaii-2018/</loc>
     <lastmod>2018-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/tags/infocom/</loc>
+    <loc>http://localhost:1313/tags/infocom/</loc>
     <lastmod>2018-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/notes/</loc>
+    <loc>http://localhost:1313/notes/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/papers/</loc>
+    <loc>http://localhost:1313/posts/papers/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/</loc>
+    <loc>http://localhost:1313/posts/members/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/call/</loc>
+    <loc>http://localhost:1313/posts/call/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/demo/echoloc/</loc>
+    <loc>http://localhost:1313/demo/echoloc/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/demo/ghoststripe/</loc>
+    <loc>http://localhost:1313/demo/ghoststripe/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/staff/</loc>
+    <loc>http://localhost:1313/posts/members/staff/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/phd/</loc>
+    <loc>http://localhost:1313/posts/members/phd/</loc>
   </url><url>
-    <loc>https://ntuiot.xyz/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://ntuiot.xyz/posts/members/visit/</loc>
+    <loc>http://localhost:1313/posts/members/visit/</loc>
   </url>
 </urlset>

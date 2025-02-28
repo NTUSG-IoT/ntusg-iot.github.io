@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scenery on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/tags/scenery/</link>
+    <link>http://localhost:1313/tags/scenery/</link>
     <description>Recent content in Scenery on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/scenery/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/scenery/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>New York 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/event/newyork-2019/</link>
+      <link>http://localhost:1313/posts/blog/event/newyork-2019/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/newyork-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/event/newyork-2019/</guid>
       <description>&lt;h2 id=&#34;central-park-new-york-nov-2019&#34;&gt;Central Park, New York, Nov 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/centralpark.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/centralpark.jpg&#34;
     
     
     
@@ -31,14 +31,14 @@
     
     <item>
       <title>Los Cabos 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</link>
+      <link>http://localhost:1313/posts/blog/event/los-cabos-2019/</link>
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/event/los-cabos-2019/</guid>
       <description>&lt;h2 id=&#34;zhenyu-and-rui-at-los-cabos-oct-2019&#34;&gt;Zhenyu and Rui at Los Cabos, Oct 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_rui_loascabos.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_rui_loascabos.jpg&#34;
     
     
     
@@ -51,7 +51,7 @@
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;twilights-of-los-cabos&#34;&gt;Twilights of Los Cabos.&lt;/h4&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos1.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/loscabos1.jpg&#34;
     
     
     
@@ -64,7 +64,7 @@
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;sunrise-in-cabos&#34;&gt;Sunrise in Cabos.&lt;/h4&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos3.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/loscabos3.jpg&#34;
     
     
     
@@ -77,7 +77,7 @@
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;art-walk-at-cabo-san-lucas-downtown&#34;&gt;Art walk at Cabo San Lucas Downtown.&lt;/h4&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos4.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/loscabos4.jpg&#34;
     
     
     
@@ -93,14 +93,14 @@
     
     <item>
       <title>Montreal 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/event/montreal-2019/</link>
+      <link>http://localhost:1313/posts/blog/event/montreal-2019/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/montreal-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/event/montreal-2019/</guid>
       <description>&lt;h2 id=&#34;twilight-of-montreal-cps-iot-week-apr-2019&#34;&gt;Twilight of Montreal, CPS-IoT Week, Apr 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/cpsiot19twilight.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/cpsiot19twilight.jpg&#34;
     
     
     
@@ -116,14 +116,14 @@
     
     <item>
       <title>Hawaii 2018</title>
-      <link>https://ntuiot.xyz/posts/blog/event/hawaii-2018/</link>
+      <link>http://localhost:1313/posts/blog/event/hawaii-2018/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/hawaii-2018/</guid>
+      <guid>http://localhost:1313/posts/blog/event/hawaii-2018/</guid>
       <description>&lt;h2 id=&#34;chaojie-and-rui-at-maui-hawaii-apr-2018&#34;&gt;Chaojie and Rui at Maui, Hawaii. Apr 2018.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/hawaii18.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/hawaii18.jpg&#34;
     
     
     

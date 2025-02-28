@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contents on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Contents on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Research Focus</title>
-      <link>https://ntuiot.xyz/posts/research/intro/</link>
+      <link>http://localhost:1313/posts/research/intro/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/research/intro/</guid>
+      <guid>http://localhost:1313/posts/research/intro/</guid>
       <description>&lt;h3 id=&#34;1-iot-sensing-systems-and-applications&#34;&gt;1. IoT sensing systems and applications&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -25,7 +25,7 @@
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;   &lt;/td&gt;
-          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/powerline.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;http://localhost:1313/posts/research/images/powerline.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
           &lt;td&gt;   &lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/powerline/&#34;&gt;&lt;strong&gt;a. Powerline radiation sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; The periodic electric and magnetic fields emitted by the service power cables distributed in civil infrastructures provide both time and location information. Our research exploits these fields to develop clock synchronization, natural timestamping, localization, and device authentication services for indoor and wearable IoT objects.&lt;/td&gt;
       &lt;/tr&gt;
@@ -37,7 +37,7 @@
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;   &lt;/td&gt;
-          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/lora.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;http://localhost:1313/posts/research/images/lora.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
           &lt;td&gt;   &lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/lora/&#34;&gt;&lt;strong&gt;b. LoRa radio sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; LoRa is a low-power wide-area network (LPWAN) technology that can interconnect IoT objects distributed in large geographic areas or deep indoor/underground structures. Its long-range communication capability enables wide-area sensing using its own radio frequency signals. We sense the arrival time, frequency bias, and strength of LoRa signal for data timestamping, network security, and object localization.&lt;/td&gt;
       &lt;/tr&gt;
@@ -49,7 +49,7 @@
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;   &lt;/td&gt;
-          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/audio.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;http://localhost:1313/posts/research/images/audio.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
           &lt;td&gt;   &lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/acoustic_image/&#34;&gt;&lt;strong&gt;c. Acoustic and imagery sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; Acoustic and imagery sensing provides abundant information, but also imposes challenges on efficient processing on resource-constrained IoT objects. With deep learning techniques, we develop coordinated signal processing algorithms running on IoT objects and edge/cloud servers for indoor localization, voice recognition, and image-based object detection systems. Our systems are being deployed to manufacturing production lines.&lt;/td&gt;
       &lt;/tr&gt;
@@ -61,7 +61,7 @@
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;   &lt;/td&gt;
-          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/building.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;http://localhost:1313/posts/research/images/building.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
           &lt;td&gt;   &lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/building/&#34;&gt;&lt;strong&gt;d. Building sensing&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; We are interested in designing networked sensing systems to monitor the energy consumption and indoor conditions in various types of building environments (households, offices, data centers). Our research work provides enabling technologies for implementing very energy-efficient data centers in Singapore’s year-round hot and humid tropical condition.&lt;/td&gt;
       &lt;/tr&gt;
@@ -80,7 +80,7 @@
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;   &lt;/td&gt;
-          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/secure.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;http://localhost:1313/posts/research/images/secure.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
           &lt;td&gt;   &lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/secure/&#34;&gt;&lt;strong&gt;a. Secure sensing in AIoT&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; Deep neural networks have brought performance breakthroughs for sensing systems but also undesirable system complexities that may engender security vulnerabilities. The adversarial example attack is such an instance. We design and implement countermeasures that can be used by resource-constrained IoT devices against the adversarial example attack.&lt;/td&gt;
       &lt;/tr&gt;
@@ -92,7 +92,7 @@
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;   &lt;/td&gt;
-          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;https://ntuiot.xyz/posts/research/images/datacenter.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;img style=&#34;float: center;&#34; src=&#34;http://localhost:1313/posts/research/images/datacenter.png&#34; alt=&#34;image alt&#34; width=&#34;512px&#34; position=&#34;center&#34;&gt;&lt;/td&gt;
           &lt;td&gt;   &lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;research/privacy/&#34;&gt;&lt;strong&gt;b. Privacy-preserving sensing in AIoT&lt;/strong&gt;&lt;/a&gt; &lt;br&gt; Many IoT sensors operate in privacy-sensitive spaces and times. We design efficient approaches for resource-constrained IoT sensors to enable deep neural network-based learning and inference on the sensing data while protecting the users’ privacy.&lt;/td&gt;
       &lt;/tr&gt;
@@ -102,14 +102,14 @@
     
     <item>
       <title>Secure sensing in AIoT</title>
-      <link>https://ntuiot.xyz/posts/research/security/secure/</link>
+      <link>http://localhost:1313/posts/research/security/secure/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/research/security/secure/</guid>
+      <guid>http://localhost:1313/posts/research/security/secure/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Main contributors from the group: Qun Song (topic coordinator), Zhenyu Yan&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/research/images/secure/img1.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/research/images/secure/img1.png&#34;
     
     
     
@@ -127,23 +127,23 @@
     
     <item>
       <title>Privacy-preserving sensing in AIoT</title>
-      <link>https://ntuiot.xyz/posts/research/security/privicy/</link>
+      <link>http://localhost:1313/posts/research/security/privicy/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/research/security/privicy/</guid>
+      <guid>http://localhost:1313/posts/research/security/privicy/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;privacy-preserving-machine-learning-in-iot&#34;&gt;Privacy-Preserving Machine Learning in IoT&lt;/h3&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;p&gt;As explained in our &lt;a href=&#34;https://ntuiot.xyz/research/secure/&#34;&gt;post&lt;/a&gt;, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems. In a number of scenarios, the IoT edge and the cloud back end need to work together to implement AI-empowered sensing, during which privacy-sensitive data generated at the edge may be exchanged between the edge and the cloud. The group has ongoing research on designing and evaluating privacy-preserving learning and inference approaches in AIoT systems. Our challenge paper &lt;a href=&#34;https://github.com/tanrui/www/blob/master/pub/aichallengeiot19-final3.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt; provides a taxonomy of the existing privacy-preserving learning and inference approaches.&lt;/p&gt;</description>
+&lt;p&gt;As explained in our &lt;a href=&#34;http://localhost:1313/research/secure/&#34;&gt;post&lt;/a&gt;, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems. In a number of scenarios, the IoT edge and the cloud back end need to work together to implement AI-empowered sensing, during which privacy-sensitive data generated at the edge may be exchanged between the edge and the cloud. The group has ongoing research on designing and evaluating privacy-preserving learning and inference approaches in AIoT systems. Our challenge paper &lt;a href=&#34;https://github.com/tanrui/www/blob/master/pub/aichallengeiot19-final3.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(PDF)&lt;/a&gt; provides a taxonomy of the existing privacy-preserving learning and inference approaches.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Powerline radiation sensing</title>
-      <link>https://ntuiot.xyz/posts/research/iot-sensing/powerline/</link>
+      <link>http://localhost:1313/posts/research/iot-sensing/powerline/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/research/iot-sensing/powerline/</guid>
+      <guid>http://localhost:1313/posts/research/iot-sensing/powerline/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Main contributors from the group: Zhenyu Yan(topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Linshan Jiang&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
@@ -152,10 +152,10 @@
     
     <item>
       <title>LoRa radio sensing</title>
-      <link>https://ntuiot.xyz/posts/research/iot-sensing/lora/</link>
+      <link>http://localhost:1313/posts/research/iot-sensing/lora/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/research/iot-sensing/lora/</guid>
+      <guid>http://localhost:1313/posts/research/iot-sensing/lora/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
@@ -164,14 +164,14 @@
     
     <item>
       <title>Building sensing</title>
-      <link>https://ntuiot.xyz/posts/research/iot-sensing/building/</link>
+      <link>http://localhost:1313/posts/research/iot-sensing/building/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/research/iot-sensing/building/</guid>
+      <guid>http://localhost:1313/posts/research/iot-sensing/building/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Main contributors from the group: Duc Van Le (topic coordinator), Rongrong Wang, Yingbo Liu (alumnus)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/research/images/building/tropical_datacenter.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/research/images/building/tropical_datacenter.png&#34;
     
     
     
@@ -187,10 +187,10 @@
     
     <item>
       <title>Acoustic and imagery sensing</title>
-      <link>https://ntuiot.xyz/posts/research/iot-sensing/acoustic/</link>
+      <link>http://localhost:1313/posts/research/iot-sensing/acoustic/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/research/iot-sensing/acoustic/</guid>
+      <guid>http://localhost:1313/posts/research/iot-sensing/acoustic/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Main contributors from the group: Wenjie Luo (topic coordinator), Qun Song, Chaojie Gu, Zhenyu Yan, Duc Van Le, Siyuan Zhou, Jiale Chen, Qiping (Joy) Yang&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
@@ -199,14 +199,14 @@
     
     <item>
       <title>Wenjie PhD defense 2023</title>
-      <link>https://ntuiot.xyz/posts/blog/event/wenjie-phd-def/</link>
+      <link>http://localhost:1313/posts/blog/event/wenjie-phd-def/</link>
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/wenjie-phd-def/</guid>
+      <guid>http://localhost:1313/posts/blog/event/wenjie-phd-def/</guid>
       <description>&lt;h2 id=&#34;wenjie-completed-his-phd-defense-on-june-27th-2023&#34;&gt;Wenjie completed his PhD defense on June 27th 2023.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/wenjieoral.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/wenjieoral.jpg&#34;
     
     
     
@@ -222,15 +222,15 @@
     
     <item>
       <title>e-Energy 2023</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/e-energy-2023/</link>
+      <link>http://localhost:1313/posts/blog/conference/e-energy-2023/</link>
       <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/e-energy-2023/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/e-energy-2023/</guid>
       <description>&lt;h2 id=&#34;acm-e-energy23-held-at-orlando-has-been-successfully-concluded-where-prof-rui-tan-served-as-a-tpc-co-chair&#34;&gt;ACM e-Energy&#39;23 held at Orlando has been successfully concluded, where Prof. Rui Tan served as a TPC Co-Chair.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://photos.app.goo.gl/tjZaK8zn49CD1ACN9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link to album&lt;/a&gt;&lt;/p&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/e-energy-23.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/e-energy-23.png&#34;
     
     
     
@@ -245,14 +245,14 @@
     
     <item>
       <title>CPS-IoT 2023</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/cps-iot-2023/</link>
+      <link>http://localhost:1313/posts/blog/conference/cps-iot-2023/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/cps-iot-2023/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/cps-iot-2023/</guid>
       <description>&lt;h2 id=&#34;group-members-jiale-chen-wenjie-luo-and-yimin-dai-presented-their-works-at-cps-iot-week-2023&#34;&gt;Group members Jiale Chen, Wenjie Luo, and Yimin Dai presented their works at CPS-IoT Week 2023.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/jiale-iccps-23.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/jiale-iccps-23.jpg&#34;
     
         alt=&#34;Jiale Chen&#34;
     
@@ -265,7 +265,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/di-cps.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/di-cps.png&#34;
     
         alt=&#34;Wenjie Luo&#34;
     
@@ -278,7 +278,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/yimin-ipsn-23.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/yimin-ipsn-23.jpg&#34;
     
         alt=&#34;Yimin Dai&#34;
     
@@ -295,14 +295,14 @@
     
     <item>
       <title>ICCPS 2023 Best Paper</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/iccps-2023/</link>
+      <link>http://localhost:1313/posts/blog/conference/iccps-2023/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/iccps-2023/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/iccps-2023/</guid>
       <description>&lt;h2 id=&#34;group-member-jiale-chens-work-bubcam-won-best-paper-award-at-the-14th-acmieee-international-conference-on-cyber-physical-system-congratulations&#34;&gt;Group member Jiale Chen’s work, “BubCam”, won best paper award at The 14th ACM/IEEE International Conference on Cyber-Physical System. Congratulations!&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/iccps_best_paper.jpeg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/iccps_best_paper.jpeg&#34;
     
         alt=&#34;Jiale Chen&#34;
     
@@ -315,7 +315,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/di-cps.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/di-cps.png&#34;
     
         alt=&#34;Wenjie Luo&#34;
     
@@ -328,7 +328,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/yimin-ipsn-23.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/yimin-ipsn-23.jpg&#34;
     
         alt=&#34;Yimin Dai&#34;
     
@@ -345,14 +345,14 @@
     
     <item>
       <title>SenSys 2022</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/sensys-2022/</link>
+      <link>http://localhost:1313/posts/blog/conference/sensys-2022/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2022/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/sensys-2022/</guid>
       <description>&lt;h2 id=&#34;linshan-and-alumni-qun-and-zhenyu-presented-their-works-on-sensys22-boston&#34;&gt;Linshan and alumni Qun and Zhenyu presented their works on SenSys&#39;22, Boston.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/sensys22.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/sensys22.jpg&#34;
     
     
     
@@ -368,14 +368,14 @@
     
     <item>
       <title>SenSys&#39;22</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/sensys-22/</link>
+      <link>http://localhost:1313/posts/blog/conference/sensys-22/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-22/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/sensys-22/</guid>
       <description>&lt;h2 id=&#34;linshans-work-primask-is-selected-as-sensys22-best-paper-candidate-congratulations&#34;&gt;Linshan&amp;rsquo;s work PriMask is selected as SenSys&#39;22 Best Paper Candidate. Congratulations!&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/sensys22_primask.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/sensys22_primask.png&#34;
     
     
     
@@ -390,14 +390,14 @@
     
     <item>
       <title>TU Delft Faculty</title>
-      <link>https://ntuiot.xyz/posts/blog/event/career-qun/</link>
+      <link>http://localhost:1313/posts/blog/event/career-qun/</link>
       <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/career-qun/</guid>
+      <guid>http://localhost:1313/posts/blog/event/career-qun/</guid>
       <description>&lt;h2 id=&#34;qun-joined-tu-delft-as-a-tenure-track-assistant-professor-on-30th-aug-2022&#34;&gt;Qun joined TU Delft as a tenure-track Assistant Professor on 30th Aug 2022.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_join_tu_delft.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/qun_join_tu_delft.png&#34;
     
     
     
@@ -413,14 +413,14 @@
     
     <item>
       <title>Linshan PhD defense 2021</title>
-      <link>https://ntuiot.xyz/posts/blog/event/linshan-phd-def/</link>
+      <link>http://localhost:1313/posts/blog/event/linshan-phd-def/</link>
       <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/linshan-phd-def/</guid>
+      <guid>http://localhost:1313/posts/blog/event/linshan-phd-def/</guid>
       <description>&lt;h2 id=&#34;linshan-completed-his-phd-defense-on-dec-6th-2021&#34;&gt;Linshan completed his PhD defense on Dec 6th 2021.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/linshanoral.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/linshanoral.jpg&#34;
     
     
     
@@ -436,15 +436,15 @@
     
     <item>
       <title>Zhenyu Award 2021</title>
-      <link>https://ntuiot.xyz/posts/blog/event/zhenyu-award/</link>
+      <link>http://localhost:1313/posts/blog/event/zhenyu-award/</link>
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-award/</guid>
+      <guid>http://localhost:1313/posts/blog/event/zhenyu-award/</guid>
       <description>&lt;h2 id=&#34;group-graduate-dr-zhenyu-yan-won-the-rising-star-award-of-acm-sigbed-china-2021&#34;&gt;Group graduate Dr. Zhenyu Yan won the Rising Star Award of ACM SIGBED China, 2021.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/p5WL8TkmqYTG9DDT9XvsQA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click for details&lt;/a&gt;&lt;/p&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_rising_star.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_rising_star.png&#34;
     
     
     
@@ -460,14 +460,14 @@
     
     <item>
       <title>CUHK and ZJU Faculty</title>
-      <link>https://ntuiot.xyz/posts/blog/event/career-zc/</link>
+      <link>http://localhost:1313/posts/blog/event/career-zc/</link>
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/career-zc/</guid>
+      <guid>http://localhost:1313/posts/blog/event/career-zc/</guid>
       <description>&lt;h2 id=&#34;dr-zhenyu-yan-and-dr-chaojie-joined-the-faculty-of-cuhk-and-zju&#34;&gt;Dr. Zhenyu Yan and Dr. Chaojie joined the faculty of CUHK and ZJU.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_cuhk_chaojie_zju.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_cuhk_chaojie_zju.jpg&#34;
     
     
     
@@ -483,14 +483,14 @@
     
     <item>
       <title>Qun PhD defense 2022</title>
-      <link>https://ntuiot.xyz/posts/blog/event/qun-phd-def/</link>
+      <link>http://localhost:1313/posts/blog/event/qun-phd-def/</link>
       <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/qun-phd-def/</guid>
+      <guid>http://localhost:1313/posts/blog/event/qun-phd-def/</guid>
       <description>&lt;h2 id=&#34;qun-completed-her-phd-defense-aug-12th-2022&#34;&gt;Qun completed her PhD defense, Aug 12th, 2022.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_oral.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/qun_oral.png&#34;
     
     
     
@@ -506,14 +506,14 @@
     
     <item>
       <title>e-Energy 2021 - SECON 2021</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/e-energy-2021---secon-2021/</link>
+      <link>http://localhost:1313/posts/blog/conference/e-energy-2021---secon-2021/</link>
       <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/e-energy-2021---secon-2021/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/e-energy-2021---secon-2021/</guid>
       <description>&lt;h2 id=&#34;qun-siyuan-and-joy-presented-their-papers-at-e-energy21-and-secon21&#34;&gt;Qun, Siyuan, and Joy presented their papers at e-Energy&#39;21 and SECON&#39;21&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_eenergy_siyuan_joy_secon.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/qun_eenergy_siyuan_joy_secon.jpg&#34;
     
     
     
@@ -528,14 +528,14 @@
     
     <item>
       <title>IPSN 2021</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/ipsn-2021/</link>
+      <link>http://localhost:1313/posts/blog/conference/ipsn-2021/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/ipsn-2021/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/ipsn-2021/</guid>
       <description>&lt;h2 id=&#34;wenjie-has-presented-our-paper-phyaug-physics-directed-data-augmentation-for-deep-sensing-model-transfer-in-cyber-physical-systems-on-the-acmieee-ipsn-2021-part-of-cps-week-2021-the-paper-has-also-be-selected-as-the-best-artifact-award-runner-up-congratulations&#34;&gt;Wenjie has presented our paper “PhyAug: Physics-Directed Data Augmentation for Deep Sensing Model Transfer in Cyber-Physical Systems” on the ACM/IEEE IPSN 2021, part of CPS Week 2021. The paper has also be selected as the Best Artifact Award Runner-up. Congratulations!&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/ipsn21.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/ipsn21.png&#34;
     
     
     
@@ -548,14 +548,14 @@
     
     <item>
       <title>IEEE PES Day 2021</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/ieee-pes-day-2021/</link>
+      <link>http://localhost:1313/posts/blog/conference/ieee-pes-day-2021/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/ieee-pes-day-2021/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/ieee-pes-day-2021/</guid>
       <description>&lt;h2 id=&#34;rui-gave-a-talk-titled-experiences-and-learned-lessons-from-an-air-free-cooled-tropical-data-center-testbed-dec-2017--dec-2019-on-ieee-pes-day-2021&#34;&gt;Rui gave a talk titled &amp;ldquo;Experiences and Learned Lessons from an Air Free-Cooled Tropical Data Center Testbed (Dec 2017 – Dec 2019)&amp;rdquo; on IEEE PES Day 2021.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/pes.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/pes.png&#34;
     
     
     
@@ -568,14 +568,14 @@
     
     <item>
       <title>Zhenyu Convocation 2020</title>
-      <link>https://ntuiot.xyz/posts/blog/event/zhenyu-cov/</link>
+      <link>http://localhost:1313/posts/blog/event/zhenyu-cov/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-cov/</guid>
+      <guid>http://localhost:1313/posts/blog/event/zhenyu-cov/</guid>
       <description>&lt;h2 id=&#34;zhenyu-attended-the-ntu-convocation-for-the-class-of-2020-and-had-his-phd-degree-officially-conferred-rui-also-witnessed-the-ceremony&#34;&gt;Zhenyu attended the NTU Convocation for the Class of 2020 and had his Ph.D. degree officially conferred. Rui also witnessed the ceremony.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_convocation_1.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_convocation_1.jpg&#34;
     
     
     
@@ -591,14 +591,14 @@
     
     <item>
       <title>IPSN TPC 2020</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/ipsn-tpc-2020/</link>
+      <link>http://localhost:1313/posts/blog/conference/ipsn-tpc-2020/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/ipsn-tpc-2020/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/ipsn-tpc-2020/</guid>
       <description>&lt;h2 id=&#34;ipsn-tpc-meeting--washington-university-in-st-louis-jan-2020&#34;&gt;IPSN TPC meeting , Washington University in St. Louis, Jan 2020.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/ipsntpc20.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/ipsntpc20.jpg&#34;
     
     
     
@@ -611,14 +611,14 @@
     
     <item>
       <title>Chaojie PhD defense 2020</title>
-      <link>https://ntuiot.xyz/posts/blog/event/chaojie-phd-def/</link>
+      <link>http://localhost:1313/posts/blog/event/chaojie-phd-def/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/chaojie-phd-def/</guid>
+      <guid>http://localhost:1313/posts/blog/event/chaojie-phd-def/</guid>
       <description>&lt;h2 id=&#34;chaojie-completed-his-phd-defense-sep-22nd-2020&#34;&gt;Chaojie completed his PhD defense, Sep 22nd 2020.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/chaojieoral.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/chaojieoral.jpg&#34;
     
     
     
@@ -634,14 +634,14 @@
     
     <item>
       <title>Zhenyu PhD defense 2020</title>
-      <link>https://ntuiot.xyz/posts/blog/event/zhenyu-phd-def/</link>
+      <link>http://localhost:1313/posts/blog/event/zhenyu-phd-def/</link>
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-phd-def/</guid>
+      <guid>http://localhost:1313/posts/blog/event/zhenyu-phd-def/</guid>
       <description>&lt;h2 id=&#34;zhenyu-completed-his-phd-defense-feb-20th-2020&#34;&gt;Zhenyu completed his PhD defense, Feb 20th 2020.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyuoral.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyuoral.jpg&#34;
     
     
     
@@ -657,14 +657,14 @@
     
     <item>
       <title>Embedded AI Submit 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/embedded-al-2019/</link>
+      <link>http://localhost:1313/posts/blog/conference/embedded-al-2019/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/embedded-al-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/embedded-al-2019/</guid>
       <description>&lt;h2 id=&#34;embedded-ai-submit-2019-at-shenzhen-dec-2019&#34;&gt;Embedded AI Submit 2019 at Shenzhen, Dec 2019&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/embeddedai19.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/embeddedai19.jpg&#34;
     
     
     
@@ -677,14 +677,14 @@
     
     <item>
       <title>New York 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/event/newyork-2019/</link>
+      <link>http://localhost:1313/posts/blog/event/newyork-2019/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/newyork-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/event/newyork-2019/</guid>
       <description>&lt;h2 id=&#34;central-park-new-york-nov-2019&#34;&gt;Central Park, New York, Nov 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/centralpark.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/centralpark.jpg&#34;
     
     
     
@@ -700,14 +700,14 @@
     
     <item>
       <title>SenSys 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/sensys-2019/</link>
+      <link>http://localhost:1313/posts/blog/conference/sensys-2019/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/sensys-2019/</guid>
       <description>&lt;h2 id=&#34;quns-paper-presentation-moving-target-defense-for-embedded-deep-visual-sensing-against-adversarial-examples-at-sensys-new-york-nov-2019&#34;&gt;Qun&amp;rsquo;s paper presentation &amp;ldquo;Moving Target Defense for Embedded Deep Visual Sensing against Adversarial Examples&amp;rdquo; at SenSys, New York, Nov 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_sensys19.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/qun_sensys19.jpg&#34;
     
     
     
@@ -723,14 +723,14 @@
     
     <item>
       <title>AIChallengeIoT 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/aichallengeiot-2019/</link>
+      <link>http://localhost:1313/posts/blog/conference/aichallengeiot-2019/</link>
       <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/aichallengeiot-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/aichallengeiot-2019/</guid>
       <description>&lt;h2 id=&#34;paper-presentation-challenges-of-privacy-preserving-machine-learning-in-iot-at-aichallengeiot19-new-york-nov-2019&#34;&gt;Paper presentation “Challenges of Privacy-Preserving Machine Learning in IoT”, at AIChallengeIoT&#39;19, New York, Nov 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_sensys19.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/qun_sensys19.jpg&#34;
     
     
     
@@ -746,14 +746,14 @@
     
     <item>
       <title>Los Cabos 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</link>
+      <link>http://localhost:1313/posts/blog/event/los-cabos-2019/</link>
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/event/los-cabos-2019/</guid>
       <description>&lt;h2 id=&#34;zhenyu-and-rui-at-los-cabos-oct-2019&#34;&gt;Zhenyu and Rui at Los Cabos, Oct 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_rui_loascabos.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_rui_loascabos.jpg&#34;
     
     
     
@@ -766,7 +766,7 @@
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;twilights-of-los-cabos&#34;&gt;Twilights of Los Cabos.&lt;/h4&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos1.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/loscabos1.jpg&#34;
     
     
     
@@ -779,7 +779,7 @@
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;sunrise-in-cabos&#34;&gt;Sunrise in Cabos.&lt;/h4&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos3.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/loscabos3.jpg&#34;
     
     
     
@@ -792,7 +792,7 @@
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;art-walk-at-cabo-san-lucas-downtown&#34;&gt;Art walk at Cabo San Lucas Downtown.&lt;/h4&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos4.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/loscabos4.jpg&#34;
     
     
     
@@ -808,14 +808,14 @@
     
     <item>
       <title>MobiCom 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/mobicom-2019/</link>
+      <link>http://localhost:1313/posts/blog/conference/mobicom-2019/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/mobicom-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/mobicom-2019/</guid>
       <description>&lt;h2 id=&#34;zhenyus-paper-presentation-at-acm-mobicom-oct-2019&#34;&gt;Zhenyu&amp;rsquo;s paper presentation at ACM MobiCom, Oct 2019&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_mobicom19.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_mobicom19.jpg&#34;
     
     
     
@@ -828,7 +828,7 @@
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;mobicom-25th-anniversary-on-a-beach-of-los-cabos-oct-2019&#34;&gt;MobiCom 25th Anniversary, on a beach of Los Cabos, Oct 2019&lt;/h4&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/mobicom19.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/mobicom19.jpg&#34;
     
     
     
@@ -841,7 +841,7 @@
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;mobicom-2019-limited-edition&#34;&gt;MobiCom 2019 limited edition!&lt;/h4&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos2.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/loscabos2.jpg&#34;
     
     
     
@@ -857,14 +857,14 @@
     
     <item>
       <title>IoTDI 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/iotdi-2019/</link>
+      <link>http://localhost:1313/posts/blog/conference/iotdi-2019/</link>
       <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/iotdi-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/iotdi-2019/</guid>
       <description>&lt;h2 id=&#34;linshans-paper-presentation-on-lightweight-privacy-preserving-collaborative-learning-for-internet-of-things-objects-at-iotdi-montreal-apr-2019&#34;&gt;Linshan&amp;rsquo;s paper presentation &amp;ldquo;On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects&amp;rdquo; at IoTDI, Montreal, Apr 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/iotdi19.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/iotdi19.jpg&#34;
     
     
     
@@ -880,14 +880,14 @@
     
     <item>
       <title>Montreal 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/event/montreal-2019/</link>
+      <link>http://localhost:1313/posts/blog/event/montreal-2019/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/montreal-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/event/montreal-2019/</guid>
       <description>&lt;h2 id=&#34;twilight-of-montreal-cps-iot-week-apr-2019&#34;&gt;Twilight of Montreal, CPS-IoT Week, Apr 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/cpsiot19twilight.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/cpsiot19twilight.jpg&#34;
     
     
     
@@ -903,14 +903,14 @@
     
     <item>
       <title>EWSN 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/ewsn-2019/</link>
+      <link>http://localhost:1313/posts/blog/conference/ewsn-2019/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/ewsn-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/ewsn-2019/</guid>
       <description>&lt;h2 id=&#34;keynote-cyber-physical-approach-to-resilient-city-scale-iot-systems-the-1st-workshop-on-low-power-wide-area-networks-for-internet-of-things-ewsn19-tsinghua-university-feb-2019&#34;&gt;Keynote &amp;ldquo;Cyber-Physical Approach to Resilient City-Scale IoT Systems&amp;rdquo;, The 1st workshop on Low Power Wide Area Networks for Internet of Things, EWSN&#39;19, Tsinghua University, Feb 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/ewsn19.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/ewsn19.jpg&#34;
     
     
     
@@ -926,13 +926,13 @@
     
     <item>
       <title>Fog Computing&#43; Workshop</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/fog-computing/</link>
+      <link>http://localhost:1313/posts/blog/conference/fog-computing/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/fog-computing/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/fog-computing/</guid>
       <description>&lt;h2 id=&#34;the-2nd-fog-computing-workshop-trustworthy-fog-dec-14th-2018-ntu-singapore&#34;&gt;The 2nd Fog Computing+ Workshop: Trustworthy Fog, Dec 14th 2018, NTU Singapore.&lt;/h2&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/fog18.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/fog18.jpg&#34;
     
     
     
@@ -948,14 +948,14 @@
     
     <item>
       <title>SenSys 2018</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/sensys-2018/</link>
+      <link>http://localhost:1313/posts/blog/conference/sensys-2018/</link>
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2018/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/sensys-2018/</guid>
       <description>&lt;h2 id=&#34;the-data-data-acquisition-to-analysis-workshop-sensys18-shenzhen-nov-2018&#34;&gt;The DATA: Data Acquisition to Analysis Workshop, SenSys&#39;18, Shenzhen, Nov, 2018.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/data18.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/data18.jpg&#34;
     
     
     
@@ -971,14 +971,14 @@
     
     <item>
       <title>Ubicomp 2018</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/ubicomp-2018/</link>
+      <link>http://localhost:1313/posts/blog/conference/ubicomp-2018/</link>
       <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/ubicomp-2018/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/ubicomp-2018/</guid>
       <description>&lt;h2 id=&#34;quns-paper-presentation-at-ubicomp-singapore-oct-2018&#34;&gt;Qun’s paper presentation at UbiComp, Singapore, Oct, 2018&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_ubicomp18.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/qun_ubicomp18.jpg&#34;
     
     
     
@@ -994,14 +994,14 @@
     
     <item>
       <title>NGCPS 2018</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</link>
+      <link>http://localhost:1313/posts/blog/conference/ngcps-2018/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/ngcps-2018/</guid>
       <description>&lt;h2 id=&#34;workshop-on-next-generation-cyber-physical-systems-sep-15th-2018-university-of-virginia&#34;&gt;Workshop on Next-Generation Cyber-Physical Systems, Sep 15th 2018, University of Virginia.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/uva18.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/uva18.jpg&#34;
     
     
     
@@ -1017,14 +1017,14 @@
     
     <item>
       <title>ISORC 2018</title>
-      <link>https://ntuiot.xyz/posts/blog/conference/isorc-2018/</link>
+      <link>http://localhost:1313/posts/blog/conference/isorc-2018/</link>
       <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/conference/isorc-2018/</guid>
+      <guid>http://localhost:1313/posts/blog/conference/isorc-2018/</guid>
       <description>&lt;h2 id=&#34;landmark-of-singapore-token-on-the-banquet-of-isorc18&#34;&gt;Landmark of Singapore, token on the banquet of ISORC&#39;18.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/isorc18.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/isorc18.jpg&#34;
     
     
     
@@ -1040,14 +1040,14 @@
     
     <item>
       <title>Hawaii 2018</title>
-      <link>https://ntuiot.xyz/posts/blog/event/hawaii-2018/</link>
+      <link>http://localhost:1313/posts/blog/event/hawaii-2018/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/hawaii-2018/</guid>
+      <guid>http://localhost:1313/posts/blog/event/hawaii-2018/</guid>
       <description>&lt;h2 id=&#34;chaojie-and-rui-at-maui-hawaii-apr-2018&#34;&gt;Chaojie and Rui at Maui, Hawaii. Apr 2018.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/hawaii18.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/hawaii18.jpg&#34;
     
     
     
@@ -1076,10 +1076,10 @@
     
     <item>
       <title>Conference and workshop papers</title>
-      <link>https://ntuiot.xyz/posts/papers/pubs/</link>
+      <link>http://localhost:1313/posts/papers/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/pubs/</guid>
+      <guid>http://localhost:1313/posts/papers/pubs/</guid>
       <description>&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Stable and Efficient Stochastic Differential Equation Networks for Time Series on Edge Devices.&lt;/strong&gt; &lt;br&gt;
@@ -1098,10 +1098,10 @@ Dongfang Guo, Yuting Wu, Yimin Dai, Pengfie Zhou, Xin Lou, Rui Tan. &lt;br&gt;
     
     <item>
       <title>Journal papers</title>
-      <link>https://ntuiot.xyz/posts/papers/journal/</link>
+      <link>http://localhost:1313/posts/papers/journal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/journal/</guid>
+      <guid>http://localhost:1313/posts/papers/journal/</guid>
       <description>&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;RoboCam: Model-Based Robotic Visual Sensing for Precise Inspection of Mesh Screens.&lt;/strong&gt; &lt;br&gt;
@@ -1128,10 +1128,10 @@ Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. &lt;br&gt;
     
     <item>
       <title>Thesis</title>
-      <link>https://ntuiot.xyz/posts/papers/thesis/</link>
+      <link>http://localhost:1313/posts/papers/thesis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/thesis/</guid>
+      <guid>http://localhost:1313/posts/papers/thesis/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;**Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions.**Zhenyu Yan &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/137802/3/YanZhenyu-thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;**Exploiting LoRaWAN for Efficient and Resilient IoT Networks.**Chaojie Gu &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/143912/2/chaojie_thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
@@ -1143,10 +1143,10 @@ Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. &lt;br&gt;
     
     <item>
       <title>Book chapters</title>
-      <link>https://ntuiot.xyz/posts/papers/book/</link>
+      <link>http://localhost:1313/posts/papers/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/book/</guid>
+      <guid>http://localhost:1313/posts/papers/book/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Artificial Intelligence of Things for Industrial Visual Sensing Systems in HP&amp;rsquo;s Factories.&lt;/strong&gt;&lt;br&gt;
@@ -1166,10 +1166,10 @@ Intelligent IoT for the Digital World (Eds. Yang Yang, Xu Chen, Rui Tan, Yong Xi
     
     <item>
       <title>Technical report</title>
-      <link>https://ntuiot.xyz/posts/papers/report/</link>
+      <link>http://localhost:1313/posts/papers/report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/report/</guid>
+      <guid>http://localhost:1313/posts/papers/report/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tropical Data Centre Proof-of-Concept.&lt;/strong&gt; &lt;br&gt;
 Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. &lt;br&gt;
@@ -1180,10 +1180,10 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Standard</title>
-      <link>https://ntuiot.xyz/posts/papers/standard/</link>
+      <link>http://localhost:1313/posts/papers/standard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/papers/standard/</guid>
+      <guid>http://localhost:1313/posts/papers/standard/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Deployment and Operation of Data Centre IT Equipment under Tropical Climate, Singapore Standard 697:2023&lt;/strong&gt;  &lt;br&gt;
 &lt;a href=&#34;https://www.singaporestandardseshop.sg/Product/SSPdtDetail/f64b2a31-57a0-49ec-8716-57ccbdc33365&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
@@ -1192,12 +1192,12 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Members</title>
-      <link>https://ntuiot.xyz/posts/members/team/</link>
+      <link>http://localhost:1313/posts/members/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/team/</guid>
+      <guid>http://localhost:1313/posts/members/team/</guid>
       <description>&lt;h3 id=&#34;faculty&#34;&gt;Faculty&lt;/h3&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/rui_tan.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/members/photo/rui_tan.jpg&#34;
     
     
         width=&#34;160px&#34;
@@ -1244,7 +1244,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/dongfang_guo.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/dongfang_guo.jpg&#34;
     
     
         width=&#34;160px&#34;
@@ -1275,7 +1275,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
 &lt;/div&gt;
 
 &lt;div style=&#34;margin-top: 2rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/siyuan_zhou.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/siyuan_zhou.jpg&#34;
     
     
         width=&#34;160px&#34;
@@ -1306,7 +1306,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
 &lt;/div&gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/jiale_chen.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/jiale_chen.jpg&#34;
     
     
         width=&#34;160px&#34;
@@ -1337,7 +1337,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
 &lt;/div&gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/yimin_dai.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/yimin_dai.jpg&#34;
     
     
         width=&#34;160px&#34;
@@ -1373,13 +1373,13 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Faculty</title>
-      <link>https://ntuiot.xyz/posts/members/faculty/</link>
+      <link>http://localhost:1313/posts/members/faculty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/faculty/</guid>
+      <guid>http://localhost:1313/posts/members/faculty/</guid>
       <description>&lt;h1 id=&#34;rui-tan&#34;&gt;Rui Tan&lt;/h1&gt;
 &lt;p&gt;&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/rui_tan.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/members/photo/rui_tan.jpg&#34;
       
       
           width=&#34;200px&#34;
@@ -1405,11 +1405,11 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Dongfang Guo</title>
-      <link>https://ntuiot.xyz/posts/members/phd/dongfang/</link>
+      <link>http://localhost:1313/posts/members/phd/dongfang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/dongfang/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/dongfang_guo.jpg&#34;
+      <guid>http://localhost:1313/posts/members/phd/dongfang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/dongfang_guo.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -1439,11 +1439,11 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Siyuan Zhou</title>
-      <link>https://ntuiot.xyz/posts/members/phd/siyuan/</link>
+      <link>http://localhost:1313/posts/members/phd/siyuan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/siyuan/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/siyuan_zhou.png&#34;
+      <guid>http://localhost:1313/posts/members/phd/siyuan/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/siyuan_zhou.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -1472,11 +1472,11 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Jiale Chen</title>
-      <link>https://ntuiot.xyz/posts/members/phd/jiale/</link>
+      <link>http://localhost:1313/posts/members/phd/jiale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/jiale/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/jiale_chen.jpg&#34;
+      <guid>http://localhost:1313/posts/members/phd/jiale/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/jiale_chen.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -1510,11 +1510,11 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Yimin Dai</title>
-      <link>https://ntuiot.xyz/posts/members/phd/yimin/</link>
+      <link>http://localhost:1313/posts/members/phd/yimin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/yimin/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/yimin_dai.jpg&#34;
+      <guid>http://localhost:1313/posts/members/phd/yimin/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/yimin_dai.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -1538,11 +1538,11 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Zimo Ma</title>
-      <link>https://ntuiot.xyz/posts/members/phd/zimo/</link>
+      <link>http://localhost:1313/posts/members/phd/zimo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/zimo/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/zimo_ma.png&#34;
+      <guid>http://localhost:1313/posts/members/phd/zimo/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/zimo_ma.png&#34;
     
     
         width=&#34;200px&#34;
@@ -1566,11 +1566,11 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Duc Phuc Nguyen</title>
-      <link>https://ntuiot.xyz/posts/members/phd/nguyen/</link>
+      <link>http://localhost:1313/posts/members/phd/nguyen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/nguyen/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/nguyen.png&#34;
+      <guid>http://localhost:1313/posts/members/phd/nguyen/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/nguyen.png&#34;
     
     
         width=&#34;200px&#34;
@@ -1594,11 +1594,11 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Yihan Xu</title>
-      <link>https://ntuiot.xyz/posts/members/phd/yihan/</link>
+      <link>http://localhost:1313/posts/members/phd/yihan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/yihan/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/yihan_xu.jpg&#34;
+      <guid>http://localhost:1313/posts/members/phd/yihan/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/yihan_xu.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -1622,11 +1622,11 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Yuting Wu</title>
-      <link>https://ntuiot.xyz/posts/members/phd/yuting/</link>
+      <link>http://localhost:1313/posts/members/phd/yuting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/phd/yuting/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/yuting_wu.jpg&#34;
+      <guid>http://localhost:1313/posts/members/phd/yuting/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/yuting_wu.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -1655,11 +1655,11 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Wenbin Tian</title>
-      <link>https://ntuiot.xyz/posts/members/visit/wenbin/</link>
+      <link>http://localhost:1313/posts/members/visit/wenbin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/visit/wenbin/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/wenbin_tian.jpg&#34;
+      <guid>http://localhost:1313/posts/members/visit/wenbin/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/wenbin_tian.jpg&#34;
     
     
         width=&#34;200px&#34;
@@ -1683,10 +1683,10 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Alumni</title>
-      <link>https://ntuiot.xyz/posts/members/alumni/</link>
+      <link>http://localhost:1313/posts/members/alumni/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/members/alumni/</guid>
+      <guid>http://localhost:1313/posts/members/alumni/</guid>
       <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -1696,7 +1696,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/zhenyu_yan.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/zhenyu_yan.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -1715,7 +1715,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/chaojie_gu.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/chaojie_gu.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -1734,7 +1734,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/qun_song.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/qun_song.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -1753,7 +1753,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/linshan_jiang.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/linshan_jiang.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -1772,7 +1772,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
           &lt;td&gt;        &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/wenjie_luo.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/wenjie_luo.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -1791,7 +1791,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/rongrong_wang.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/rongrong_wang.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -1810,7 +1810,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/qiping_yang.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/qiping_yang.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -1829,7 +1829,7 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
           &lt;td&gt; &lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;https://ntuiot.xyz/posts/members/photo/zhuoran_chen.jpg&#34;
+          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/posts/members/photo/zhuoran_chen.jpg&#34;
     
     
         width=&#34;100px&#34;
@@ -1864,10 +1864,10 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Undergrad achievements &amp; opportunities</title>
-      <link>https://ntuiot.xyz/posts/call/achievements/</link>
+      <link>http://localhost:1313/posts/call/achievements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/call/achievements/</guid>
+      <guid>http://localhost:1313/posts/call/achievements/</guid>
       <description>&lt;h2 id=&#34;undergrad-achievements&#34;&gt;Undergrad achievements&lt;/h2&gt;
 &lt;p&gt;Our group has good interest and records in working with well motivated undergraduate students either from our own School and the external on research topics that we know. We guide them to read literature, perform hands-on work, and write the research report on a selected and timely topic, such that they can make their little but novel and publishable contributions. We believe that a senior undergraduate, if willing to undertake exploratory and challenging tasks, is ready for research. With the above rationale, our group has produced the following research publications driven by undergrads:&lt;/p&gt;</description>
     </item>

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Event on NTU IoT Research Group</title>
-    <link>https://ntuiot.xyz/posts/blog/event/</link>
+    <link>http://localhost:1313/posts/blog/event/</link>
     <description>Recent content in Event on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/posts/blog/event/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/blog/event/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Wenjie PhD defense 2023</title>
-      <link>https://ntuiot.xyz/posts/blog/event/wenjie-phd-def/</link>
+      <link>http://localhost:1313/posts/blog/event/wenjie-phd-def/</link>
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/wenjie-phd-def/</guid>
+      <guid>http://localhost:1313/posts/blog/event/wenjie-phd-def/</guid>
       <description>&lt;h2 id=&#34;wenjie-completed-his-phd-defense-on-june-27th-2023&#34;&gt;Wenjie completed his PhD defense on June 27th 2023.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/wenjieoral.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/wenjieoral.jpg&#34;
     
     
     
@@ -31,14 +31,14 @@
     
     <item>
       <title>TU Delft Faculty</title>
-      <link>https://ntuiot.xyz/posts/blog/event/career-qun/</link>
+      <link>http://localhost:1313/posts/blog/event/career-qun/</link>
       <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/career-qun/</guid>
+      <guid>http://localhost:1313/posts/blog/event/career-qun/</guid>
       <description>&lt;h2 id=&#34;qun-joined-tu-delft-as-a-tenure-track-assistant-professor-on-30th-aug-2022&#34;&gt;Qun joined TU Delft as a tenure-track Assistant Professor on 30th Aug 2022.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_join_tu_delft.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/qun_join_tu_delft.png&#34;
     
     
     
@@ -54,14 +54,14 @@
     
     <item>
       <title>Linshan PhD defense 2021</title>
-      <link>https://ntuiot.xyz/posts/blog/event/linshan-phd-def/</link>
+      <link>http://localhost:1313/posts/blog/event/linshan-phd-def/</link>
       <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/linshan-phd-def/</guid>
+      <guid>http://localhost:1313/posts/blog/event/linshan-phd-def/</guid>
       <description>&lt;h2 id=&#34;linshan-completed-his-phd-defense-on-dec-6th-2021&#34;&gt;Linshan completed his PhD defense on Dec 6th 2021.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/linshanoral.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/linshanoral.jpg&#34;
     
     
     
@@ -77,15 +77,15 @@
     
     <item>
       <title>Zhenyu Award 2021</title>
-      <link>https://ntuiot.xyz/posts/blog/event/zhenyu-award/</link>
+      <link>http://localhost:1313/posts/blog/event/zhenyu-award/</link>
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-award/</guid>
+      <guid>http://localhost:1313/posts/blog/event/zhenyu-award/</guid>
       <description>&lt;h2 id=&#34;group-graduate-dr-zhenyu-yan-won-the-rising-star-award-of-acm-sigbed-china-2021&#34;&gt;Group graduate Dr. Zhenyu Yan won the Rising Star Award of ACM SIGBED China, 2021.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/p5WL8TkmqYTG9DDT9XvsQA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Click for details&lt;/a&gt;&lt;/p&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_rising_star.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_rising_star.png&#34;
     
     
     
@@ -101,14 +101,14 @@
     
     <item>
       <title>CUHK and ZJU Faculty</title>
-      <link>https://ntuiot.xyz/posts/blog/event/career-zc/</link>
+      <link>http://localhost:1313/posts/blog/event/career-zc/</link>
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/career-zc/</guid>
+      <guid>http://localhost:1313/posts/blog/event/career-zc/</guid>
       <description>&lt;h2 id=&#34;dr-zhenyu-yan-and-dr-chaojie-joined-the-faculty-of-cuhk-and-zju&#34;&gt;Dr. Zhenyu Yan and Dr. Chaojie joined the faculty of CUHK and ZJU.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_cuhk_chaojie_zju.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_cuhk_chaojie_zju.jpg&#34;
     
     
     
@@ -124,14 +124,14 @@
     
     <item>
       <title>Qun PhD defense 2022</title>
-      <link>https://ntuiot.xyz/posts/blog/event/qun-phd-def/</link>
+      <link>http://localhost:1313/posts/blog/event/qun-phd-def/</link>
       <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/qun-phd-def/</guid>
+      <guid>http://localhost:1313/posts/blog/event/qun-phd-def/</guid>
       <description>&lt;h2 id=&#34;qun-completed-her-phd-defense-aug-12th-2022&#34;&gt;Qun completed her PhD defense, Aug 12th, 2022.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/qun_oral.png&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/qun_oral.png&#34;
     
     
     
@@ -147,14 +147,14 @@
     
     <item>
       <title>Zhenyu Convocation 2020</title>
-      <link>https://ntuiot.xyz/posts/blog/event/zhenyu-cov/</link>
+      <link>http://localhost:1313/posts/blog/event/zhenyu-cov/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-cov/</guid>
+      <guid>http://localhost:1313/posts/blog/event/zhenyu-cov/</guid>
       <description>&lt;h2 id=&#34;zhenyu-attended-the-ntu-convocation-for-the-class-of-2020-and-had-his-phd-degree-officially-conferred-rui-also-witnessed-the-ceremony&#34;&gt;Zhenyu attended the NTU Convocation for the Class of 2020 and had his Ph.D. degree officially conferred. Rui also witnessed the ceremony.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_convocation_1.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_convocation_1.jpg&#34;
     
     
     
@@ -170,14 +170,14 @@
     
     <item>
       <title>Chaojie PhD defense 2020</title>
-      <link>https://ntuiot.xyz/posts/blog/event/chaojie-phd-def/</link>
+      <link>http://localhost:1313/posts/blog/event/chaojie-phd-def/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/chaojie-phd-def/</guid>
+      <guid>http://localhost:1313/posts/blog/event/chaojie-phd-def/</guid>
       <description>&lt;h2 id=&#34;chaojie-completed-his-phd-defense-sep-22nd-2020&#34;&gt;Chaojie completed his PhD defense, Sep 22nd 2020.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/chaojieoral.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/chaojieoral.jpg&#34;
     
     
     
@@ -193,14 +193,14 @@
     
     <item>
       <title>Zhenyu PhD defense 2020</title>
-      <link>https://ntuiot.xyz/posts/blog/event/zhenyu-phd-def/</link>
+      <link>http://localhost:1313/posts/blog/event/zhenyu-phd-def/</link>
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-phd-def/</guid>
+      <guid>http://localhost:1313/posts/blog/event/zhenyu-phd-def/</guid>
       <description>&lt;h2 id=&#34;zhenyu-completed-his-phd-defense-feb-20th-2020&#34;&gt;Zhenyu completed his PhD defense, Feb 20th 2020.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyuoral.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyuoral.jpg&#34;
     
     
     
@@ -216,14 +216,14 @@
     
     <item>
       <title>New York 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/event/newyork-2019/</link>
+      <link>http://localhost:1313/posts/blog/event/newyork-2019/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/newyork-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/event/newyork-2019/</guid>
       <description>&lt;h2 id=&#34;central-park-new-york-nov-2019&#34;&gt;Central Park, New York, Nov 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/centralpark.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/centralpark.jpg&#34;
     
     
     
@@ -239,14 +239,14 @@
     
     <item>
       <title>Los Cabos 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</link>
+      <link>http://localhost:1313/posts/blog/event/los-cabos-2019/</link>
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/event/los-cabos-2019/</guid>
       <description>&lt;h2 id=&#34;zhenyu-and-rui-at-los-cabos-oct-2019&#34;&gt;Zhenyu and Rui at Los Cabos, Oct 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/zhenyu_rui_loascabos.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/zhenyu_rui_loascabos.jpg&#34;
     
     
     
@@ -259,7 +259,7 @@
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;twilights-of-los-cabos&#34;&gt;Twilights of Los Cabos.&lt;/h4&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos1.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/loscabos1.jpg&#34;
     
     
     
@@ -272,7 +272,7 @@
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;sunrise-in-cabos&#34;&gt;Sunrise in Cabos.&lt;/h4&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos3.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/loscabos3.jpg&#34;
     
     
     
@@ -285,7 +285,7 @@
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;art-walk-at-cabo-san-lucas-downtown&#34;&gt;Art walk at Cabo San Lucas Downtown.&lt;/h4&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/loscabos4.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/loscabos4.jpg&#34;
     
     
     
@@ -301,14 +301,14 @@
     
     <item>
       <title>Montreal 2019</title>
-      <link>https://ntuiot.xyz/posts/blog/event/montreal-2019/</link>
+      <link>http://localhost:1313/posts/blog/event/montreal-2019/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/montreal-2019/</guid>
+      <guid>http://localhost:1313/posts/blog/event/montreal-2019/</guid>
       <description>&lt;h2 id=&#34;twilight-of-montreal-cps-iot-week-apr-2019&#34;&gt;Twilight of Montreal, CPS-IoT Week, Apr 2019.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/cpsiot19twilight.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/cpsiot19twilight.jpg&#34;
     
     
     
@@ -324,14 +324,14 @@
     
     <item>
       <title>Hawaii 2018</title>
-      <link>https://ntuiot.xyz/posts/blog/event/hawaii-2018/</link>
+      <link>http://localhost:1313/posts/blog/event/hawaii-2018/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntuiot.xyz/posts/blog/event/hawaii-2018/</guid>
+      <guid>http://localhost:1313/posts/blog/event/hawaii-2018/</guid>
       <description>&lt;h2 id=&#34;chaojie-and-rui-at-maui-hawaii-apr-2018&#34;&gt;Chaojie and Rui at Maui, Hawaii. Apr 2018.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;https://ntuiot.xyz/posts/gallery/hawaii18.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/gallery/hawaii18.jpg&#34;
     
     
     
