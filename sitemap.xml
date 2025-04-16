@@ -170,23 +170,38 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/research/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/blog/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/basic/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/conference/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/blog/conference/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sensys/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/blog/conference/sensys-2024/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/research/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/research/iot-sensing/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/blog/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/basic/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/event/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
@@ -203,17 +218,8 @@
     <loc>http://localhost:1313/posts/blog/event/rongrong-phd-def/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/blog/event/wenjie-phd-def/</loc>
     <lastmod>2023-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/conference/</loc>
-    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/blog/conference/</loc>
-    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/e-energy/</loc>
     <lastmod>2023-06-26T00:00:00+00:00</lastmod>
@@ -229,9 +235,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/blog/conference/iccps-2023/</loc>
     <lastmod>2023-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/sensys/</loc>
-    <lastmod>2022-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/blog/conference/sensys-2022/</loc>
     <lastmod>2022-11-06T00:00:00+00:00</lastmod>
