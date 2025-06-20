@@ -2,37 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2. Publications on NTU IoT Research Group</title>
-    <link>http://localhost:1313/posts/papers/</link>
+    <link>https://ntuiot.xyz/posts/papers/</link>
     <description>Recent content in 2. Publications on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://localhost:1313/posts/papers/index.xml" rel="self" type="application/rss+xml" /><item>
+    <language>en</language><atom:link href="https://ntuiot.xyz/posts/papers/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Conference and workshop papers</title>
-      <link>http://localhost:1313/posts/papers/pubs/</link>
+      <link>https://ntuiot.xyz/posts/papers/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/papers/pubs/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/pubs/</guid>
       <description>&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Stable and Efficient Stochastic Differential Equation Networks for Time Series on Edge Devices.&lt;/strong&gt; &lt;br&gt;
-Yimin Dai, Li-Lian Wang, Rui Tan. &lt;br&gt;
-&lt;em&gt;The 23rd ACM Conference on Embedded Networked Sensor Systems (SenSys)&lt;/em&gt;, May 6-9, 2025, Irvine, USA. CPS-IoT Week 2025.   &lt;font color=blue&gt;(Acceptance ratio: 18.7%)&lt;/font&gt;  &lt;br&gt;
-&lt;a href=&#34;https://tanrui.github.io/pub/SDENet-Dai.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;2024&#34;&gt;2024&lt;/h3&gt;
-&lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Demo: Invisible Adversarial Stripes against Traffic Sign Recognition in Autonomous Driving.&lt;/strong&gt; &lt;br&gt;
-Dongfang Guo, Yuting Wu, Yimin Dai, Pengfie Zhou, Xin Lou, Rui Tan. &lt;br&gt;
-&lt;em&gt;The 22nd ACM Conference on Embedded Networked Sensor Systems (SenSys)&lt;/em&gt;, November 4-7, 2024, Hangzhou, China. &lt;strong&gt;&lt;font color=red&gt;Best Demo Award &lt;/font&gt;&lt;/strong&gt;&lt;br&gt;
-&lt;a href=&#34;https://tanrui.github.io/pub/GhostStripe-SenSys-Demo.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Rolling in the Deep: Exploiting Rolling Shutter Effect Against Stereo Depth Estimation in Drones.&lt;/strong&gt; &lt;br&gt;
+Dongfang Guo, Rui Tan.
+&lt;em&gt;The 11th Workshop on Micro Aerial Vehicle Networks, Systems, and Applications (DroNet)&lt;/em&gt;, co-located with ACM MobiSys, June 27, 2025, Anaheim, CA, USA.   &lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/dronet25-final64.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Low-Carbon Autonomous Driving Computing via Adaptive Solar Batteries.&lt;/strong&gt;&lt;br&gt;
+Siyuan Zhou, Zimo Ma, Rui Tan.
+&lt;em&gt;The 31st IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA)&lt;/em&gt;, August 20-22, 2025, Singapore. &lt;br&gt;
+&lt;a href=&#34;https://tanrui.github.io/pub/RTCSA25.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Journal papers</title>
-      <link>http://localhost:1313/posts/papers/journal/</link>
+      <link>https://ntuiot.xyz/posts/papers/journal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/papers/journal/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/journal/</guid>
       <description>&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;RoboCam: Model-Based Robotic Visual Sensing for Precise Inspection of Mesh Screens.&lt;/strong&gt; &lt;br&gt;
@@ -59,25 +58,30 @@ Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. &lt;br&gt;
     
     <item>
       <title>Thesis</title>
-      <link>http://localhost:1313/posts/papers/thesis/</link>
+      <link>https://ntuiot.xyz/posts/papers/thesis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/papers/thesis/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/thesis/</guid>
       <description>&lt;ol&gt;
-&lt;li&gt;**Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions.**Zhenyu Yan &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/137802/3/YanZhenyu-thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;**Exploiting LoRaWAN for Efficient and Resilient IoT Networks.**Chaojie Gu &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/143912/2/chaojie_thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;**Lightweight Privacy-Preserving Deep Learning and Inference in IoT.**Linshang Jiang &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/155000/4/thesis-revision-final.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;**Improving Security of Autonomous Cyber-Physical Systems against Adversarial Examples.**Qun Song &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/161165/2/thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;**Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.**Wenjie Luo &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/169116/2/mythesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions.&lt;/strong&gt; &lt;br&gt;
+Zhenyu Yan &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/137802/3/YanZhenyu-thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exploiting LoRaWAN for Efficient and Resilient IoT Networks.&lt;/strong&gt;   &lt;br&gt;
+Chaojie Gu &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/143912/2/chaojie_thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lightweight Privacy-Preserving Deep Learning and Inference in IoT.&lt;/strong&gt;  &lt;br&gt;
+Linshang Jiang &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/155000/4/thesis-revision-final.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improving Security of Autonomous Cyber-Physical Systems against Adversarial Examples.&lt;/strong&gt;&lt;br&gt;
+Qun Song &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/161165/2/thesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.&lt;/strong&gt;&lt;br&gt;
+Wenjie Luo &lt;a href=&#34;https://dr.ntu.edu.sg/bitstream/10356/169116/2/mythesis.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>Book chapters</title>
-      <link>http://localhost:1313/posts/papers/book/</link>
+      <link>https://ntuiot.xyz/posts/papers/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/papers/book/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/book/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Artificial Intelligence of Things for Industrial Visual Sensing Systems in HP&amp;rsquo;s Factories.&lt;/strong&gt;&lt;br&gt;
@@ -97,10 +101,10 @@ Intelligent IoT for the Digital World (Eds. Yang Yang, Xu Chen, Rui Tan, Yong Xi
     
     <item>
       <title>Technical report</title>
-      <link>http://localhost:1313/posts/papers/report/</link>
+      <link>https://ntuiot.xyz/posts/papers/report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/papers/report/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/report/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tropical Data Centre Proof-of-Concept.&lt;/strong&gt; &lt;br&gt;
 Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. &lt;br&gt;
@@ -111,10 +115,10 @@ Technical Report, Nanyang Technological University, 2019. &lt;br&gt;
     
     <item>
       <title>Standard</title>
-      <link>http://localhost:1313/posts/papers/standard/</link>
+      <link>https://ntuiot.xyz/posts/papers/standard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/papers/standard/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/standard/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Deployment and Operation of Data Centre IT Equipment under Tropical Climate, Singapore Standard 697:2023&lt;/strong&gt;  &lt;br&gt;
 &lt;a href=&#34;https://www.singaporestandardseshop.sg/Product/SSPdtDetail/f64b2a31-57a0-49ec-8716-57ccbdc33365&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
