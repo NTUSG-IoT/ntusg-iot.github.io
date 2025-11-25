@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CPSWeek on NTU IoT Research Group</title>
-    <link>http://localhost:65100/tags/cpsweek/</link>
+    <link>http://localhost:1313/tags/cpsweek/</link>
     <description>Recent content in CPSWeek on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:65100/tags/cpsweek/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/cpsweek/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>CPS-IoT 2025</title>
-      <link>http://localhost:65100/posts/blog/conference/cps-iot-2025/</link>
+      <link>http://localhost:1313/blog/conference/cps-iot-2025/</link>
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:65100/posts/blog/conference/cps-iot-2025/</guid>
+      <guid>http://localhost:1313/blog/conference/cps-iot-2025/</guid>
       <description>&lt;h2 id=&#34;group-members-yimin-dai-siyuan-zhou-and-zimo-ma-presented-their-works-at-cps-iot-week-2025&#34;&gt;Group members Yimin Dai, Siyuan Zhou, and Zimo Ma presented their works at CPS-IoT Week 2025.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:65100/posts/gallery/yimin-cps-2025.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/gallery/yimin-cps-2025.jpg&#34;
     
         alt=&#34;Yimin Dai&#34;
     
@@ -28,7 +28,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:65100/posts/gallery/siyuan-cps-2025.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/gallery/siyuan-cps-2025.jpg&#34;
     
         alt=&#34;Siyuan Zhou&#34;
     
@@ -41,7 +41,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:65100/posts/gallery/yuting-cps-2025.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/gallery/yuting-cps-2025.jpg&#34;
     
         alt=&#34;Yuting Wu&#34;
     
@@ -54,7 +54,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:65100/posts/gallery/zimo-cps-2025.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/gallery/zimo-cps-2025.jpg&#34;
     
         alt=&#34;Zimo Ma&#34;
     
@@ -67,7 +67,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:65100/posts/gallery/group-cps-2025.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/gallery/group-cps-2025.jpg&#34;
     
         alt=&#34;Iot Group&#34;
     
@@ -84,14 +84,14 @@
     
     <item>
       <title>CPS-IoT 2023</title>
-      <link>http://localhost:65100/posts/blog/conference/cps-iot-2023/</link>
+      <link>http://localhost:1313/blog/conference/cps-iot-2023/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:65100/posts/blog/conference/cps-iot-2023/</guid>
+      <guid>http://localhost:1313/blog/conference/cps-iot-2023/</guid>
       <description>&lt;h2 id=&#34;group-members-jiale-chen-wenjie-luo-and-yimin-dai-presented-their-works-at-cps-iot-week-2023&#34;&gt;Group members Jiale Chen, Wenjie Luo, and Yimin Dai presented their works at CPS-IoT Week 2023.&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:65100/posts/gallery/jiale-iccps-23.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/gallery/jiale-iccps-23.jpg&#34;
     
         alt=&#34;Jiale Chen&#34;
     
@@ -104,7 +104,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:65100/posts/gallery/di-cps.png&#34;
+&lt;img src=&#34;http://localhost:1313/gallery/di-cps.png&#34;
     
         alt=&#34;Wenjie Luo&#34;
     
@@ -117,7 +117,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:65100/posts/gallery/yimin-ipsn-23.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/gallery/yimin-ipsn-23.jpg&#34;
     
         alt=&#34;Yimin Dai&#34;
     
@@ -134,14 +134,14 @@
     
     <item>
       <title>ICCPS 2023 Best Paper</title>
-      <link>http://localhost:65100/posts/blog/conference/iccps-2023/</link>
+      <link>http://localhost:1313/blog/conference/iccps-2023/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:65100/posts/blog/conference/iccps-2023/</guid>
+      <guid>http://localhost:1313/blog/conference/iccps-2023/</guid>
       <description>&lt;h2 id=&#34;group-member-jiale-chens-work-bubcam-won-best-paper-award-at-the-14th-acmieee-international-conference-on-cyber-physical-system-congratulations&#34;&gt;Group member Jiale Chen’s work, “BubCam”, won best paper award at The 14th ACM/IEEE International Conference on Cyber-Physical System. Congratulations!&lt;/h2&gt;
 &lt;hr&gt;
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:65100/posts/gallery/iccps_best_paper.jpeg&#34;
+&lt;img src=&#34;http://localhost:1313/gallery/iccps_best_paper.jpeg&#34;
     
         alt=&#34;Jiale Chen&#34;
     
@@ -154,7 +154,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:65100/posts/gallery/di-cps.png&#34;
+&lt;img src=&#34;http://localhost:1313/gallery/di-cps.png&#34;
     
         alt=&#34;Wenjie Luo&#34;
     
@@ -167,7 +167,7 @@
 &gt;
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:65100/posts/gallery/yimin-ipsn-23.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/gallery/yimin-ipsn-23.jpg&#34;
     
         alt=&#34;Yimin Dai&#34;
     

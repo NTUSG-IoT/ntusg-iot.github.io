@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=65100&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>GhostStripe</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,10 +23,11 @@
 
   <link rel="icon" type="image/png" href="/images/site/logo_hu_838c3e856e518c18.png" />
 
-<meta property="og:url" content="http://localhost:65100/demo/ghoststripe/">
+<meta property="og:url" content="http://localhost:1313/demo/ghoststripe/">
   <meta property="og:site_name" content="NTU IoT Research Group">
   <meta property="og:title" content="GhostStripe">
-  <meta property="og:description" content="Invisible Optical Adversarial Stripes on Traffic Sign against Autonomous Vehicles">
+  <meta property="og:description" content="Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the rolling shutter effect (RSE), where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.
+Figure 1: Invisible optical adversarial-example attack against traffic sign recognition. This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving context. In the envisaged attack as illustrated in Fig. 1a, an LED is deployed in the proximity of a traffic sign plate and projects controlled flickering light onto the plate surface. As the flickering frequency is beyond human eye’s perception limit (up to 50-90 Hz), the flickering is invisible to human and the LED appears as a benign illumination device. Meanwhile, on the image captured by the camera, as illustrated in Fig. 1a, the RSE-induced colored stripes mislead the traffic sign recognition. For the attack to mislead the autonomous driving program to make erroneous decisions unconsciously, the traffic sign recognition results should be wrong and same across a sufficient number of consecutive frames (Fig. 1c). We call the attack meeting this requirement stable. If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="demo">
@@ -34,12 +35,11 @@
     
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="GhostStripe">
-  <meta name="twitter:description" content="Invisible Optical Adversarial Stripes on Traffic Sign against Autonomous Vehicles">
+  <meta name="twitter:description" content="Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the rolling shutter effect (RSE), where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.
+Figure 1: Invisible optical adversarial-example attack against traffic sign recognition. This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving context. In the envisaged attack as illustrated in Fig. 1a, an LED is deployed in the proximity of a traffic sign plate and projects controlled flickering light onto the plate surface. As the flickering frequency is beyond human eye’s perception limit (up to 50-90 Hz), the flickering is invisible to human and the LED appears as a benign illumination device. Meanwhile, on the image captured by the camera, as illustrated in Fig. 1a, the RSE-induced colored stripes mislead the traffic sign recognition. For the attack to mislead the autonomous driving program to make erroneous decisions unconsciously, the traffic sign recognition results should be wrong and same across a sufficient number of consecutive frames (Fig. 1c). We call the attack meeting this requirement stable. If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening.">
 
     
-    
-<meta name="description" content="Invisible Optical Adversarial Stripes on Traffic Sign against Autonomous Vehicles" />
-
+     
 
     
 
@@ -143,19 +143,23 @@
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/posts/" data-filter="all"></a></li>
+            <li id="list-heading"><a href="/demo" data-filter="all">Demo</a></li>
             <div class="subtree">
+                
                 
   
   
   
   
+    
+    
+  
   
     
     <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/research/">1. Research</a>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/demo/">Demo</a>
       
-      <ul class="">
+      <ul class="active">
         
   
   
@@ -163,752 +167,19 @@
   
   
     
-    <li><a class="" href="/posts/research/intro/" title="Research Focus">Research Focus</a></li>
+    <li><a class="" href="/demo/echoloc/" title="EchoLoc">EchoLoc</a></li>
   
 
   
   
   
   
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/research/security/">Security and privacy of AIoT sensing</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/research/security/secure/" title="Secure sensing in AIoT">Secure sensing in AIoT</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/research/security/privicy/" title="Privacy-preserving sensing in AIoT">Privacy-preserving sensing in AIoT</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/research/iot-sensing/">IoT sensing systems and applications</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/research/iot-sensing/powerline/" title="Powerline radiation sensing">Powerline radiation sensing</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/research/iot-sensing/lora/" title="LoRa radio sensing">LoRa radio sensing</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/research/iot-sensing/building/" title="Building sensing">Building sensing</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/research/iot-sensing/acoustic/" title="Acoustic and imagery sensing">Acoustic and imagery sensing</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/papers/">2. Publications</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/papers/pubs/" title="Conference and workshop papers">Conference and workshop papers</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/papers/journal/" title="Journal papers">Journal papers</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/papers/thesis/" title="Thesis">Thesis</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/papers/book/" title="Book chapters">Book chapters</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/papers/report/" title="Technical report">Technical report</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/papers/standard/" title="Standard">Standard</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/members/">3. Team</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/team/" title="Members">Members</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/faculty/" title="Faculty">Faculty</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/alumni/" title="Alumni">Alumni</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/staff/" title="Postdoctoral">Postdoctoral</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/members/phd/">Postgraduate Researchers and Students</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/phd/yimin/" title="Yimin Dai">Yimin Dai</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/phd/dongfang/" title="Dongfang Guo">Dongfang Guo</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/phd/siyuan/" title="Siyuan Zhou">Siyuan Zhou</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/phd/jiale/" title="Jiale Chen">Jiale Chen</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/phd/zimo/" title="Zimo Ma">Zimo Ma</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/phd/nguyen/" title="Duc Phuc Nguyen">Duc Phuc Nguyen</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/phd/yihan/" title="Yihan Xu">Yihan Xu</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/phd/yuting/" title="Yuting Wu">Yuting Wu</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/members/visit/">Visiting Students</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/members/visit/wenbin/" title="Wenbin Tian">Wenbin Tian</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/call/">4. Call for Undergrads</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/call/achievements/" title="Undergrad achievements">Undergrad achievements</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/blog/">5. Blog</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/blog/conference/">Conference</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/aichallengeiot-2019/" title="AIChallengeIoT 2019">AIChallengeIoT 2019</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/cps-iot-2023/" title="CPS-IoT 2023">CPS-IoT 2023</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/cps-iot-2025/" title="CPS-IoT 2025">CPS-IoT 2025</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/e-energy-2021---secon-2021/" title="e-Energy 2021 - SECON 2021">e-Energy 2021 - SECON 2021</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/e-energy-2023/" title="e-Energy 2023">e-Energy 2023</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/embedded-al-2019/" title="Embedded AI Submit 2019">Embedded AI Submit 2019</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/ewsn-2019/" title="EWSN 2019">EWSN 2019</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/fog-computing/" title="Fog Computing&#43; Workshop">Fog Computing&#43; Workshop</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/iccps-2023/" title="ICCPS 2023 Best Paper">ICCPS 2023 Best Paper</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/ieee-pes-day-2021/" title="IEEE PES Day 2021">IEEE PES Day 2021</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/iotdi-2019/" title="IoTDI 2019">IoTDI 2019</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/ipsn-2021/" title="IPSN 2021">IPSN 2021</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/ipsn-tpc-2020/" title="IPSN TPC 2020">IPSN TPC 2020</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/isorc-2018/" title="ISORC 2018">ISORC 2018</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/mobicom-2019/" title="MobiCom 2019">MobiCom 2019</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/ngcps-2018/" title="NGCPS 2018">NGCPS 2018</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/sensys-2018/" title="SenSys 2018">SenSys 2018</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/sensys-2019/" title="SenSys 2019">SenSys 2019</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/sensys-2022/" title="SenSys 2022">SenSys 2022</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/sensys-22/" title="SenSys&#39;22 PriMask">SenSys&#39;22 PriMask</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/sensys-2024/" title="SenSys&#39;24 GhostStripe">SenSys&#39;24 GhostStripe</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/conference/ubicomp-2018/" title="UobiComp 2018">UobiComp 2018</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/blog/event/">Event</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/chaojie-phd-def/" title="Chaojie PhD defense 2020">Chaojie PhD defense 2020</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/career-zc/" title="CUHK and ZJU Faculty">CUHK and ZJU Faculty</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/dongfang-phd-def/" title="Dongfang PhD defense 2025">Dongfang PhD defense 2025</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/hawaii-2018/" title="Hawaii 2018">Hawaii 2018</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/jiale-phd-def/" title="Jiale PhD defense 2025">Jiale PhD defense 2025</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/linshan-phd-def/" title="Linshan PhD defense 2021">Linshan PhD defense 2021</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/los-cabos-2019/" title="Los Cabos 2019">Los Cabos 2019</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/montreal-2019/" title="Montreal 2019">Montreal 2019</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/newyork-2019/" title="New York 2019">New York 2019</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/qun-phd-def/" title="Qun PhD defense 2022">Qun PhD defense 2022</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/rongrong-phd-def/" title="Rongrong PhD defense 2025">Rongrong PhD defense 2025</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/siyuan-phd-def/" title="Siyuan PhD defense 2025">Siyuan PhD defense 2025</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/career-qun/" title="TU Delft Faculty">TU Delft Faculty</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/blog/event/wenjie-phd-def/" title="Wenjie PhD defense 2023">Wenjie PhD defense 2023</a></li>
-  
-
-  
-  
-  
-  
-  
     
-    <li><a class="" href="/posts/blog/event/zhenyu-award/" title="Zhenyu Award 2021">Zhenyu Award 2021</a></li>
-  
-
-  
-  
-  
-  
-  
     
-    <li><a class="" href="/posts/blog/event/zhenyu-cov/" title="Zhenyu Convocation 2020">Zhenyu Convocation 2020</a></li>
-  
-
-  
   
   
-  
-  
     
-    <li><a class="" href="/posts/blog/event/zhenyu-phd-def/" title="Zhenyu PhD defense 2020">Zhenyu PhD defense 2020</a></li>
-  
-
-
-      </ul>
-    </li>
+    <li><a class="active" href="/demo/ghoststripe/" title="GhostStripe">GhostStripe</a></li>
   
 
 
@@ -930,16 +201,13 @@
 <section class="content-section" id="content-section">
   <div class="content">
     <div class="container p-0 read-area">
-      
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url();'>
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/demo/ghoststripe/ghoststripe_drawing.png);'>
       </div>
 
-      
       <div class="page-content">
         <div class="author-profile ml-auto align-self-lg-center">
           <img class="rounded-circle" src='/images/site/logo_hu_d99ddb43395bfbc1.png' alt="Author Image">
           <h5 class="author-name">NTU IoT Research Group</h5>
-          
         </div>
 
         <div class="title">
@@ -956,36 +224,160 @@
           <p>Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the <strong>rolling shutter effect (RSE)</strong>, where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.</p>
 <!-- To pose a real threat, such attacks must be stable, meaning the misclassification remains consistent over consecutive frames. Without stability, anomalies may be detected, and defensive mechanisms could trigger fail-safe actions, reducing the impact of the attack. -->
 <figure style="max-width:500px; margin:auto; text-align:center;">
-    <img src="/demo/images/ghoststripe/gs_envisaged.png" 
-         alt="gs_envisaged" 
-         class="img-fluid rounded z-depth-1" 
-         style="width: 100%; height: auto;">
-    <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
-        Figure 1: Invisible optical adversarial-example attack against traffic sign recognition.
-    </figcaption>
+  
+  
+  
+  
+    
+      
+  
+      
+      
+      
+      
+  
+      
+  
+      
+      
+      
+      
+  
+      
+  
+  
+      
+      <img
+      
+            srcset='
+            
+              /images/demo/ghoststripe/gs_envisaged_hu_cd3e3e45fda49d63.png 500w
+            
+            
+              , /images/demo/ghoststripe/gs_envisaged_hu_6175af8af8bb1db8.png 800w
+            
+            
+              , /images/demo/ghoststripe/gs_envisaged_hu_506b0b66fd415f19.png 1200w
+            
+            '
+            
+              src="/images/demo/ghoststripe/gs_envisaged.png"
+            
+  
+            alt='gs_envisaged'>
+      
+  
+
+  <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+    Figure 1: Invisible optical adversarial-example attack against traffic sign recognition.
+  </figcaption>
 </figure>
 <p>This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving
 context. In the envisaged attack as illustrated in Fig. 1a, an LED is deployed in the proximity of a traffic sign plate and projects
 controlled flickering light onto the plate surface. As the flickering frequency is beyond human eye’s perception limit (up to 50-90 Hz), the flickering is invisible to human and the LED appears as a benign illumination device. Meanwhile, on the image captured by the camera, as illustrated in Fig. 1a, the RSE-induced colored stripes mislead the traffic sign recognition. For the attack to mislead the autonomous driving program to make erroneous decisions unconsciously, the traffic sign recognition results should be wrong and same across a sufficient number of consecutive frames (Fig. 1c). We call the attack meeting this requirement stable.
 If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening.</p>
 <figure style="max-width:1100px; margin:auto; text-align:center;">
-    <img src="/demo/images/ghoststripe/gs_system.png" 
-         alt="gs_system" 
-         class="img-fluid rounded z-depth-1" 
-         style="width: 100%; height: auto;">
-    <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
-        Figure 2: Overview of GhostStripe.
-    </figcaption>
+  
+  
+  
+  
+    
+      
+  
+      
+      
+      
+      
+  
+      
+  
+      
+      
+      
+      
+  
+      
+  
+  
+      
+      <img
+      
+            srcset='
+            
+              /images/demo/ghoststripe/gs_system_hu_c91454e5118e8083.png 500w
+            
+            
+              , /images/demo/ghoststripe/gs_system_hu_e0e0edcbb60b19b.png 800w
+            
+            
+              , /images/demo/ghoststripe/gs_system_hu_f955063f6f71dae5.png 1200w
+            
+            
+              , /images/demo/ghoststripe/gs_system_hu_d2a71fcda4d73fae.png 1500w 
+            '
+            
+              src="/images/demo/ghoststripe/gs_system.png"
+            
+  
+            alt='gs_system'>
+      
+  
+
+  <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+    Figure 2: Overview of GhostStripe.
+  </figcaption>
 </figure>
 <p>We design an attack system called <strong>GhostStripe</strong> in two versions with different requirements on the attack deployment. The first version, GhostStripe1, maintains stationary adversarial stripes in the FoV by calibrating the LED flickering frequency.   GhostStripe1 employs a vehicle tracker to monitor the victim vehicle&rsquo;s real-time location and dynamically adjusts the LED flickering accordingly. GhostStripe1 does not require any instrumentation on the victim vehicle. It aims to maintain the victim&rsquo;s traffic sign recognition result stable over time. However, it is an untargeted attack, in that the recognition result is unpredictable (i.e., not deliberately spoofed towards a certain class) because the vertical positions of the adversarial stripes  are not controlled by the attacker. To achieve targeted attack (i.e., the attacker can control the victim&rsquo;s recognition result as a certain class), on top of GhostStripe1, GhostStripe2 deploys framing sniffer to sense the victim camera&rsquo;s framing moments via a current transducer clipped on the power wire of the camera. The sniffer transmits the detected framing moments to the LED controller to refine the timing control of the flickering. Although installing the framing sniffer requires physical access to the victim vehicle, it is possible, say, during maintenance by an auto care provider colluding with the attacker. We evaluate GhostStripe on a real outdoor testbed and a lab testbed with Baidu Apollo’s default camera. On the outdoor testbed, GhostStripe1 and GhostStripe2 can achieve up to 94% and 97% success rates in launching untargeted and targeted attacks, respectively.</p>
 <figure style="max-width:900px; margin:auto; text-align:center;">
-    <img src="/demo/images/ghoststripe/gs_implementation.png" 
-         alt="gs_implementation" 
-         class="img-fluid rounded z-depth-1" 
-         style="width: 100%; height: auto;">
-    <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
-        Figure 3: Outdoor testbed implementation.
-    </figcaption>
+  
+  
+  
+  
+    
+      
+  
+      
+      
+      
+      
+  
+      
+  
+      
+      
+      
+      
+  
+      
+  
+  
+      
+      <img
+      
+            srcset='
+            
+              /images/demo/ghoststripe/gs_implementation_hu_f8c61f0fde2beaa4.png 500w
+            
+            
+              , /images/demo/ghoststripe/gs_implementation_hu_84e53af90eced20d.png 800w
+            
+            
+              , /images/demo/ghoststripe/gs_implementation_hu_8d30f389b3f178f.png 1200w
+            
+            
+              , /images/demo/ghoststripe/gs_implementation_hu_d6670a0ba8be5366.png 1500w 
+            '
+            
+              src="/images/demo/ghoststripe/gs_implementation.png"
+            
+  
+            alt='gs_implementation'>
+      
+  
+
+  <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+    Figure 3: Outdoor testbed implementation.
+  </figcaption>
 </figure>
 <!-- <div class="row">
     <div class="col-sm-12 text-center">
@@ -1027,13 +419,55 @@ If the attack is not stable (Fig. 1b), an anomaly detector may identify the malf
     </div>
 </div> -->
 <figure style="max-width:700px; margin:auto; text-align:center;">
-    <img src="/demo/images/ghoststripe/ghostbuster.png" 
-         alt="ghostbuster" 
-         class="img-fluid rounded z-depth-1" 
-         style="width: 100%; height: auto;">
-    <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
-        Figure 4: GhostBuster’s defense pipeline.
-    </figcaption>
+  
+  
+  
+  
+    
+      
+  
+      
+      
+      
+      
+  
+      
+  
+      
+      
+      
+      
+  
+      
+  
+  
+      
+      <img
+      
+            srcset='
+            
+              /images/demo/ghoststripe/ghostbuster_hu_911c088f03e6585f.png 500w
+            
+            
+              , /images/demo/ghoststripe/ghostbuster_hu_a6fe9c37108417ed.png 800w
+            
+            
+              , /images/demo/ghoststripe/ghostbuster_hu_23c7ea65393b09e7.png 1200w
+            
+            
+              , /images/demo/ghoststripe/ghostbuster_hu_91435523ab566a47.png 1500w 
+            '
+            
+              src="/images/demo/ghoststripe/ghostbuster.png"
+            
+  
+            alt='ghostbuster'>
+      
+  
+
+  <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+    Figure 4: GhostBuster’s defense pipeline.
+  </figcaption>
 </figure>
 <p>For a detailed breakdown of our research, check out our full conference paper at ACM MobiSys 2024. [<a href="https://tanrui.github.io/pub/GhostStripe-MobiSys.pdf" target="_blank" rel="noopener">PDF</a>]</p>
 <p>This work also won the <strong>Best Demo Award</strong> at ACM SenSys 2024 🏆. [<a href="https://tanrui.github.io/pub/GhostStripe-SenSys-Demo.pdf" target="_blank" rel="noopener">Abstract</a>] [<a href="https://www.ntu.edu.sg/computing/news-events/news/detail/best-demo-award-at-the-22nd-acm-conference-on-embedded-networked-sensor-systems-%28sensys-2024%29" target="_blank" rel="noopener">NTU News</a>] [<a href="https://www.linkedin.com/posts/association-for-computing-machinery_we-are-thrilled-to-share-the-outstanding-activity-7274460854056542213-Pxuj/" target="_blank" rel="noopener">ACM News</a>]</p>
@@ -1041,52 +475,39 @@ If the attack is not stable (Fig. 1b), an anomaly detector may identify the malf
 
         </div>
 
-        
         <div class="row pl-3 pr-3">
-        
         <div class="col-md-6 share-buttons">
         
             <strong>:</strong>
             
-            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a65100%2fdemo%2fghoststripe%2f" target="_blank">
+            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fdemo%2fghoststripe%2f" target="_blank">
               <i class="fab fa-facebook"></i>
             </a>
             
             
-                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a65100%2fdemo%2fghoststripe%2f&text=GhostStripe&via=NTU%20IoT%20Research%20Group" target="_blank">
+                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fdemo%2fghoststripe%2f&text=GhostStripe&via=NTU%20IoT%20Research%20Group" target="_blank">
                   <i class="fab fa-twitter"></i>
                 </a>
             
             
-            
-            
-            
-                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a65100%2fdemo%2fghoststripe%2f&title=GhostStripe" target="_blank">
+                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fdemo%2fghoststripe%2f&title=GhostStripe" target="_blank">
                   <i class="fab fa-linkedin"></i>
                 </a>
             
             
-             
-            
-                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=GhostStripe http%3a%2f%2flocalhost%3a65100%2fdemo%2fghoststripe%2f" target="_blank">
+                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=GhostStripe http%3a%2f%2flocalhost%3a1313%2fdemo%2fghoststripe%2f" target="_blank">
                   <i class="fab fa-whatsapp"></i>
                 </a>
             
             
-                <a class="btn btn-sm email-btn" href="mailto:?subject=GhostStripe&body=http%3a%2f%2flocalhost%3a65100%2fdemo%2fghoststripe%2f" target="_blank">
+                <a class="btn btn-sm email-btn" href="mailto:?subject=GhostStripe&body=http%3a%2f%2flocalhost%3a1313%2fdemo%2fghoststripe%2f" target="_blank">
                   <i class="fas fa-envelope-open-text"></i>
                 </a>
             
           
           </div>
-
-        
-        
         </div>
 
-
-
-      
       <hr />
         
 
@@ -1300,8 +721,24 @@ If the attack is not stable (Fig. 1b), an anomaly detector may identify the malf
   
   
 
+  
+  
+
+  
+    
+    
+  
+  
+
 
 <div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/demo/echoloc/" title="EchoLoc" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> </div>
+        <div class="next-prev-text">EchoLoc</div>
+      </a>
+    </div>
   
   
 </div>
@@ -1309,23 +746,17 @@ If the attack is not stable (Fig. 1b), an anomaly detector may identify the malf
       <hr />
 
       
-      
 
       </div>
     </div>
   </div>
-  
   <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
   
 </section>
 
 
       
-      
-  <section class="toc-section" id="toc-section">
-    
-  </section>
-
+       
     </div>
 
     
