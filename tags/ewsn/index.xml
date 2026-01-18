@@ -1,34 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>EWSN on NTU IoT Research Group</title>
-    <link>http://localhost:1313/tags/ewsn/</link>
-    <description>Recent content in EWSN on NTU IoT Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 25 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ewsn/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>EWSN 2019</title>
-      <link>http://localhost:1313/blog/conference/ewsn-2019/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blog/conference/ewsn-2019/</guid>
-      <description>&lt;h2 id=&#34;keynote-cyber-physical-approach-to-resilient-city-scale-iot-systems-the-1st-workshop-on-low-power-wide-area-networks-for-internet-of-things-ewsn19-tsinghua-university-feb-2019&#34;&gt;Keynote &amp;ldquo;Cyber-Physical Approach to Resilient City-Scale IoT Systems&amp;rdquo;, The 1st workshop on Low Power Wide Area Networks for Internet of Things, EWSN&#39;19, Tsinghua University, Feb 2019.&lt;/h2&gt;
-&lt;hr&gt;
-&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:1313/gallery/ewsn19.jpg&#34;
-    
-    
-    
-    
-    
-        class=&#34;center&#34;
-    
-&gt;
-
-&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;hr&gt;</description>
-    </item>
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EWSN on NTU IoT Research Group</title><link>https://ntuiot.xyz/tags/ewsn/</link><description>Recent content in EWSN on NTU IoT Research Group</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 25 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/ewsn/index.xml" rel="self" type="application/rss+xml"/><item><title>EWSN 2019</title><link>https://ntuiot.xyz/blog/conference/ewsn-2019/</link><pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate><guid>https://ntuiot.xyz/blog/conference/ewsn-2019/</guid><description>&lt;h2 id="keynote-cyber-physical-approach-to-resilient-city-scale-iot-systems-the-1st-workshop-on-low-power-wide-area-networks-for-internet-of-things-ewsn19-tsinghua-university-feb-2019">Keynote &amp;ldquo;Cyber-Physical Approach to Resilient City-Scale IoT Systems&amp;rdquo;, The 1st workshop on Low Power Wide Area Networks for Internet of Things, EWSN'19, Tsinghua University, Feb 2019.&lt;/h2>
+&lt;hr>
+&lt;div style="margin-top: 3rem;">&lt;/div>
+&lt;img src="https://ntuiot.xyz/gallery/ewsn19.jpg"
+class="center"
+>
+&lt;div style="margin-top: 3rem;">&lt;/div>
+&lt;hr></description></item></channel></rss>

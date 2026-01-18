@@ -1,88 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Demo on NTU IoT Research Group</title>
-    <link>http://localhost:1313/demo/</link>
-    <description>Recent content in Demo on NTU IoT Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demo/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>EchoLoc</title>
-      <link>http://localhost:1313/demo/echoloc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/demo/echoloc/</guid>
-      <description>&lt;p&gt;Video demo:&lt;/p&gt;
-&lt;iframe src=&#34;https://www.youtube.com/embed/5si0Cq6LzT4&#34;
-        style=&#34;width: 100%; height: 500px; max-width: none;&#34; allowfullscreen&gt;
-&lt;/iframe&gt;
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
-&lt;p&gt;Smartphone-based localization has attracted wide research in recent years due to the proliferation of smartphones and the increasingly demanded location-aware services. In indoor environments, the global positioning system (GPS) are often unavailable due to the blockage of GPS signal and more stringent requirements of indoor positioning services. Therefore, a number of modalities such as Bluetooth and Wi-Fi are exploited to build smartphone-based indoor localization systems. These solutions are usually infrastructure-based, which require the installation of extra anchor points for localizing the smartphones. Excessive effort for infrastructure installation often stems the applicability of infrastructure-based indoor localization systems. Therefore, an accurate, reliable infrastructure-free indoor localization system will be more favorable compared with infrastructure-based systems.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>GhostStripe</title>
-      <link>http://localhost:1313/demo/ghoststripe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/demo/ghoststripe/</guid>
-      <description>&lt;p&gt;Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the &lt;strong&gt;rolling shutter effect (RSE)&lt;/strong&gt;, where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.&lt;/p&gt;
-&lt;!-- To pose a real threat, such attacks must be stable, meaning the misclassification remains consistent over consecutive frames. Without stability, anomalies may be detected, and defensive mechanisms could trigger fail-safe actions, reducing the impact of the attack. --&gt;
-&lt;figure style=&#34;max-width:500px; margin:auto; text-align:center;&#34;&gt;
-  
-  
-  
-  
-    
-      
-  
-      
-      
-      
-      
-  
-      
-  
-      
-      
-      
-      
-  
-      
-  
-  
-      
-      &lt;img
-      
-            srcset=&#39;
-            
-              /images/demo/ghoststripe/gs_envisaged_hu_cd3e3e45fda49d63.png 500w
-            
-            
-              , /images/demo/ghoststripe/gs_envisaged_hu_6175af8af8bb1db8.png 800w
-            
-            
-              , /images/demo/ghoststripe/gs_envisaged_hu_506b0b66fd415f19.png 1200w
-            
-            &#39;
-            
-              src=&#34;http://localhost:1313/images/demo/ghoststripe/gs_envisaged.png&#34;
-            
-  
-            alt=&#39;gs_envisaged&#39;&gt;
-      
-  
-
-  &lt;figcaption style=&#34;margin-top: 10px; font-size: 14px; color: #666;&#34;&gt;
-    Figure 1: Invisible optical adversarial-example attack against traffic sign recognition.
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Demo on NTU IoT Research Group</title><link>https://ntuiot.xyz/demo/</link><description>Recent content in Demo on NTU IoT Research Group</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/demo/index.xml" rel="self" type="application/rss+xml"/><item><title>EchoLoc</title><link>https://ntuiot.xyz/demo/echoloc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ntuiot.xyz/demo/echoloc/</guid><description>&lt;p>Video demo:&lt;/p>
+&lt;iframe src="https://www.youtube.com/embed/5si0Cq6LzT4"
+style="width: 100%; height: 500px; max-width: none;" allowfullscreen>
+&lt;/iframe>
+&lt;p>&amp;ndash;&lt;/p>
+&lt;p>Smartphone-based localization has attracted wide research in recent years due to the proliferation of smartphones and the increasingly demanded location-aware services. In indoor environments, the global positioning system (GPS) are often unavailable due to the blockage of GPS signal and more stringent requirements of indoor positioning services. Therefore, a number of modalities such as Bluetooth and Wi-Fi are exploited to build smartphone-based indoor localization systems. These solutions are usually infrastructure-based, which require the installation of extra anchor points for localizing the smartphones. Excessive effort for infrastructure installation often stems the applicability of infrastructure-based indoor localization systems. Therefore, an accurate, reliable infrastructure-free indoor localization system will be more favorable compared with infrastructure-based systems.&lt;/p></description></item><item><title>GhostStripe</title><link>https://ntuiot.xyz/demo/ghoststripe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ntuiot.xyz/demo/ghoststripe/</guid><description>&lt;p>Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the &lt;strong>rolling shutter effect (RSE)&lt;/strong>, where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.&lt;/p>
+&lt;!-- To pose a real threat, such attacks must be stable, meaning the misclassification remains consistent over consecutive frames. Without stability, anomalies may be detected, and defensive mechanisms could trigger fail-safe actions, reducing the impact of the attack. -->
+&lt;figure style="max-width:500px; margin:auto; text-align:center;">
+&lt;img
+srcset='
+/images/demo/ghoststripe/gs_envisaged_hu_cd3e3e45fda49d63.png 500w
+, /images/demo/ghoststripe/gs_envisaged_hu_6175af8af8bb1db8.png 800w
+, /images/demo/ghoststripe/gs_envisaged_hu_506b0b66fd415f19.png 1200w
+'
+src="https://ntuiot.xyz/images/demo/ghoststripe/gs_envisaged.png"
+alt='gs_envisaged'>
+&lt;figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+Figure 1: Invisible optical adversarial-example attack against traffic sign recognition.
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving
 context. In the envisaged attack as illustrated in Fig. 1a, an LED is deployed in the proximity of a traffic sign plate and projects
 controlled flickering light onto the plate surface. As the flickering frequency is beyond human eye’s perception limit (up to 50-90 Hz), the flickering is invisible to human and the LED appears as a benign illumination device. Meanwhile, on the image captured by the camera, as illustrated in Fig. 1a, the RSE-induced colored stripes mislead the traffic sign recognition. For the attack to mislead the autonomous driving program to make erroneous decisions unconsciously, the traffic sign recognition results should be wrong and same across a sufficient number of consecutive frames (Fig. 1c). We call the attack meeting this requirement stable.
-If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening.&lt;/p&gt;</description>
-    </item>
-    
-    
-  </channel>
-</rss>
+If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening.&lt;/p></description></item></channel></rss>

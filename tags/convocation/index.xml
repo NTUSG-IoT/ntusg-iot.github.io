@@ -1,34 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Convocation on NTU IoT Research Group</title>
-    <link>http://localhost:1313/tags/convocation/</link>
-    <description>Recent content in Convocation on NTU IoT Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/convocation/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Zhenyu Convocation 2020</title>
-      <link>http://localhost:1313/blog/event/zhenyu-cov/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blog/event/zhenyu-cov/</guid>
-      <description>&lt;h2 id=&#34;zhenyu-attended-the-ntu-convocation-for-the-class-of-2020-and-had-his-phd-degree-officially-conferred-rui-also-witnessed-the-ceremony&#34;&gt;Zhenyu attended the NTU Convocation for the Class of 2020 and had his Ph.D. degree officially conferred. Rui also witnessed the ceremony.&lt;/h2&gt;
-&lt;hr&gt;
-&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;img src=&#34;http://localhost:1313/gallery/zhenyu_convocation_1.jpg&#34;
-    
-    
-    
-    
-    
-        class=&#34;center&#34;
-    
-&gt;
-
-&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
-&lt;hr&gt;</description>
-    </item>
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Convocation on NTU IoT Research Group</title><link>https://ntuiot.xyz/tags/convocation/</link><description>Recent content in Convocation on NTU IoT Research Group</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/convocation/index.xml" rel="self" type="application/rss+xml"/><item><title>Zhenyu Convocation 2020</title><link>https://ntuiot.xyz/blog/event/zhenyu-cov/</link><pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate><guid>https://ntuiot.xyz/blog/event/zhenyu-cov/</guid><description>&lt;h2 id="zhenyu-attended-the-ntu-convocation-for-the-class-of-2020-and-had-his-phd-degree-officially-conferred-rui-also-witnessed-the-ceremony">Zhenyu attended the NTU Convocation for the Class of 2020 and had his Ph.D. degree officially conferred. Rui also witnessed the ceremony.&lt;/h2>
+&lt;hr>
+&lt;div style="margin-top: 3rem;">&lt;/div>
+&lt;img src="https://ntuiot.xyz/gallery/zhenyu_convocation_1.jpg"
+class="center"
+>
+&lt;div style="margin-top: 3rem;">&lt;/div>
+&lt;hr></description></item></channel></rss>
