@@ -1,34 +1,797 @@
-<!doctype html><html lang=en><head><title>GhostStripe</title>
-<meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=stylesheet href=/application.6df90e600875d4d0f5c5b1ee0aef4151e020563d96251995baa491100ba5971d.css integrity="sha256-bfkOYAh11ND1xbHuCu9BUeAgVj2WJRmVuqSREAullx0="><link rel=icon type=image/png href=/images/site/logo_hu_838c3e856e518c18.png><meta property="og:url" content="https://ntuiot.xyz/demo/ghoststripe/"><meta property="og:site_name" content="NTU IoT Research Group"><meta property="og:title" content="GhostStripe"><meta property="og:description" content="Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the rolling shutter effect (RSE), where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.
-Figure 1: Invisible optical adversarial-example attack against traffic sign recognition. This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving context. In the envisaged attack as illustrated in Fig. 1a, an LED is deployed in the proximity of a traffic sign plate and projects controlled flickering light onto the plate surface. As the flickering frequency is beyond human eye’s perception limit (up to 50-90 Hz), the flickering is invisible to human and the LED appears as a benign illumination device. Meanwhile, on the image captured by the camera, as illustrated in Fig. 1a, the RSE-induced colored stripes mislead the traffic sign recognition. For the attack to mislead the autonomous driving program to make erroneous decisions unconsciously, the traffic sign recognition results should be wrong and same across a sufficient number of consecutive frames (Fig. 1c). We call the attack meeting this requirement stable. If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="demo"><meta name=twitter:card content="summary"><meta name=twitter:title content="GhostStripe"><meta name=twitter:description content="Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the rolling shutter effect (RSE), where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.
-Figure 1: Invisible optical adversarial-example attack against traffic sign recognition. This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving context. In the envisaged attack as illustrated in Fig. 1a, an LED is deployed in the proximity of a traffic sign plate and projects controlled flickering light onto the plate surface. As the flickering frequency is beyond human eye’s perception limit (up to 50-90 Hz), the flickering is invisible to human and the LED appears as a benign illumination device. Meanwhile, on the image captured by the camera, as illustrated in Fig. 1a, the RSE-induced colored stripes mislead the traffic sign recognition. For the attack to mislead the autonomous driving program to make erroneous decisions unconsciously, the traffic sign recognition results should be wrong and same across a sufficient number of consecutive frames (Fig. 1c). We call the attack meeting this requirement stable. If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening."></head><body class="type-demo kind-page" data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
-<span class=navbar-toggler-icon></span>
-</button>
-<a class=navbar-brand href=/><img src=/images/site/logo_hu_838c3e856e518c18.png alt=Logo>
-NTU IoT Research Group</a>
-<button class="navbar-toggler navbar-light" id=toc-toggler type=button>
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=themeSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><img id=navbar-theme-icon-svg src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a><div id=themeMenu class="dropdown-menu dropdown-menu-icons-only" aria-labelledby=themeSelector><a class="dropdown-item nav-link" href=# data-scheme=light><img class=menu-icon-center src=/icons/sun-svgrepo-com.svg width=20 alt="Light Theme">
-</a><a class="dropdown-item nav-link" href=# data-scheme=dark><img class=menu-icon-center src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme">
-</a><a class="dropdown-item nav-link" href=# data-scheme=system><img class=menu-icon-center src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div><img src=/images/site/logo_hu_838c3e856e518c18.png class=d-none id=main-logo alt=Logo>
-<img src=/images/site/logo_hu_838c3e856e518c18.png class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/demo data-filter=all>Demo</a></li><div class=subtree><li><i class="fas fa-minus-circle"></i><a class=active href=/demo/>Demo</a><ul class=active><li><a href=/demo/echoloc/ title=EchoLoc>EchoLoc</a></li><li><a class=active href=/demo/ghoststripe/ title=GhostStripe>GhostStripe</a></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(/images/demo/ghoststripe/ghoststripe_drawing.png)></div><div class=page-content><div class="author-profile ml-auto align-self-lg-center"><img class=rounded-circle src=/images/site/logo_hu_d99ddb43395bfbc1.png alt="Author Image"><h5 class=author-name>NTU IoT Research Group</h5></div><div class=title><h1>GhostStripe</h1></div><div class=taxonomy-terms><ul style=padding-left:0></ul></div><div class=post-content id=post-content><p>Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the <strong>rolling shutter effect (RSE)</strong>, where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.</p><figure style=max-width:500px;margin:auto;text-align:center><img srcset='/images/demo/ghoststripe/gs_envisaged_hu_cd3e3e45fda49d63.png 500w
-, /images/demo/ghoststripe/gs_envisaged_hu_6175af8af8bb1db8.png 800w
-, /images/demo/ghoststripe/gs_envisaged_hu_506b0b66fd415f19.png 1200w' src=/images/demo/ghoststripe/gs_envisaged.png alt=gs_envisaged><figcaption style=margin-top:10px;font-size:14px;color:#666>Figure 1: Invisible optical adversarial-example attack against traffic sign recognition.</figcaption></figure><p>This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>GhostStripe</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.8229f9893795770006cec0afc4e2e8d277872b512d1ae2497d36885c14830a01.css" integrity="sha256-gin5iTeVdwAGzsCvxOLo0neHK1EtGuJJfTaIXBSDCgE=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/logo_hu_838c3e856e518c18.png" />
+
+<meta property="og:url" content="http://localhost:1313/demo/ghoststripe/">
+  <meta property="og:site_name" content="NTU IoT Research Group">
+  <meta property="og:title" content="GhostStripe">
+  <meta property="og:description" content="Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the rolling shutter effect (RSE), where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.
+Figure 1: Invisible optical adversarial-example attack against traffic sign recognition. This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving context. In the envisaged attack as illustrated in Fig. 1a, an LED is deployed in the proximity of a traffic sign plate and projects controlled flickering light onto the plate surface. As the flickering frequency is beyond human eye’s perception limit (up to 50-90 Hz), the flickering is invisible to human and the LED appears as a benign illumination device. Meanwhile, on the image captured by the camera, as illustrated in Fig. 1a, the RSE-induced colored stripes mislead the traffic sign recognition. For the attack to mislead the autonomous driving program to make erroneous decisions unconsciously, the traffic sign recognition results should be wrong and same across a sufficient number of consecutive frames (Fig. 1c). We call the attack meeting this requirement stable. If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="demo">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="GhostStripe">
+  <meta name="twitter:description" content="Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the rolling shutter effect (RSE), where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.
+Figure 1: Invisible optical adversarial-example attack against traffic sign recognition. This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving context. In the envisaged attack as illustrated in Fig. 1a, an LED is deployed in the proximity of a traffic sign plate and projects controlled flickering light onto the plate surface. As the flickering frequency is beyond human eye’s perception limit (up to 50-90 Hz), the flickering is invisible to human and the LED appears as a benign illumination device. Meanwhile, on the image captured by the camera, as illustrated in Fig. 1a, the RSE-induced colored stripes mislead the traffic sign recognition. For the attack to mislead the autonomous driving program to make erroneous decisions unconsciously, the traffic sign recognition results should be wrong and same across a sufficient number of consecutive frames (Fig. 1c). We call the attack meeting this requirement stable. If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening.">
+
+    
+     
+
+    
+
+    
+
+
+
+
+</head>
+
+  <body class="type-demo kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/site/logo_hu_838c3e856e518c18.png" alt="Logo">
+      NTU IoT Research Group</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      
+        <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/logo_hu_838c3e856e518c18.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/logo_hu_838c3e856e518c18.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/demo" data-filter="all">Demo</a></li>
+            <div class="subtree">
+                
+                
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/demo/">Demo</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/demo/echoloc/" title="EchoLoc">EchoLoc</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/demo/ghoststripe/" title="GhostStripe">GhostStripe</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/demo/ghoststripe/ghoststripe_drawing.png);'>
+      </div>
+
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/site/logo_hu_d99ddb43395bfbc1.png' alt="Author Image">
+          <h5 class="author-name">NTU IoT Research Group</h5>
+        </div>
+
+        <div class="title">
+          <h1>GhostStripe</h1>
+        </div>
+        
+        <div class="taxonomy-terms">
+          <ul style="padding-left: 0;">
+            
+          </ul>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the <strong>rolling shutter effect (RSE)</strong>, where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.</p>
+<!-- To pose a real threat, such attacks must be stable, meaning the misclassification remains consistent over consecutive frames. Without stability, anomalies may be detected, and defensive mechanisms could trigger fail-safe actions, reducing the impact of the attack. -->
+<figure style="max-width:500px; margin:auto; text-align:center;">
+  
+  
+  
+  
+    
+      
+  
+      
+      
+      
+      
+  
+      
+  
+      
+      
+      
+      
+  
+      
+  
+  
+      
+      <img
+      
+            srcset='
+            
+              /images/demo/ghoststripe/gs_envisaged_hu_cd3e3e45fda49d63.png 500w
+            
+            
+              , /images/demo/ghoststripe/gs_envisaged_hu_6175af8af8bb1db8.png 800w
+            
+            
+              , /images/demo/ghoststripe/gs_envisaged_hu_506b0b66fd415f19.png 1200w
+            
+            '
+            
+              src="/images/demo/ghoststripe/gs_envisaged.png"
+            
+  
+            alt='gs_envisaged'>
+      
+  
+
+  <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+    Figure 1: Invisible optical adversarial-example attack against traffic sign recognition.
+  </figcaption>
+</figure>
+<p>This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving
 context. In the envisaged attack as illustrated in Fig. 1a, an LED is deployed in the proximity of a traffic sign plate and projects
 controlled flickering light onto the plate surface. As the flickering frequency is beyond human eye’s perception limit (up to 50-90 Hz), the flickering is invisible to human and the LED appears as a benign illumination device. Meanwhile, on the image captured by the camera, as illustrated in Fig. 1a, the RSE-induced colored stripes mislead the traffic sign recognition. For the attack to mislead the autonomous driving program to make erroneous decisions unconsciously, the traffic sign recognition results should be wrong and same across a sufficient number of consecutive frames (Fig. 1c). We call the attack meeting this requirement stable.
-If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening.</p><figure style=max-width:1100px;margin:auto;text-align:center><img srcset='/images/demo/ghoststripe/gs_system_hu_c91454e5118e8083.png 500w
-, /images/demo/ghoststripe/gs_system_hu_e0e0edcbb60b19b.png 800w
-, /images/demo/ghoststripe/gs_system_hu_f955063f6f71dae5.png 1200w
-, /images/demo/ghoststripe/gs_system_hu_d2a71fcda4d73fae.png 1500w' src=/images/demo/ghoststripe/gs_system.png alt=gs_system><figcaption style=margin-top:10px;font-size:14px;color:#666>Figure 2: Overview of GhostStripe.</figcaption></figure><p>We design an attack system called <strong>GhostStripe</strong> in two versions with different requirements on the attack deployment. The first version, GhostStripe1, maintains stationary adversarial stripes in the FoV by calibrating the LED flickering frequency. GhostStripe1 employs a vehicle tracker to monitor the victim vehicle&rsquo;s real-time location and dynamically adjusts the LED flickering accordingly. GhostStripe1 does not require any instrumentation on the victim vehicle. It aims to maintain the victim&rsquo;s traffic sign recognition result stable over time. However, it is an untargeted attack, in that the recognition result is unpredictable (i.e., not deliberately spoofed towards a certain class) because the vertical positions of the adversarial stripes are not controlled by the attacker. To achieve targeted attack (i.e., the attacker can control the victim&rsquo;s recognition result as a certain class), on top of GhostStripe1, GhostStripe2 deploys framing sniffer to sense the victim camera&rsquo;s framing moments via a current transducer clipped on the power wire of the camera. The sniffer transmits the detected framing moments to the LED controller to refine the timing control of the flickering. Although installing the framing sniffer requires physical access to the victim vehicle, it is possible, say, during maintenance by an auto care provider colluding with the attacker. We evaluate GhostStripe on a real outdoor testbed and a lab testbed with Baidu Apollo’s default camera. On the outdoor testbed, GhostStripe1 and GhostStripe2 can achieve up to 94% and 97% success rates in launching untargeted and targeted attacks, respectively.</p><figure style=max-width:900px;margin:auto;text-align:center><img srcset='/images/demo/ghoststripe/gs_implementation_hu_f8c61f0fde2beaa4.png 500w
-, /images/demo/ghoststripe/gs_implementation_hu_84e53af90eced20d.png 800w
-, /images/demo/ghoststripe/gs_implementation_hu_8d30f389b3f178f.png 1200w
-, /images/demo/ghoststripe/gs_implementation_hu_d6670a0ba8be5366.png 1500w' src=/images/demo/ghoststripe/gs_implementation.png alt=gs_implementation><figcaption style=margin-top:10px;font-size:14px;color:#666>Figure 3: Outdoor testbed implementation.</figcaption></figure><div class="col-sm-12 text-center"><figure style=display:inline-block;text-align:center><iframe src=https://drive.google.com/file/d/1_9rpWnpCamqBNOEU5J7o9Nfh0x7FmWGm/preview style=width:100%;height:500px allowfullscreen></iframe><figcaption style=margin-top:10px;font-size:14px;color:#666>Demo: GhostStripe achieves stable adversarial stripes on a "stop" sign, spoofing the traffic sign recognition to misclassify it as a "priority road".</figcaption></figure></div><p>To counteract GhostStripe, we introduce <strong>GhostBuster</strong>, a software-based defense mechanism that detects and mitigates the attack’s effects. GhostBuster consists of a perturbation detector that identifies suspicious pixel fluctuations indicative of adversarial stripes and a sign restorer that reconstructs the natural traffic sign appearance. Experimental results show that GhostBuster successfully restores classification accuracy to 100% in 5% of trials and above 80% in 50% of trials, significantly reducing the attack’s impact. This research highlights the importance of developing robust defenses against adversarial optical attacks to ensure the safety and reliability of autonomous vehicle perception systems. We also discuss other possible countermeasures.</p><figure style=max-width:700px;margin:auto;text-align:center><img srcset='/images/demo/ghoststripe/ghostbuster_hu_911c088f03e6585f.png 500w
-, /images/demo/ghoststripe/ghostbuster_hu_a6fe9c37108417ed.png 800w
-, /images/demo/ghoststripe/ghostbuster_hu_23c7ea65393b09e7.png 1200w
-, /images/demo/ghoststripe/ghostbuster_hu_91435523ab566a47.png 1500w' src=/images/demo/ghoststripe/ghostbuster.png alt=ghostbuster><figcaption style=margin-top:10px;font-size:14px;color:#666>Figure 4: GhostBuster’s defense pipeline.</figcaption></figure><p>For a detailed breakdown of our research, check out our full conference paper at ACM MobiSys 2024. [<a href=https://tanrui.github.io/pub/GhostStripe-MobiSys.pdf target=_blank rel=noopener>PDF</a>]</p><p>This work also won the <strong>Best Demo Award</strong> at ACM SenSys 2024 🏆. [<a href=https://tanrui.github.io/pub/GhostStripe-SenSys-Demo.pdf target=_blank rel=noopener>Abstract</a>] [<a href=https://www.ntu.edu.sg/computing/news-events/news/detail/best-demo-award-at-the-22nd-acm-conference-on-embedded-networked-sensor-systems-%28sensys-2024%29 target=_blank rel=noopener>NTU News</a>] [<a href=https://www.linkedin.com/posts/association-for-computing-machinery_we-are-thrilled-to-share-the-outstanding-activity-7274460854056542213-Pxuj/ target=_blank rel=noopener>ACM News</a>]</p><p>The extended version with the detailed design of GhostBuster is under review.</p></div><div class="row pl-3 pr-3"><div class="col-md-6 share-buttons"><strong>:</strong>
-<a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fntuiot.xyz%2fdemo%2fghoststripe%2f" target=_blank><i class="fab fa-facebook"></i>
-</a><a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fntuiot.xyz%2fdemo%2fghoststripe%2f&text=GhostStripe&via=NTU%20IoT%20Research%20Group" target=_blank><i class="fab fa-twitter"></i>
-</a><a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fntuiot.xyz%2fdemo%2fghoststripe%2f&title=GhostStripe" target=_blank><i class="fab fa-linkedin"></i>
-</a><a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=GhostStripe https%3a%2f%2fntuiot.xyz%2fdemo%2fghoststripe%2f" target=_blank><i class="fab fa-whatsapp"></i>
-</a><a class="btn btn-sm email-btn" href="mailto:?subject=GhostStripe&body=https%3a%2f%2fntuiot.xyz%2fdemo%2fghoststripe%2f" target=_blank><i class="fas fa-envelope-open-text"></i></a></div></div><hr><div class="row next-prev-navigator"><div class="col-md-6 previous-article"><a href=/demo/echoloc/ title=EchoLoc class="btn btn-outline-info"><div><i class="fas fa-chevron-circle-left"></i></div><div class=next-prev-text>EchoLoc</div></a></div></div><hr></div></div></div><a id=scroll-to-top class=btn><i class="fas fa-chevron-circle-up"></i></a></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-3"><div class="row text-left"></div></div><div class=container><img src=/images/site/logo_hu_2d381c3c8d8a4126.png alt="Toha Theme Logo">
-NTU IoT Research Group Copyright © 2021. All rights reserved.<br>Webmasters: Chaojie Gu and Zhenyu Yan (06/2020-07/2021);
-Dongfang Guo and Wenjie Luo (07/2021-06/2023); Rongrong Wang (07/2023-12/2024); Zimo Ma (01/2025-).</a></div></div></div></footer><script src=/application.1cb58c04b170ca5485ededc0689e1dcdae166b4053e4d429e5b296636f91bf84.js integrity="sha256-HLWMBLFwylSF7e3AaJ4dza4Wa0BT5NQp5bKWY2+Rv4Q=" defer></script></body></html>
+If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening.</p>
+<figure style="max-width:1100px; margin:auto; text-align:center;">
+  
+  
+  
+  
+    
+      
+  
+      
+      
+      
+      
+  
+      
+  
+      
+      
+      
+      
+  
+      
+  
+  
+      
+      <img
+      
+            srcset='
+            
+              /images/demo/ghoststripe/gs_system_hu_c91454e5118e8083.png 500w
+            
+            
+              , /images/demo/ghoststripe/gs_system_hu_e0e0edcbb60b19b.png 800w
+            
+            
+              , /images/demo/ghoststripe/gs_system_hu_f955063f6f71dae5.png 1200w
+            
+            
+              , /images/demo/ghoststripe/gs_system_hu_d2a71fcda4d73fae.png 1500w 
+            '
+            
+              src="/images/demo/ghoststripe/gs_system.png"
+            
+  
+            alt='gs_system'>
+      
+  
+
+  <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+    Figure 2: Overview of GhostStripe.
+  </figcaption>
+</figure>
+<p>We design an attack system called <strong>GhostStripe</strong> in two versions with different requirements on the attack deployment. The first version, GhostStripe1, maintains stationary adversarial stripes in the FoV by calibrating the LED flickering frequency.   GhostStripe1 employs a vehicle tracker to monitor the victim vehicle&rsquo;s real-time location and dynamically adjusts the LED flickering accordingly. GhostStripe1 does not require any instrumentation on the victim vehicle. It aims to maintain the victim&rsquo;s traffic sign recognition result stable over time. However, it is an untargeted attack, in that the recognition result is unpredictable (i.e., not deliberately spoofed towards a certain class) because the vertical positions of the adversarial stripes  are not controlled by the attacker. To achieve targeted attack (i.e., the attacker can control the victim&rsquo;s recognition result as a certain class), on top of GhostStripe1, GhostStripe2 deploys framing sniffer to sense the victim camera&rsquo;s framing moments via a current transducer clipped on the power wire of the camera. The sniffer transmits the detected framing moments to the LED controller to refine the timing control of the flickering. Although installing the framing sniffer requires physical access to the victim vehicle, it is possible, say, during maintenance by an auto care provider colluding with the attacker. We evaluate GhostStripe on a real outdoor testbed and a lab testbed with Baidu Apollo’s default camera. On the outdoor testbed, GhostStripe1 and GhostStripe2 can achieve up to 94% and 97% success rates in launching untargeted and targeted attacks, respectively.</p>
+<figure style="max-width:900px; margin:auto; text-align:center;">
+  
+  
+  
+  
+    
+      
+  
+      
+      
+      
+      
+  
+      
+  
+      
+      
+      
+      
+  
+      
+  
+  
+      
+      <img
+      
+            srcset='
+            
+              /images/demo/ghoststripe/gs_implementation_hu_f8c61f0fde2beaa4.png 500w
+            
+            
+              , /images/demo/ghoststripe/gs_implementation_hu_84e53af90eced20d.png 800w
+            
+            
+              , /images/demo/ghoststripe/gs_implementation_hu_8d30f389b3f178f.png 1200w
+            
+            
+              , /images/demo/ghoststripe/gs_implementation_hu_d6670a0ba8be5366.png 1500w 
+            '
+            
+              src="/images/demo/ghoststripe/gs_implementation.png"
+            
+  
+            alt='gs_implementation'>
+      
+  
+
+  <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+    Figure 3: Outdoor testbed implementation.
+  </figcaption>
+</figure>
+<!-- <div class="row">
+    <div class="col-sm-12 text-center">
+        <div style="margin:auto;">
+            {% include figure.html path="content/demo/images/ghoststripe/gs_implementation.png" title="gs_implementation" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="caption" style="text-align: center; margin-top: 10px;">
+            Figure 3: Outdoor testbed implementation.
+        </div>
+    </div>
+</div> -->
+<!-- <div class="col-sm-12 text-center">
+    <iframe src="https://drive.google.com/file/d/1_9rpWnpCamqBNOEU5J7o9Nfh0x7FmWGm/preview"
+            style="width:100%; height:500px;" allowfullscreen>
+    </iframe>
+    <div class="caption" style="text-align: center; margin-top: 10px;">
+        Demo: GhostStripe achieves stable adversarial stripes on a "stop" sign, spoofing the traffic sign recognition to misclassify it as a "priority road".
+    </div>
+</div> -->
+<div class="col-sm-12 text-center">
+    <figure style="display: inline-block; text-align: center;">
+        <iframe src="https://drive.google.com/file/d/1_9rpWnpCamqBNOEU5J7o9Nfh0x7FmWGm/preview"
+                style="width:100%; height:500px;" allowfullscreen>
+        </iframe>
+        <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+            Demo: GhostStripe achieves stable adversarial stripes on a "stop" sign, spoofing the traffic sign recognition to misclassify it as a "priority road".
+        </figcaption>
+    </figure>
+</div>
+<p>To counteract GhostStripe, we introduce <strong>GhostBuster</strong>, a software-based defense mechanism that detects and mitigates the attack’s effects. GhostBuster consists of a perturbation detector that identifies suspicious pixel fluctuations indicative of adversarial stripes and a sign restorer that reconstructs the natural traffic sign appearance. Experimental results show that GhostBuster successfully restores classification accuracy to 100% in 5% of trials and above 80% in 50% of trials, significantly reducing the attack’s impact. This research highlights the importance of developing robust defenses against adversarial optical attacks to ensure the safety and reliability of autonomous vehicle perception systems. We also discuss other possible countermeasures.</p>
+<!-- <div class="row">
+    <div class="col-sm-12 text-center">
+        <div style="max-width:500px; margin:auto;">
+            {% include figure.html path="content/demo/images/ghoststripe/ghostbuster.png" title="gs_defense" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="caption" style="text-align: center; margin-top: 10px;">
+            Figure 4: GhostBuster’s defense pipeline.
+        </div>
+    </div>
+</div> -->
+<figure style="max-width:700px; margin:auto; text-align:center;">
+  
+  
+  
+  
+    
+      
+  
+      
+      
+      
+      
+  
+      
+  
+      
+      
+      
+      
+  
+      
+  
+  
+      
+      <img
+      
+            srcset='
+            
+              /images/demo/ghoststripe/ghostbuster_hu_911c088f03e6585f.png 500w
+            
+            
+              , /images/demo/ghoststripe/ghostbuster_hu_a6fe9c37108417ed.png 800w
+            
+            
+              , /images/demo/ghoststripe/ghostbuster_hu_23c7ea65393b09e7.png 1200w
+            
+            
+              , /images/demo/ghoststripe/ghostbuster_hu_91435523ab566a47.png 1500w 
+            '
+            
+              src="/images/demo/ghoststripe/ghostbuster.png"
+            
+  
+            alt='ghostbuster'>
+      
+  
+
+  <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+    Figure 4: GhostBuster’s defense pipeline.
+  </figcaption>
+</figure>
+<p>For a detailed breakdown of our research, check out our full conference paper at ACM MobiSys 2024. [<a href="https://tanrui.github.io/pub/GhostStripe-MobiSys.pdf" target="_blank" rel="noopener">PDF</a>]</p>
+<p>This work also won the <strong>Best Demo Award</strong> at ACM SenSys 2024 🏆. [<a href="https://tanrui.github.io/pub/GhostStripe-SenSys-Demo.pdf" target="_blank" rel="noopener">Abstract</a>] [<a href="https://www.ntu.edu.sg/computing/news-events/news/detail/best-demo-award-at-the-22nd-acm-conference-on-embedded-networked-sensor-systems-%28sensys-2024%29" target="_blank" rel="noopener">NTU News</a>] [<a href="https://www.linkedin.com/posts/association-for-computing-machinery_we-are-thrilled-to-share-the-outstanding-activity-7274460854056542213-Pxuj/" target="_blank" rel="noopener">ACM News</a>]</p>
+<p>The extended version with the detailed design of GhostBuster is under review.</p>
+
+        </div>
+
+        <div class="row pl-3 pr-3">
+        <div class="col-md-6 share-buttons">
+        
+            <strong>:</strong>
+            
+            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fdemo%2fghoststripe%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fdemo%2fghoststripe%2f&text=GhostStripe&via=NTU%20IoT%20Research%20Group" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fdemo%2fghoststripe%2f&title=GhostStripe" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=GhostStripe http%3a%2f%2flocalhost%3a1313%2fdemo%2fghoststripe%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn btn-sm email-btn" href="mailto:?subject=GhostStripe&body=http%3a%2f%2flocalhost%3a1313%2fdemo%2fghoststripe%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+        </div>
+
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+    
+    
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/demo/echoloc/" title="EchoLoc" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> </div>
+        <div class="next-prev-text">EchoLoc</div>
+      </a>
+    </div>
+  
+  
+</div>
+
+      <hr />
+
+      
+
+      </div>
+    </div>
+  </div>
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+       
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-3">
+      <div class="row text-left">
+        
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    
+    <div class="container">
+      
+        <img src="/images/site/logo_hu_2d381c3c8d8a4126.png" alt="Toha Theme Logo">
+        NTU IoT Research Group Copyright © 2021. All rights reserved. <br>
+            Webmasters: Chaojie Gu and Zhenyu Yan (06/2020-07/2021);
+            Dongfang Guo and Wenjie Luo (07/2021-06/2023); Rongrong Wang (07/2023-12/2024); Zimo Ma (01/2025-).
+        
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.794a63ccf2f9bcaf78ac1d8d773c099bf973ef9953f7c29ff52ac7ee8b1a6320.js" integrity="sha256-eUpjzPL5vK94rB2NdzwJm/lz75lT98Kf9SrH7osaYyA=" defer></script>
+
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>

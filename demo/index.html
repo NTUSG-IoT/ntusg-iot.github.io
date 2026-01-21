@@ -1,18 +1,411 @@
-<!doctype html><html lang=en><head><title>Demo</title>
-<meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=stylesheet href=/application.6df90e600875d4d0f5c5b1ee0aef4151e020563d96251995baa491100ba5971d.css integrity="sha256-bfkOYAh11ND1xbHuCu9BUeAgVj2WJRmVuqSREAullx0="><link rel=icon type=image/png href=/images/site/logo_hu_838c3e856e518c18.png><meta property="og:url" content="https://ntuiot.xyz/demo/"><meta property="og:site_name" content="NTU IoT Research Group"><meta property="og:title" content="Demo"><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Demo"></head><body class="type-demo kind-section" data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
-<span class=navbar-toggler-icon></span>
-</button>
-<a class=navbar-brand href=/><img src=/images/site/logo_hu_838c3e856e518c18.png alt=Logo>
-NTU IoT Research Group</a>
-<button class="navbar-toggler navbar-light" id=toc-toggler type=button>
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=themeSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><img id=navbar-theme-icon-svg src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a><div id=themeMenu class="dropdown-menu dropdown-menu-icons-only" aria-labelledby=themeSelector><a class="dropdown-item nav-link" href=# data-scheme=light><img class=menu-icon-center src=/icons/sun-svgrepo-com.svg width=20 alt="Light Theme">
-</a><a class="dropdown-item nav-link" href=# data-scheme=dark><img class=menu-icon-center src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme">
-</a><a class="dropdown-item nav-link" href=# data-scheme=system><img class=menu-icon-center src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div><img src=/images/site/logo_hu_838c3e856e518c18.png class=d-none id=main-logo alt=Logo>
-<img src=/images/site/logo_hu_838c3e856e518c18.png class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/demo data-filter=all>Demo</a></li><div class=subtree><li><i class="fas fa-minus-circle"></i><a class=active href=/demo/>Demo</a><ul class=active><li><a href=/demo/echoloc/ title=EchoLoc>EchoLoc</a></li><li><a href=/demo/ghoststripe/ title=GhostStripe>GhostStripe</a></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class="content container-fluid" id=content><div class="container-fluid post-card-holder" id=post-card-holder><div class=post-card><a href=/demo/echoloc/ class=post-card-link><div class=card><div class=card-head><img class=card-img-top src=/images/demo/echoloc/echoloc_bg.png alt="Hero Image"></div><div class=card-body><h5 class=card-title>EchoLoc</h5><p class="card-text post-summary"><p>Video demo:</p><iframe src=https://www.youtube.com/embed/5si0Cq6LzT4 style=width:100%;height:500px;max-width:none allowfullscreen></iframe><p>&ndash;</p><p>Smartphone-based localization has attracted wide research in recent years due to the proliferation of smartphones and the increasingly demanded location-aware services. In indoor environments, the global positioning system (GPS) are often unavailable due to the blockage of GPS signal and more stringent requirements of indoor positioning services. Therefore, a number of modalities such as Bluetooth and Wi-Fi are exploited to build smartphone-based indoor localization systems. These solutions are usually infrastructure-based, which require the installation of extra anchor points for localizing the smartphones. Excessive effort for infrastructure installation often stems the applicability of infrastructure-based indoor localization systems. Therefore, an accurate, reliable infrastructure-free indoor localization system will be more favorable compared with infrastructure-based systems.</p></p></div><div class=card-footer><a href=/demo/echoloc/ class="float-right btn btn-outline-info btn-sm"></a></div></div></a></div><div class=post-card><a href=/demo/ghoststripe/ class=post-card-link><div class=card><div class=card-head><img class=card-img-top src=/images/demo/ghoststripe/ghoststripe_drawing.png alt="Hero Image"></div><div class=card-body><h5 class=card-title>GhostStripe</h5><p class="card-text post-summary"><p>Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the <strong>rolling shutter effect (RSE)</strong>, where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.</p><figure style=max-width:500px;margin:auto;text-align:center><img srcset='/images/demo/ghoststripe/gs_envisaged_hu_cd3e3e45fda49d63.png 500w
-, /images/demo/ghoststripe/gs_envisaged_hu_6175af8af8bb1db8.png 800w
-, /images/demo/ghoststripe/gs_envisaged_hu_506b0b66fd415f19.png 1200w' src=/images/demo/ghoststripe/gs_envisaged.png alt=gs_envisaged><figcaption style=margin-top:10px;font-size:14px;color:#666>Figure 1: Invisible optical adversarial-example attack against traffic sign recognition.</figcaption></figure><p>This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Demo</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.8229f9893795770006cec0afc4e2e8d277872b512d1ae2497d36885c14830a01.css" integrity="sha256-gin5iTeVdwAGzsCvxOLo0neHK1EtGuJJfTaIXBSDCgE=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/logo_hu_838c3e856e518c18.png" />
+
+<meta property="og:url" content="http://localhost:1313/demo/">
+  <meta property="og:site_name" content="NTU IoT Research Group">
+  <meta property="og:title" content="Demo">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Demo">
+
+    
+     
+
+    
+
+    
+
+
+
+
+</head>
+
+  <body class="type-demo kind-section" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/site/logo_hu_838c3e856e518c18.png" alt="Logo">
+      NTU IoT Research Group</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      
+        <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/logo_hu_838c3e856e518c18.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/logo_hu_838c3e856e518c18.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/demo" data-filter="all">Demo</a></li>
+            <div class="subtree">
+                
+                
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/demo/">Demo</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/demo/echoloc/" title="EchoLoc">EchoLoc</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/demo/ghoststripe/" title="GhostStripe">GhostStripe</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      
+      
+      
+        <div class="post-card">
+  <a href="/demo/echoloc/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/demo/echoloc/echoloc_bg.png' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">EchoLoc</h5>
+        <p class="card-text post-summary"><p>Video demo:</p>
+<iframe src="https://www.youtube.com/embed/5si0Cq6LzT4"
+        style="width: 100%; height: 500px; max-width: none;" allowfullscreen>
+</iframe>
+<p>&ndash;</p>
+<p>Smartphone-based localization has attracted wide research in recent years due to the proliferation of smartphones and the increasingly demanded location-aware services. In indoor environments, the global positioning system (GPS) are often unavailable due to the blockage of GPS signal and more stringent requirements of indoor positioning services. Therefore, a number of modalities such as Bluetooth and Wi-Fi are exploited to build smartphone-based indoor localization systems. These solutions are usually infrastructure-based, which require the installation of extra anchor points for localizing the smartphones. Excessive effort for infrastructure installation often stems the applicability of infrastructure-based indoor localization systems. Therefore, an accurate, reliable infrastructure-free indoor localization system will be more favorable compared with infrastructure-based systems.</p></p>
+      </div>
+      <div class="card-footer">
+        
+        <a
+        href="/demo/echoloc/"
+        class="float-right btn btn-outline-info btn-sm"
+        ></a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="post-card">
+  <a href="/demo/ghoststripe/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/demo/ghoststripe/ghoststripe_drawing.png' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">GhostStripe</h5>
+        <p class="card-text post-summary"><p>Autonomous vehicles rely heavily on camera-based perception to interpret their surroundings, particularly for recognizing traffic signs. However, cameras using CMOS sensors are vulnerable to the <strong>rolling shutter effect (RSE)</strong>, where images are captured line by line instead of instantaneously. This phenomenon allows adversaries to introduce invisible perturbations using flickering light sources, creating adversarial patterns that mislead traffic sign recognition systems.</p>
+<!-- To pose a real threat, such attacks must be stable, meaning the misclassification remains consistent over consecutive frames. Without stability, anomalies may be detected, and defensive mechanisms could trigger fail-safe actions, reducing the impact of the attack. -->
+<figure style="max-width:500px; margin:auto; text-align:center;">
+  
+  
+  
+  
+    
+      
+  
+      
+      
+      
+      
+  
+      
+  
+      
+      
+      
+      
+  
+      
+  
+  
+      
+      <img
+      
+            srcset='
+            
+              /images/demo/ghoststripe/gs_envisaged_hu_cd3e3e45fda49d63.png 500w
+            
+            
+              , /images/demo/ghoststripe/gs_envisaged_hu_6175af8af8bb1db8.png 800w
+            
+            
+              , /images/demo/ghoststripe/gs_envisaged_hu_506b0b66fd415f19.png 1200w
+            
+            '
+            
+              src="/images/demo/ghoststripe/gs_envisaged.png"
+            
+  
+            alt='gs_envisaged'>
+      
+  
+
+  <figcaption style="margin-top: 10px; font-size: 14px; color: #666;">
+    Figure 1: Invisible optical adversarial-example attack against traffic sign recognition.
+  </figcaption>
+</figure>
+<p>This paper aims to achieve stable attack results which render clearer security implications in the autonomous driving
 context. In the envisaged attack as illustrated in Fig. 1a, an LED is deployed in the proximity of a traffic sign plate and projects
 controlled flickering light onto the plate surface. As the flickering frequency is beyond human eye’s perception limit (up to 50-90 Hz), the flickering is invisible to human and the LED appears as a benign illumination device. Meanwhile, on the image captured by the camera, as illustrated in Fig. 1a, the RSE-induced colored stripes mislead the traffic sign recognition. For the attack to mislead the autonomous driving program to make erroneous decisions unconsciously, the traffic sign recognition results should be wrong and same across a sufficient number of consecutive frames (Fig. 1c). We call the attack meeting this requirement stable.
-If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening.</p></p></div><div class=card-footer><a href=/demo/ghoststripe/ class="float-right btn btn-outline-info btn-sm"></a></div></div></a></div></div><div class=paginator></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-3"><div class="row text-left"></div></div><div class=container><img src=/images/site/logo_hu_2d381c3c8d8a4126.png alt="Toha Theme Logo">
-NTU IoT Research Group Copyright © 2021. All rights reserved.<br>Webmasters: Chaojie Gu and Zhenyu Yan (06/2020-07/2021);
-Dongfang Guo and Wenjie Luo (07/2021-06/2023); Rongrong Wang (07/2023-12/2024); Zimo Ma (01/2025-).</a></div></div></div></footer><script src=/application.1cb58c04b170ca5485ededc0689e1dcdae166b4053e4d429e5b296636f91bf84.js integrity="sha256-HLWMBLFwylSF7e3AaJ4dza4Wa0BT5NQp5bKWY2+Rv4Q=" defer></script></body></html>
+If the attack is not stable (Fig. 1b), an anomaly detector may identify the malfunction of the recognition and activate a fail-safe mechanism, e.g., falling back to manual driving or emergency safe stopping, rendering the attack less threatening.</p></p>
+      </div>
+      <div class="card-footer">
+        
+        <a
+        href="/demo/ghoststripe/"
+        class="float-right btn btn-outline-info btn-sm"
+        ></a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+    </div>
+    <div class="paginator">
+      
+    </div>
+  </div>
+</section>
+
+
+      
+       
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-3">
+      <div class="row text-left">
+        
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    
+    <div class="container">
+      
+        <img src="/images/site/logo_hu_2d381c3c8d8a4126.png" alt="Toha Theme Logo">
+        NTU IoT Research Group Copyright © 2021. All rights reserved. <br>
+            Webmasters: Chaojie Gu and Zhenyu Yan (06/2020-07/2021);
+            Dongfang Guo and Wenjie Luo (07/2021-06/2023); Rongrong Wang (07/2023-12/2024); Zimo Ma (01/2025-).
+        
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.794a63ccf2f9bcaf78ac1d8d773c099bf973ef9953f7c29ff52ac7ee8b1a6320.js" integrity="sha256-eUpjzPL5vK94rB2NdzwJm/lz75lT98Kf9SrH7osaYyA=" defer></script>
+
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>

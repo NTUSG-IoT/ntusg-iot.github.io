@@ -1,8 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Al Challenge IoT on NTU IoT Research Group</title><link>https://ntuiot.xyz/tags/al-challenge-iot/</link><description>Recent content in Al Challenge IoT on NTU IoT Research Group</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/al-challenge-iot/index.xml" rel="self" type="application/rss+xml"/><item><title>AIChallengeIoT 2019</title><link>https://ntuiot.xyz/blog/conference/aichallengeiot-2019/</link><pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate><guid>https://ntuiot.xyz/blog/conference/aichallengeiot-2019/</guid><description>&lt;h2 id="paper-presentation-challenges-of-privacy-preserving-machine-learning-in-iot-at-aichallengeiot19-new-york-nov-2019">Paper presentation “Challenges of Privacy-Preserving Machine Learning in IoT”, at AIChallengeIoT'19, New York, Nov 2019.&lt;/h2>
-&lt;hr>
-&lt;div style="margin-top: 3rem;">&lt;/div>
-&lt;img src="https://ntuiot.xyz/gallery/qun_sensys19.jpg"
-class="center"
->
-&lt;div style="margin-top: 3rem;">&lt;/div>
-&lt;hr></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Al Challenge IoT on NTU IoT Research Group</title>
+    <link>http://localhost:1313/tags/al-challenge-iot/</link>
+    <description>Recent content in Al Challenge IoT on NTU IoT Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/al-challenge-iot/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>AIChallengeIoT 2019</title>
+      <link>http://localhost:1313/blog/conference/aichallengeiot-2019/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/conference/aichallengeiot-2019/</guid>
+      <description>&lt;h2 id=&#34;paper-presentation-challenges-of-privacy-preserving-machine-learning-in-iot-at-aichallengeiot19-new-york-nov-2019&#34;&gt;Paper presentation “Challenges of Privacy-Preserving Machine Learning in IoT”, at AIChallengeIoT&#39;19, New York, Nov 2019.&lt;/h2&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;img src=&#34;http://localhost:1313/gallery/qun_sensys19.jpg&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>
